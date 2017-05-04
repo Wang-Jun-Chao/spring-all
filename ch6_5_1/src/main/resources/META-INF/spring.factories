@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.wisely.spring_boot_starter_hello.HelloServiceAutoConfiguration

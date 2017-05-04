@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch0201-SpringMVC基础/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0101-Spring基础/pom.xml" />
+        <option value="$PROJECT_DIR$/ch5_2_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch5_2_3/pom.xml" />
+        <option value="$PROJECT_DIR$/ch6_2_3/pom.xml" />
+        <option value="$PROJECT_DIR$/ch6_4/pom.xml" />
+        <option value="$PROJECT_DIR$/ch6_5/pom.xml" />
+        <option value="$PROJECT_DIR$/ch6_5_1/pom.xml" />
+        <option value="$PROJECT_DIR$/ch7_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch7_4/pom.xml" />
+        <option value="$PROJECT_DIR$/ch7_6/pom.xml" />
+        <option value="$PROJECT_DIR$/ch7_7/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8_3/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8_4/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8_5/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8_6_1/pom.xml" />
+        <option value="$PROJECT_DIR$/ch9_1/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8_6_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch9_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch9_3_4/pom.xml" />
+        <option value="$PROJECT_DIR$/ch9_3_5/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
