@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-Redis从数据库中读取配置/001-Redis从数据库中读取配置.iml" filepath="$PROJECT_DIR$/001-Redis从数据库中读取配置/001-Redis从数据库中读取配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0101-Spring基础/ch0101-Spring基础.iml" filepath="$PROJECT_DIR$/ch0101-Spring基础/ch0101-Spring基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" filepath="$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />

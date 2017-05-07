@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.spring.boot.redis.mapper.RedisConfigMapper">
+
+    <!-- 选择出所有的redis配置信息 -->
+    <select id="getRedisConfig" resultType="com.example.spring.boot.redis.entity.RedisConfig">
+        SELECT
+            url      url,
+            port     port,
+            username usename,
+            password password
+        FROM redis_config
+    </select>
+
+</mapper>
