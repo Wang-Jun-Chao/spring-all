@@ -22,6 +22,11 @@ public class RedisServiceImpl implements RedisService {
     @Autowired
     PersonMapper personRepository;
 
+    /**
+     * 创建对象，并且将person对象入缓存，key是person对象的id
+     * @param person
+     * @return
+     */
     @Override
     @CachePut(value = "people", key = "#person.id")
     @Transactional(propagation = Propagation.REQUIRES_NEW)
@@ -31,6 +36,10 @@ public class RedisServiceImpl implements RedisService {
         return person;
     }
 
+    /**
+     * 从缓存中删除person对象，key是person对象的id
+     * @param id
+     */
     @Override
     @CacheEvict(value = "people") //2
     @Transactional(propagation = Propagation.REQUIRES_NEW)
@@ -39,6 +48,12 @@ public class RedisServiceImpl implements RedisService {
         //这里不做实际删除操作
     }
 
+    /**
+     * 更新对象，并且将person对象入缓存，key是person对象的id
+     *
+     * @param person
+     * @return
+     */
     @Override
     @Cacheable(value = "people", key = "#person.id") //3
     public Person findOne(Person person) {

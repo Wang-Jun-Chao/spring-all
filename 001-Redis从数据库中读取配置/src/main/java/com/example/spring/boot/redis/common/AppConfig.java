@@ -35,39 +35,54 @@ import java.util.List;
 @MapperScan(basePackages = "com.example.spring.boot.redis.mapper")
 public class AppConfig {
 
-//    @Primary
-//    @Bean("dataSource")
-//    @ConfigurationProperties(prefix = "datasource.master")
-//    public DataSource dataSource() throws Exception {
-//        return DataSourceBuilder.create().build();
-//    }
 
+    /**
+     * 设置mybatis会话工厂
+     * @param ds
+     * @return
+     * @throws Exception
+     */
     @Primary
     @Bean("sqlSessionFactory")
     public SqlSessionFactory sqlSessionFactory(DataSource ds) throws Exception {
         SqlSessionFactoryBean factory = new SqlSessionFactoryBean();
         factory.setDataSource(ds);
 
-        factory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath*:mapper/*Mapper.xml"));
+        // 设置mybatis xml文件扫描路径
+        factory.setMapperLocations(new PathMatchingResourcePatternResolver()
+                .getResources("classpath*:mapper/*Mapper.xml"));
         return factory.getObject();
     }
 
+    /**
+     * Redis连接工厂
+     * @param mapper 这个非常重要，必须在mapper被创建了之后才能创建Redis连接工厂
+     * @return
+     */
     @Primary
     @Bean("redisConnectionFactory")
     public RedisConnectionFactory redisConnectionFactory(RedisConfigMapper mapper) {
 
-
+        // 获取redis连接信息
         List<RedisConfig> redisConfigs = mapper.getRedisConfig();
         List<String> clusterNodes = new ArrayList<>();
         for (RedisConfig rc : redisConfigs) {
             clusterNodes.add(rc.getUrl() + ":" + rc.getPort());
         }
 
+        // 获取Redis集群配置信息
         RedisClusterConfiguration rcf = new RedisClusterConfiguration(clusterNodes);
 
         return new JedisConnectionFactory(rcf);
     }
 
+    /**
+     * 创建redis模板
+     *
+     * @param redisConnectionFactory
+     * @return
+     * @throws UnknownHostException
+     */
     @Primary
     @Bean("redisTemplate")
     public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory)
@@ -81,11 +96,11 @@ public class AppConfig {
         om.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
         jackson2JsonRedisSerializer.setObjectMapper(om);
 
-        template.setValueSerializer(jackson2JsonRedisSerializer); //1
-        template.setKeySerializer(jackson2JsonRedisSerializer); //2
+        // redis value使用的序列化器
+        template.setValueSerializer(jackson2JsonRedisSerializer);
+        // redis key使用的序列化器
+        template.setKeySerializer(jackson2JsonRedisSerializer);
 
-//        template.setKeySerializer(new StringRedisSerializer()); //2
-//        template.setKeySerializer(new ()); //2
 
         template.afterPropertiesSet();
         return template;
