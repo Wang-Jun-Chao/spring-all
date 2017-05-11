@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="001-Redis从数据库中读取配置" />
+        <module name="002-Maven插件-打包时多环境配置文件设置" />
         <module name="ch0101-Spring基础" />
         <module name="ch0201-SpringMVC基础" />
+        <module name="ch10war" />
         <module name="ch5_2_2" />
         <module name="ch5_2_3" />
         <module name="ch6_2_3" />
@@ -34,8 +36,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="001-Redis从数据库中读取配置" target="1.8" />
+      <module name="002-Maven插件-打包时多环境配置文件设置" target="1.5" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0201-SpringMVC基础" target="1.7" />
+      <module name="ch10war" target="1.6" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
       <module name="ch6_2_3" target="1.8" />

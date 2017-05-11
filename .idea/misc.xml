@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置" />
     <file type="web" url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" />
+    <file type="web" url="file://$PROJECT_DIR$/ch10war" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -29,6 +31,8 @@
         <option value="$PROJECT_DIR$/ch9_3_4/pom.xml" />
         <option value="$PROJECT_DIR$/ch9_3_5/pom.xml" />
         <option value="$PROJECT_DIR$/001-Redis从数据库中读取配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10war/pom.xml" />
+        <option value="$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/pom.xml" />
       </list>
     </option>
   </component>
