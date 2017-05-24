@@ -1,1 +1,1 @@
-使用JVM参数-Dspring.profiles.active=xxx激活不的配置文件
+使用JVM参数-Dspring.profiles.active=xxx激活不同的配置文件
