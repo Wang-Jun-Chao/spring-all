@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="001-Redis从数据库中读取配置" />
         <module name="002-Maven插件-打包时多环境配置文件设置" />
+        <module name="003-使用JVM参数激活配置文件" />
         <module name="ch0101-Spring基础" />
         <module name="ch0201-SpringMVC基础" />
         <module name="ch10war" />
@@ -36,10 +37,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="001-Redis从数据库中读取配置" target="1.8" />
-      <module name="002-Maven插件-打包时多环境配置文件设置" target="1.5" />
+      <module name="002-Maven插件-打包时多环境配置文件设置" target="1.8" />
+      <module name="003-使用JVM参数激活配置文件" target="1.8" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0201-SpringMVC基础" target="1.7" />
-      <module name="ch10war" target="1.6" />
+      <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
       <module name="ch6_2_3" target="1.8" />
@@ -47,7 +49,7 @@
       <module name="ch6_5" target="1.8" />
       <module name="ch6_5_1" target="1.8" />
       <module name="ch7_2" target="1.8" />
-      <module name="ch7_4" target="1.6" />
+      <module name="ch7_4" target="1.8" />
       <module name="ch7_6" target="1.8" />
       <module name="ch7_7" target="1.8" />
       <module name="ch8_2" target="1.8" />
@@ -59,7 +61,7 @@
       <module name="ch9_1" target="1.8" />
       <module name="ch9_2" target="1.8" />
       <module name="ch9_3_4" target="1.8" />
-      <module name="ch9_3_5" target="1.6" />
+      <module name="ch9_3_5" target="1.8" />
       <module name="highlight_spring4" target="1.7" />
     </bytecodeTargetLevel>
   </component>

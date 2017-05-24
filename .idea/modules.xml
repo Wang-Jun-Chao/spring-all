@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/001-Redis从数据库中读取配置/001-Redis从数据库中读取配置.iml" filepath="$PROJECT_DIR$/001-Redis从数据库中读取配置/001-Redis从数据库中读取配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/002-Maven插件-打包时多环境配置文件设置.iml" filepath="$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/002-Maven插件-打包时多环境配置文件设置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-使用JVM参数激活配置文件/003-使用JVM参数激活配置文件.iml" filepath="$PROJECT_DIR$/003-使用JVM参数激活配置文件/003-使用JVM参数激活配置文件.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0101-Spring基础/ch0101-Spring基础.iml" filepath="$PROJECT_DIR$/ch0101-Spring基础/ch0101-Spring基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" filepath="$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
