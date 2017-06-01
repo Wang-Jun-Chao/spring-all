@@ -34,6 +34,8 @@
         <option value="$PROJECT_DIR$/ch10war/pom.xml" />
         <option value="$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/pom.xml" />
         <option value="$PROJECT_DIR$/003-使用JVM参数激活配置文件/pom.xml" />
+        <option value="$PROJECT_DIR$/003-Redis使用Kryo序列化工具/pom.xml" />
+        <option value="$PROJECT_DIR$/004-Redis使用Kryo序列化工具/pom.xml" />
       </list>
     </option>
   </component>

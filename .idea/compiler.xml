@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="001-Redis从数据库中读取配置" />
         <module name="002-Maven插件-打包时多环境配置文件设置" />
+        <module name="003-Redis使用Kryo序列化工具" />
         <module name="003-使用JVM参数激活配置文件" />
+        <module name="004-Redis使用Kryo序列化工具" />
         <module name="ch0101-Spring基础" />
         <module name="ch0201-SpringMVC基础" />
         <module name="ch10war" />
@@ -38,7 +40,9 @@
     <bytecodeTargetLevel>
       <module name="001-Redis从数据库中读取配置" target="1.8" />
       <module name="002-Maven插件-打包时多环境配置文件设置" target="1.8" />
+      <module name="003-Redis使用Kryo序列化工具" target="1.8" />
       <module name="003-使用JVM参数激活配置文件" target="1.8" />
+      <module name="004-Redis使用Kryo序列化工具" target="1.8" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0201-SpringMVC基础" target="1.7" />
       <module name="ch10war" target="1.8" />

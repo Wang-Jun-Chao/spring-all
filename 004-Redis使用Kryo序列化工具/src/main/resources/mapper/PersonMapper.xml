@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.spring.boot.redis.mapper.PersonMapper">
+
+    <insert id="save" parameterType="com.example.spring.boot.redis.entity.Person"
+            useGeneratedKeys="true" keyProperty="id" >
+        INSERT INTO person (name, age, address) VALUES (#{name}, #{age}, #{address})
+    </insert>
+
+    <select id="findOne" parameterType="java.lang.Long" resultType="com.example.spring.boot.redis.entity.Person">
+        SELECT
+            id      id,
+            name    name,
+            age     age,
+            address address
+        FROM person t
+        WHERE t.id = #{id}
+    </select>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        DELETE FROM person t
+        WHERE t.id = #{id}
+    </delete>
+</mapper>
