@@ -1,5 +1,6 @@
 package com.example.spring.boot.redis.service.impl;
 
+import com.example.spring.boot.redis.common.RedisConst;
 import com.example.spring.boot.redis.entity.Person;
 import com.example.spring.boot.redis.mapper.PersonMapper;
 import com.example.spring.boot.redis.service.RedisService;
@@ -31,7 +32,7 @@ public class RedisServiceImpl implements RedisService {
      * @return
      */
     @Override
-    @CachePut(value = "people", key = "#person.id")
+    @CachePut(value = RedisConst.PERSON_CACHE_NAME, key = "#person.id")
     @Transactional(propagation = Propagation.REQUIRES_NEW)
     public Person save(Person person) {
         personRepository.save(person);
@@ -44,7 +45,7 @@ public class RedisServiceImpl implements RedisService {
      * @param id
      */
     @Override
-    @CacheEvict(value = "people") //2
+    @CacheEvict(value = RedisConst.PERSON_CACHE_NAME) //2
     @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void remove(Long id) {
         System.out.println("删除了id、key为" + id + "的数据缓存");
@@ -58,7 +59,7 @@ public class RedisServiceImpl implements RedisService {
      * @return
      */
     @Override
-    @Cacheable(value = "people", key = "#person.id") //3
+    @Cacheable(value = RedisConst.PERSON_CACHE_NAME, key = "#person.id") //3
     public Person findOne(Person person) {
         Person p = personRepository.findOne(person.getId());
         System.out.println("为id、key为:" + p.getId() + "数据做了缓存");

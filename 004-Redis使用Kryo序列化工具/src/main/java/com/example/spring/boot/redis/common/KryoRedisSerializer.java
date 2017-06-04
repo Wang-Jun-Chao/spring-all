@@ -17,7 +17,7 @@ public class KryoRedisSerializer<T> implements RedisSerializer<T> {
     private Kryo kryo = new Kryo();
 
     @Override
-    public byte[] serialize(Object t) throws SerializationException {
+    public byte[] serialize(T t) throws SerializationException {
 
         System.out.println("[serialize]" + t);
 

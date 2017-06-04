@@ -90,14 +90,12 @@ public class AppConfig {
         RedisTemplate<Object, Object> template = new RedisTemplate<>();
         template.setConnectionFactory(redisConnectionFactory);
 
-
         // redis value使用的序列化器
-        template.setValueSerializer(new KryoRedisSerializer<Object>());
+        template.setValueSerializer(new KryoRedisSerializer<>());
         // redis key使用的序列化器
-        template.setKeySerializer(new KryoRedisSerializer<Object>());
-        template.setHashKeySerializer(new KryoRedisSerializer<Object>());
-        template.setHashValueSerializer(new KryoRedisSerializer<Object>());
-
+        template.setKeySerializer(new KryoRedisSerializer<>());
+        template.setHashKeySerializer(new KryoRedisSerializer<>());
+        template.setHashValueSerializer(new KryoRedisSerializer<>());
 
         template.afterPropertiesSet();
         return template;
