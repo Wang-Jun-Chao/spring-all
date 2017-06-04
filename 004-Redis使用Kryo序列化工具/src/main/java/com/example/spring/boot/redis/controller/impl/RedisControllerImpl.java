@@ -40,6 +40,12 @@ public class RedisControllerImpl implements RedisController {
         return "ok";
     }
 
+    @Override
+    public String renew(Person person) {
+        redisService.update(person);
+        return "ok";
+    }
+
 
     // 下面的方法是手工操作的
     @RequestMapping("/update/manual")
@@ -70,8 +76,9 @@ public class RedisControllerImpl implements RedisController {
     }
     @RequestMapping("/delete/manual")
     @Override
-    public void delete(Long id) {
+    public String delete(Long id) {
         redisClient.delete(id);
+        return "ok";
     }
 
 }

@@ -13,4 +13,6 @@ public interface RedisService {
     void remove(Long id);
 
     Person findOne(Person person);
+
+    void update(Person person);
 }

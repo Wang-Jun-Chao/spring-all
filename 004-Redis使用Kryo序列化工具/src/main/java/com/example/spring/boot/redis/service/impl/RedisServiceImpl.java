@@ -1,5 +1,6 @@
 package com.example.spring.boot.redis.service.impl;
 
+import com.example.spring.boot.redis.common.RedisClient;
 import com.example.spring.boot.redis.common.RedisConst;
 import com.example.spring.boot.redis.entity.Person;
 import com.example.spring.boot.redis.mapper.PersonMapper;
@@ -8,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,12 +22,14 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional(readOnly = true)
 public class RedisServiceImpl implements RedisService {
     @Autowired
-    PersonMapper personRepository;
+    private PersonMapper personRepository;
 
-
+    @Autowired
+    private RedisClient redisClient;
 
     /**
      * 创建对象，并且将person对象入缓存，key是person对象的id
+     *
      * @param person
      * @return
      */
@@ -42,6 +44,7 @@ public class RedisServiceImpl implements RedisService {
 
     /**
      * 从缓存中删除person对象，key是person对象的id
+     *
      * @param id
      */
     @Override
@@ -53,7 +56,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     /**
-     * 更新对象，并且将person对象入缓存，key是person对象的id
+     * 查询对象，并且将person对象入缓存，key是person对象的id
      *
      * @param person
      * @return
@@ -64,5 +67,17 @@ public class RedisServiceImpl implements RedisService {
         Person p = personRepository.findOne(person.getId());
         System.out.println("为id、key为:" + p.getId() + "数据做了缓存");
         return p;
+    }
+
+    /**
+     * 更新对象，并且将对象入缓存，减少入缓存需要重新查询
+     *
+     * @param person
+     */
+    @Override
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void update(Person person) {
+        personRepository.update(person);
+        redisClient.set(person.getId(), person);
     }
 }

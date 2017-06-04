@@ -19,6 +19,9 @@ public interface RedisController {
     @RequestMapping("/evit")
     public String evit(Long id);
 
+    @RequestMapping("/renew")
+    public String renew(Person person);
+
     @RequestMapping("/update/manual")
     public Person update(Long id);
 
@@ -29,5 +32,5 @@ public interface RedisController {
     public Person set();
 
     @RequestMapping("/delete/manual")
-    public void delete(Long id);
+    public String delete(Long id);
 }

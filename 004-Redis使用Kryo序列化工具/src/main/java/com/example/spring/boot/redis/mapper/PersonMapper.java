@@ -10,4 +10,6 @@ public interface PersonMapper {
     Person findOne(Long id);
 
     int delete(Long id);
+
+    int update(Person person);
 }

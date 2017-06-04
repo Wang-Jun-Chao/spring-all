@@ -3,7 +3,7 @@
 <mapper namespace="com.example.spring.boot.redis.mapper.PersonMapper">
 
     <insert id="save" parameterType="com.example.spring.boot.redis.entity.Person"
-            useGeneratedKeys="true" keyProperty="id" >
+            useGeneratedKeys="true" keyProperty="id">
         INSERT INTO person (name, age, address) VALUES (#{name}, #{age}, #{address})
     </insert>
 
@@ -21,4 +21,13 @@
         DELETE FROM person t
         WHERE t.id = #{id}
     </delete>
+    <update id="update" parameterType="com.example.spring.boot.redis.entity.Person">
+        UPDATE person
+        SET
+            name    = #{name},
+            age     = #{age},
+            address = #{address}
+        WHERE
+            id = #{id}
+    </update>
 </mapper>
