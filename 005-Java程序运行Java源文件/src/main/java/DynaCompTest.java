@@ -1,4 +1,4 @@
-package com.example.java;
+import com.example.java.DynamicEngine;
 
 public class DynaCompTest
 {

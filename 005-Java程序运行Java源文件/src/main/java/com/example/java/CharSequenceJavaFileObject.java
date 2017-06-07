@@ -15,15 +15,15 @@ public class CharSequenceJavaFileObject extends SimpleJavaFileObject {
     private CharSequence content;
 
 
-    public CharSequenceJavaFileObject(String className,            CharSequence content) {
+    public CharSequenceJavaFileObject(String className, CharSequence content) {
+        // 为什么是string:///
         super(URI.create("string:///" + className.replace('.', '/')
                 + Kind.SOURCE.extension), Kind.SOURCE);
         this.content = content;
     }
 
     @Override
-    public CharSequence getCharContent(
-            boolean ignoreEncodingErrors) {
+    public CharSequence getCharContent(boolean ignoreEncodingErrors) {
         return content;
     }
 }

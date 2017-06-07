@@ -15,23 +15,21 @@ import java.io.IOException;
  */
 public class ClassFileManager extends ForwardingJavaFileManager {
     public JavaClassObject getJavaClassObject() {
-        return jclassObject;
+        return javaClassObject;
     }
 
-    private JavaClassObject jclassObject;
+    private JavaClassObject javaClassObject;
 
 
-    public ClassFileManager(StandardJavaFileManager
-            standardManager) {
+    public ClassFileManager(StandardJavaFileManager standardManager) {
         super(standardManager);
     }
 
 
     @Override
-    public JavaFileObject getJavaFileForOutput(Location location,
-            String className, JavaFileObject.Kind kind, FileObject sibling)
-            throws IOException {
-        jclassObject = new JavaClassObject(className, kind);
-        return jclassObject;
+    public JavaFileObject getJavaFileForOutput(Location location, String className,
+            JavaFileObject.Kind kind, FileObject sibling) throws IOException {
+        javaClassObject = new JavaClassObject(className, kind);
+        return javaClassObject;
     }
 }
