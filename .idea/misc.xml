@@ -37,6 +37,7 @@
         <option value="$PROJECT_DIR$/003-Redis使用Kryo序列化工具/pom.xml" />
         <option value="$PROJECT_DIR$/004-Redis使用Kryo序列化工具/pom.xml" />
         <option value="$PROJECT_DIR$/005-Java程序运行Java源文件/pom.xml" />
+        <option value="$PROJECT_DIR$/006-设置缓存Key的失效时间/pom.xml" />
       </list>
     </option>
   </component>

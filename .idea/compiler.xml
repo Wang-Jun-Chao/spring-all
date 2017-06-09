@@ -12,6 +12,7 @@
         <module name="003-使用JVM参数激活配置文件" />
         <module name="004-Redis使用Kryo序列化工具" />
         <module name="005-Java程序运行Java源文件" />
+        <module name="006-设置缓存Key的失效时间" />
         <module name="ch0101-Spring基础" />
         <module name="ch0201-SpringMVC基础" />
         <module name="ch10war" />
@@ -45,6 +46,7 @@
       <module name="003-使用JVM参数激活配置文件" target="1.8" />
       <module name="004-Redis使用Kryo序列化工具" target="1.8" />
       <module name="005-Java程序运行Java源文件" target="1.8" />
+      <module name="006-设置缓存Key的失效时间" target="1.8" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0201-SpringMVC基础" target="1.7" />
       <module name="ch10war" target="1.8" />
