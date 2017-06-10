@@ -3,6 +3,7 @@ package com.example.spring.boot.redis;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -16,9 +17,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCaching
 @EnableAspectJAutoProxy
 public class AppRunner {
-    public static void main(String[] args) {
-        SpringApplication.run(AppRunner.class, args);
 
-        new Test().cachePut();
+    public static void main(String[] args) {
+        ConfigurableApplicationContext ctx = SpringApplication.run(AppRunner.class, args);
+        ctx.getBean("test", Test.class).cachePut();
     }
 }
