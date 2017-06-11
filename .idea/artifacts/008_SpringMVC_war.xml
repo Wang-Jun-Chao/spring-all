@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="008-SpringMVC访问外部文件:war">
+    <output-path>$PROJECT_DIR$/008-SpringMVC访问外部文件/target</output-path>
+    <root id="archive" name="springmvc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="008-SpringMVC访问外部文件:war exploded" />
+    </root>
+  </artifact>
+</component>

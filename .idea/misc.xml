@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置" />
+    <file type="web" url="file://$PROJECT_DIR$/008-SpringMVC访问外部文件" />
     <file type="web" url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" />
     <file type="web" url="file://$PROJECT_DIR$/ch10war" />
   </component>
@@ -39,6 +40,7 @@
         <option value="$PROJECT_DIR$/005-Java程序运行Java源文件/pom.xml" />
         <option value="$PROJECT_DIR$/006-设置缓存Key的失效时间/pom.xml" />
         <option value="$PROJECT_DIR$/007-SpringBoot中集成Mock/pom.xml" />
+        <option value="$PROJECT_DIR$/008-SpringMVC访问外部文件/pom.xml" />
       </list>
     </option>
   </component>

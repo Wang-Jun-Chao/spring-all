@@ -14,6 +14,7 @@
         <module name="005-Java程序运行Java源文件" />
         <module name="006-设置缓存Key的失效时间" />
         <module name="007-SpringBoot中集成Mock" />
+        <module name="008-SpringMVC访问外部文件" />
         <module name="ch0101-Spring基础" />
         <module name="ch0201-SpringMVC基础" />
         <module name="ch10war" />
@@ -49,6 +50,7 @@
       <module name="005-Java程序运行Java源文件" target="1.8" />
       <module name="006-设置缓存Key的失效时间" target="1.8" />
       <module name="007-SpringBoot中集成Mock" target="1.8" />
+      <module name="008-SpringMVC访问外部文件" target="1.8" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0201-SpringMVC基础" target="1.7" />
       <module name="ch10war" target="1.8" />
