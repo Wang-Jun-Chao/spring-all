@@ -38,17 +38,14 @@ public class RedisCacheAspect {
     }
 
     @Around("@annotation(cachePut)")
-    public Object cachePut(ProceedingJoinPoint pjp, RedisCachePut cachePut) throws Exception {
-        System.out.println("=========================");
-
-        for (Object arg : pjp.getArgs()) {
-            System.out.println(arg + " " + arg.getClass());
-        }
-
+    public Object cachePut(ProceedingJoinPoint pjp, RedisCachePut cachePut) throws Throwable {
         Object keyObject = getCacheKey(pjp, cachePut);
-        System.out.println(keyObject);
+        Object result = pjp.proceed();
 
-        return null;
+//        redisTemplate.
+
+        return result;
+
     }
 
 

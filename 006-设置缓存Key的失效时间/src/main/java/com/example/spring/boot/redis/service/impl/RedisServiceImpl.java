@@ -1,6 +1,6 @@
 package com.example.spring.boot.redis.service.impl;
 
-import com.example.spring.boot.redis.common.RedisClient;
+import com.example.spring.boot.redis.common.RedisClientImpl;
 import com.example.spring.boot.redis.common.RedisConst;
 import com.example.spring.boot.redis.entity.Person;
 import com.example.spring.boot.redis.mapper.PersonMapper;
@@ -25,7 +25,7 @@ public class RedisServiceImpl implements RedisService {
     private PersonMapper personRepository;
 
     @Autowired
-    private RedisClient redisClient;
+    private RedisClientImpl redisClient;
 
     /**
      * 创建对象，并且将person对象入缓存，key是person对象的id

@@ -1,79 +1,96 @@
 package com.example.spring.boot.redis.common;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.connection.RedisConnection;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.serializer.RedisSerializer;
-import org.springframework.stereotype.Component;
-
+import java.util.Set;
 
 /**
  * Author: 王俊超
- * Date: 2017-06-04 19:57
+ * Date: 2017-06-12 07:40
  * All Rights Reserved !!!
  */
-@Component("redisClient")
-public class RedisClient {
-    @Autowired
-    RedisTemplate<Object, Object> redisTemplate;
+public interface RedisClient {
 
     /**
-     * 取redis连接
+     * 通过key删除
      *
-     * @return
+     * @param keys
      */
-    private RedisConnection getConnection() {
-        return redisTemplate.getConnectionFactory().getConnection();
-    }
+    long del(Object... keys);
 
     /**
-     * 获取缓存的key
+     * 添加key value 并且设置存活时间(byte)
+     *
+     * @param key
+     * @param value
+     * @param liveTime
+     */
+    void set(byte[] key, byte[] value, long liveTime);
+
+    /**
+     * 添加key value 并且设置存活时间
+     *
+     * @param key
+     * @param value
+     * @param liveTime 单位秒
+     */
+    void set(Object key, Object value, long liveTime);
+
+    /**
+     * 添加key value
+     *
+     * @param key
+     * @param value
+     */
+    void set(Object key, Object value);
+
+    /**
+     * 添加key value (字节)(序列化)
+     *
+     * @param key
+     * @param value
+     */
+    void set(byte[] key, byte[] value);
+
+    /**
+     * 获取redis value (String)
      *
      * @param key
      * @return
      */
-    private byte[] getKey(String cacheName, String key) {
-        return (cacheName+":" + key).getBytes();
-    }
+    String get(Object key);
 
     /**
-     * 删除redis中的对象
+     * 通过正则匹配keys
      *
-     * @param cacheName
-     * @param key
-     */
-    public <T> void delete(String cacheName, String key) {
-        getConnection().del(getKey(cacheName, key));
-    }
-
-    /**
-     * 更新缓存中的对象，也可以在redis缓存中存入新的对象
-     *
-     * @param cacheName
-     * @param key
-     * @param t
-     * @param <T>
-     */
-    public <T> void set(String cacheName, String key, T t) {
-        byte[] keyBytes = getKey(cacheName, key);
-        RedisSerializer serializer = redisTemplate.getValueSerializer();
-        byte[] val = serializer.serialize(t);
-        getConnection().set(keyBytes, val);
-
-    }
-
-    /**
-     * 从缓存中取对象
-     *
-     * @param key
-     * @param <T>
+     * @param pattern
      * @return
      */
-    public <T> T getObject(String cacheName, String key) {
-        byte[] keyBytes = getKey(cacheName, key);
-        byte[] result = getConnection().get(keyBytes);
-        return (T) redisTemplate.getValueSerializer().deserialize(result);
-    }
+    Set keys(String pattern);
 
+    /**
+     * 检查key是否已经存在
+     *
+     * @param key
+     * @return
+     */
+    boolean exists(Object key);
+
+    /**
+     * 清空redis 所有数据
+     *
+     * @return
+     */
+    String flushDB();
+
+    /**
+     * 查看redis里有多少数据
+     */
+    long dbSize();
+
+    /**
+     * 检查是否连接成功
+     *
+     * @return
+     */
+    String ping();
 
 }

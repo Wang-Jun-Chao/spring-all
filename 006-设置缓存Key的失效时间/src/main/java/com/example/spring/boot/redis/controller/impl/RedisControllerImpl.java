@@ -1,6 +1,6 @@
 package com.example.spring.boot.redis.controller.impl;
 
-import com.example.spring.boot.redis.common.RedisClient;
+import com.example.spring.boot.redis.common.RedisClientImpl;
 import com.example.spring.boot.redis.controller.RedisController;
 import com.example.spring.boot.redis.entity.Person;
 import com.example.spring.boot.redis.service.RedisService;
@@ -20,7 +20,7 @@ public class RedisControllerImpl implements RedisController {
     private RedisService redisService;
 
     @Autowired
-    private RedisClient redisClient;
+    private RedisClientImpl redisClient;
 
     // 下面三个方法是redis自动管的
     @RequestMapping("/put")
