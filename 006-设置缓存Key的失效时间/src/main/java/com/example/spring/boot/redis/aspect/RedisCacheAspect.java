@@ -1,10 +1,14 @@
 package com.example.spring.boot.redis.aspect;
 
+import com.example.spring.boot.redis.annotation.RedisCacheEvict;
+import com.example.spring.boot.redis.annotation.RedisCacheGet;
 import com.example.spring.boot.redis.annotation.RedisCachePut;
+import com.example.spring.boot.redis.common.RedisClient;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
@@ -22,37 +26,49 @@ import java.lang.reflect.Method;
  * All Rights Reserved !!!
  */
 @Aspect
-@Component
 public class RedisCacheAspect {
     private final static char DOT = '.';
     private final static char SHARP = '#';
-    @Autowired
-    private RedisTemplate<Object, Object> redisTemplate;
+    private RedisClient redisClient;
 
-    public RedisTemplate<Object, Object> getRedisTemplate() {
-        return redisTemplate;
+    public RedisClient getRedisClient() {
+        return redisClient;
     }
 
-    public void setRedisTemplate(RedisTemplate<Object, Object> redisTemplate) {
-        this.redisTemplate = redisTemplate;
+    public void setRedisClient(RedisClient redisClient) {
+        this.redisClient = redisClient;
     }
 
     @Around("@annotation(cachePut)")
     public Object cachePut(ProceedingJoinPoint pjp, RedisCachePut cachePut) throws Throwable {
-        Object keyObject = getCacheKey(pjp, cachePut);
+        Object keyObject = getCacheKey(pjp, cachePut.key());
         Object result = pjp.proceed();
+        redisClient.set(keyObject, result, cachePut.expire());
+        return result;
+    }
 
-//        redisTemplate.
+    @Before("@annotation(cacheGet)")
+    public Object cacheGet(ProceedingJoinPoint pjp, RedisCacheGet cacheGet) throws Throwable {
+        Object keyObject = getCacheKey(pjp, cacheGet.key());
+        Object result = redisClient.get(keyObject);
+        // TODO 测试void返回方法
+        if (result == null) {
+            result = pjp.proceed();
+            redisClient.set(keyObject, result, cacheGet.expire());
+        }
 
         return result;
+    }
 
+    @Before("@annotation(cacheEvict)")
+    public Object cacheEvict(ProceedingJoinPoint pjp, RedisCacheEvict cacheEvict) throws Throwable {
+        Object keyObject = getCacheKey(pjp, cacheEvict.key());
+        redisClient.del(keyObject);
+        return pjp.proceed();
     }
 
 
-    private String getCacheKey(ProceedingJoinPoint pjp, RedisCachePut cachePut) throws Exception {
-
-        String key = cachePut.key();
-
+    private String getCacheKey(ProceedingJoinPoint pjp, String key) throws Exception {
         // 以#开头
         if (key.length() > 0 && key.charAt(0) == SHARP) {
             // 去掉#

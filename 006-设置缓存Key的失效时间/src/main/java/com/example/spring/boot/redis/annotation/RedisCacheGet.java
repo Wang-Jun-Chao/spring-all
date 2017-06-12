@@ -16,4 +16,8 @@ public @interface RedisCacheGet {
     String cacheName() default "";
 
     String key() default "";
+
+    int expire() default 0;
+
+    TimeUnit timeUnit();
 }
