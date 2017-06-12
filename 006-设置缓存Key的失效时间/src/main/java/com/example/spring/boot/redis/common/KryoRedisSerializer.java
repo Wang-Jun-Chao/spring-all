@@ -9,6 +9,8 @@ import org.springframework.data.redis.serializer.SerializationException;
 import java.util.Arrays;
 
 /**
+ * 序列化和反序列化工具
+ *
  * Author: 王俊超
  * Date: 2017-05-31 21:43
  * All Rights Reserved !!!
@@ -21,7 +23,9 @@ public class KryoRedisSerializer<T> implements RedisSerializer<T> {
         byte[] buffer = new byte[2048];
         Output output = new Output(buffer);
         kryo.writeClassAndObject(output, t);
-        return output.toBytes();
+        byte[] result = output.toBytes();
+        output.close();
+        return result;
     }
 
     @Override
@@ -29,6 +33,7 @@ public class KryoRedisSerializer<T> implements RedisSerializer<T> {
         Input input = new Input(bytes);
         @SuppressWarnings("unchecked")
         T t = (T) kryo.readClassAndObject(input);
+        input.close();
         return t;
     }
 

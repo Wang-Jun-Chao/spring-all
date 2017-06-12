@@ -1,6 +1,7 @@
 package com.example.spring.boot.redis;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -15,11 +16,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableCaching
-@EnableAspectJAutoProxy
+@EnableAutoConfiguration
+//@EnableAspectJAutoProxy
 public class AppRunner {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext ctx = SpringApplication.run(AppRunner.class, args);
-
     }
 }

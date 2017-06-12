@@ -11,6 +11,9 @@ public class City {
     private String name;
     private Province province;
 
+    public City() {
+    }
+
     public City(long id, String name, Province province) {
         this.id = id;
         this.name = name;

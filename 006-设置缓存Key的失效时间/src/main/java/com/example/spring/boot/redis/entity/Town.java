@@ -11,6 +11,9 @@ public class Town {
     private String name;
     private City city;
 
+    public Town() {
+    }
+
     public Town(long id, String name, City city) {
         this.id = id;
         this.name = name;

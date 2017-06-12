@@ -10,6 +10,8 @@ import java.util.Set;
 
 
 /**
+ * Redis客户端实现工具
+ *
  * Author: 王俊超
  * Date: 2017-06-04 19:57
  * All Rights Reserved !!!
@@ -135,7 +137,12 @@ public class RedisClientImpl implements RedisClient {
         return redisTemplate.execute(new RedisCallback<T>() {
             @Override
             public T doInRedis(RedisConnection connection) throws DataAccessException {
-                Object obj = valSerializer.deserialize(connection.get(key));
+                byte[] result = connection.get(key);
+                Object obj = null;
+                if (result != null) {
+                    obj = valSerializer.deserialize(result);
+                }
+
                 return (T) obj;
             }
         });

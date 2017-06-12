@@ -13,7 +13,17 @@ import java.util.concurrent.TimeUnit;
 @Inherited
 public @interface RedisCacheEvict {
 
-    String cacheName() default "";
+    /**
+     * 缓存名称
+     *
+     * @return
+     */
+    String cacheName();
 
-    String key() default "";
+    /**
+     * 缓存key
+     *
+     * @return
+     */
+    String key();
 }

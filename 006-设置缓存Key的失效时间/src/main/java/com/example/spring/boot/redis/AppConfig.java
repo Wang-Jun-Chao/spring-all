@@ -1,5 +1,6 @@
 package com.example.spring.boot.redis;
 
+import com.example.spring.boot.redis.aspect.RedisCacheAspect;
 import com.example.spring.boot.redis.common.KryoRedisSerializer;
 import com.example.spring.boot.redis.common.RedisClient;
 import com.example.spring.boot.redis.common.RedisClientImpl;
@@ -87,5 +88,17 @@ public class AppConfig {
         redisClient.setValSerializer(serializer);
 
         return redisClient;
+    }
+
+    /**
+     * redis缓存的切面
+     * @param redisClient
+     * @return
+     */
+    @Bean
+    public RedisCacheAspect redisCacheAspect(RedisClient redisClient) {
+        RedisCacheAspect aspect = new RedisCacheAspect();
+        aspect.setRedisClient(redisClient);
+        return aspect;
     }
 }

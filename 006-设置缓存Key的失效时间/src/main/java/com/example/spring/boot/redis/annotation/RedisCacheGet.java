@@ -13,11 +13,31 @@ import java.util.concurrent.TimeUnit;
 @Inherited
 public @interface RedisCacheGet {
 
-    String cacheName() default "";
+    /**
+     * 缓存名称
+     *
+     * @return
+     */
+    String cacheName();
 
-    String key() default "";
+    /**
+     * 缓存key
+     *
+     * @return
+     */
+    String key();
 
+    /**
+     * 缓存过期时间
+     *
+     * @return
+     */
     int expire() default 0;
 
+    /**
+     * 缓存的时间单位
+     *
+     * @return
+     */
     TimeUnit timeUnit();
 }

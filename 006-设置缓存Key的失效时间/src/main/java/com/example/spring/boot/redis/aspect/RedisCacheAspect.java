@@ -8,7 +8,6 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
 import org.springframework.core.ParameterNameDiscoverer;
@@ -18,6 +17,8 @@ import java.lang.reflect.Method;
 
 
 /**
+ * 缓存处理时间切面
+ *
  * Author: 王俊超
  * Date: 2017-06-10 06:17
  * All Rights Reserved !!!
@@ -50,7 +51,7 @@ public class RedisCacheAspect {
 
         // 不为空才保存数据
         if (result != null && keyObject != null){
-            redisClient.set(keyObject, result, cachePut.expire());
+            redisClient.set(cachePut.cacheName(), keyObject, result, cachePut.expire());
         }
 
         return result;
@@ -67,7 +68,7 @@ public class RedisCacheAspect {
     @Around("@annotation(cacheGet)")
     public Object cacheGet(ProceedingJoinPoint pjp, RedisCacheGet cacheGet) throws Throwable {
         Object keyObject = getCacheKey(pjp, cacheGet.key());
-        Object result = redisClient.get(keyObject);
+        Object result = redisClient.get(cacheGet.cacheName(), keyObject);
         // 如果从缓存中没有取到数据，就从调用方法获取数据
         if (result == null) {
             result = pjp.proceed();
@@ -75,7 +76,7 @@ public class RedisCacheAspect {
             // 方法的返回值不是void类型，就要将结果入缓存
             Class clz = getAdvicedMethod(pjp).getReturnType();
             if (clz != Void.class) {
-                redisClient.set(keyObject, result, cacheGet.expire());
+                redisClient.set(cacheGet.cacheName(), keyObject, result, cacheGet.expire());
             }
         }
 
@@ -93,11 +94,18 @@ public class RedisCacheAspect {
     @Around("@annotation(cacheEvict)")
     public Object cacheEvict(ProceedingJoinPoint pjp, RedisCacheEvict cacheEvict) throws Throwable {
         Object keyObject = getCacheKey(pjp, cacheEvict.key());
-        redisClient.del(keyObject);
+        redisClient.del(cacheEvict.cacheName(), keyObject);
         return pjp.proceed();
     }
 
-
+    /**
+     * 获取缓存的key对象
+     *
+     * @param pjp
+     * @param key
+     * @return
+     * @throws Exception
+     */
     private Object getCacheKey(ProceedingJoinPoint pjp, String key) throws Exception {
         // 以#开头
         if (key.length() > 0 && key.charAt(0) == SHARP) {
@@ -108,7 +116,7 @@ public class RedisCacheAspect {
             String argName = key;
             if (dotIdx > 0) {
                 argName = key.substring(0, dotIdx);
-                key = key.substring(dotIdx + 1);
+                key = key.substring(dotIdx + 1); // 剩下的属性
             }
 
             // 取参数值
@@ -163,7 +171,7 @@ public class RedisCacheAspect {
         Signature sig = pjp.getSignature();
         MethodSignature msig = null;
         if (!(sig instanceof MethodSignature)) {
-            throw new IllegalArgumentException("该注解只能用于方法");
+            throw new IllegalArgumentException("annotation can only use to method.");
         }
         msig = (MethodSignature) sig;
         Object target = pjp.getTarget();

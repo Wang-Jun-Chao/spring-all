@@ -10,6 +10,9 @@ public class Country {
     private long id;
     private String name;
 
+    public Country() {
+    }
+
     public Country(long id, String name) {
         this.id = id;
         this.name = name;

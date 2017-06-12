@@ -17,14 +17,14 @@ import java.util.concurrent.TimeUnit;
  * All Rights Reserved !!!
  */
 @Component
-public class Test {
+public class TestData {
 
-    public static final Country COUNTRY = new Country(111111, "CHINA");
-    public static final Province PROVINCE = new Province(222222, "GuangZhou", COUNTRY);
-    public static final City CITY = new City(333333, "ShenZhen", PROVINCE);
-    public static final Town TOWN = new Town(444444, "Where", CITY);
+    public  final static Country COUNTRY = new Country(111111, "CHINA");
+    public  final static Province PROVINCE = new Province(222222, "GuangZhou", COUNTRY);
+    public  final static City CITY = new City(333333, "ShenZhen", PROVINCE);
+    public  final static Town TOWN = new Town(444444, "Where", CITY);
 
-    private final static String LOCATION = "location";
+    public final static String LOCATION = "location";
 
     @RedisCachePut(cacheName = LOCATION, key = "#town.city.province.country.id",
             expire = 60, timeUnit = TimeUnit.SECONDS)
@@ -41,5 +41,4 @@ public class Test {
     public void deleteCountry(long id) {
         // 清除缓存
     }
-
 }

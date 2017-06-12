@@ -3,6 +3,8 @@ package com.example.spring.boot.redis.common;
 import java.util.Set;
 
 /**
+ * Redis客户端工具
+ *
  * Author: 王俊超
  * Date: 2017-06-12 07:40
  * All Rights Reserved !!!
@@ -119,5 +121,4 @@ public interface RedisClient {
      * @return
      */
     String ping();
-
 }
