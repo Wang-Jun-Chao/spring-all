@@ -56,7 +56,24 @@ public interface RedisClient {
      * @param key
      * @return
      */
-    String get(Object key);
+    <T> T get(byte[] key);
+
+    /**
+     * 获取redis value (String)
+     *
+     * @param key
+     * @return
+     */
+    <T> T get(Object key);
+
+    /**
+     * 通过正则匹配keys
+     *
+     * @param pattern
+     * @return
+     */
+    Set keys(byte[] pattern);
+
 
     /**
      * 通过正则匹配keys
@@ -72,6 +89,14 @@ public interface RedisClient {
      * @param key
      * @return
      */
+    boolean exists(byte[] key);
+
+    /**
+     * 检查key是否已经存在
+     *
+     * @param key
+     * @return
+     */
     boolean exists(Object key);
 
     /**
@@ -79,7 +104,7 @@ public interface RedisClient {
      *
      * @return
      */
-    String flushDB();
+    boolean flushDb();
 
     /**
      * 查看redis里有多少数据

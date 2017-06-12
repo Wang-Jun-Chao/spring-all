@@ -16,8 +16,6 @@ import java.util.Set;
  */
 
 public class RedisClientImpl implements RedisClient {
-
-    private final static String redisCode = "utf-8";
     private RedisTemplate<Object, Object> redisTemplate;
     private RedisSerializer<Object> keySerializer;
     private RedisSerializer<Object> valSerializer;
@@ -56,61 +54,120 @@ public class RedisClientImpl implements RedisClient {
             public Long doInRedis(RedisConnection connection) throws DataAccessException {
                 long result = 0;
                 for (Object o : keys) {
-                    connection.del(keySerializer.serialize(keys));
+                    result += connection.del(keySerializer.serialize(keys));
                 }
-                return null;
+                return result;
             }
         });
     }
 
     @Override
     public void set(byte[] key, byte[] value, long liveTime) {
+        redisTemplate.execute(new RedisCallback<Boolean>() {
+            @Override
+            public Boolean doInRedis(RedisConnection connection) throws DataAccessException {
+                connection.set(key, value);
+                if (liveTime > 0) {
+                    connection.expire(key, liveTime);
+                }
 
+                return true;
+            }
+        });
     }
 
     @Override
     public void set(Object key, Object value, long liveTime) {
-
+        this.set(keySerializer.serialize(key), valSerializer.serialize(value), liveTime);
     }
 
     @Override
     public void set(Object key, Object value) {
-
+        this.set(key, value, 0L);
     }
 
     @Override
     public void set(byte[] key, byte[] value) {
+        this.set(key, value, 0L);
+    }
 
+    /**
+     * 获取redis value (String)
+     *
+     * @param key
+     * @return
+     */
+
+    @Override
+    public  <T> T get(byte[] key) {
+        return redisTemplate.execute(new RedisCallback<T>() {
+            @Override
+            public T doInRedis(RedisConnection connection) throws DataAccessException {
+                Object obj = valSerializer.deserialize(connection.get(key));
+                return (T) obj;
+            }
+        });
     }
 
     @Override
-    public String get(Object key) {
-        return null;
+    public <T> T get(Object key) {
+       return  this.get(keySerializer.serialize(key));
+    }
+    @Override
+    public Set keys(byte[] pattern) {
+        return redisTemplate.execute(new RedisCallback<Set>() {
+            @Override
+            public Set doInRedis(RedisConnection connection) throws DataAccessException {
+                return connection.keys(pattern);
+            }
+        });
     }
 
     @Override
     public Set keys(String pattern) {
-        return null;
+       return  this.keys(keySerializer.serialize(pattern));
     }
-
+    @Override
+    public boolean exists(byte[] key){
+        return redisTemplate.execute(new RedisCallback<Boolean>() {
+            @Override
+            public Boolean doInRedis(RedisConnection connection) throws DataAccessException {
+                return connection.exists(key);
+            }
+        });
+    }
     @Override
     public boolean exists(Object key) {
-        return false;
+        return this.exists(valSerializer.serialize(key));
     }
 
     @Override
-    public String flushDB() {
-        return null;
+    public boolean flushDb() {
+        return redisTemplate.execute(new RedisCallback<Boolean>() {
+            @Override
+            public Boolean doInRedis(RedisConnection connection) throws DataAccessException {
+                connection.flushDb();
+                return true;
+            }
+        });
     }
 
     @Override
     public long dbSize() {
-        return 0;
+        return redisTemplate.execute(new RedisCallback<Long>() {
+            public Long doInRedis(RedisConnection connection) throws DataAccessException {
+                return connection.dbSize();
+            }
+        });
     }
 
     @Override
     public String ping() {
-        return null;
+        return redisTemplate.execute(new RedisCallback<String>() {
+            public String doInRedis(RedisConnection connection) throws DataAccessException {
+                return connection.ping();
+            }
+        });
     }
     //    /**
 //     * 取redis连接
