@@ -6,8 +6,6 @@ import com.esotericsoftware.kryo.io.Output;
 import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.SerializationException;
 
-import java.util.Arrays;
-
 /**
  * 序列化和反序列化工具
  *

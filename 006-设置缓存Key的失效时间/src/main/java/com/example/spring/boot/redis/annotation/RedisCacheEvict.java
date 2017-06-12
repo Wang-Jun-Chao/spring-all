@@ -1,7 +1,6 @@
 package com.example.spring.boot.redis.annotation;
 
 import java.lang.annotation.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Author: 王俊超

@@ -1,10 +1,8 @@
-import com.esotericsoftware.kryo.KryoSerializable;
 import com.example.spring.boot.redis.AppRunner;
 import com.example.spring.boot.redis.TestData;
 import com.example.spring.boot.redis.common.KryoRedisSerializer;
 import com.example.spring.boot.redis.common.RedisClient;
 import com.example.spring.boot.redis.entity.Country;
-import com.example.spring.boot.redis.entity.Town;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
