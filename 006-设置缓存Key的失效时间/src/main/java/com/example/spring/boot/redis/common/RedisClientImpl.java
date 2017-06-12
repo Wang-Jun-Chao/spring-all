@@ -47,14 +47,47 @@ public class RedisClientImpl implements RedisClient {
 
     /////////////////////////////////////
 
+    /**
+     * 获取最终的key
+     *
+     * @param cacheName
+     * @param key
+     * @return
+     */
+    private byte[] getRealKey(Object cacheName, Object key) {
+        byte[] b1 = keySerializer.serialize(cacheName);
+        byte[] b2 = keySerializer.serialize(key);
+        byte[] result = new byte[b1.length + b2.length];
+        System.arraycopy(b1, 0, result, 0, b1.length);
+        System.arraycopy(b2, 0, result, b1.length, b2.length);
+        return result;
+    }
+
+    /**
+     * 获取真实key
+     * @param cacheName
+     * @param key
+     * @return
+     */
+    private byte[] getRealKey(byte[] cacheName, Object key) {
+        byte[] b2 = keySerializer.serialize(key);
+        byte[] result = new byte[cacheName.length + b2.length];
+        System.arraycopy(cacheName, 0, result, 0, cacheName.length);
+        System.arraycopy(b2, 0, result, cacheName.length, b2.length);
+
+        return result;
+    }
+
+
     @Override
-    public long del(Object... keys) {
+    public long del(Object cacheName, Object... keys) {
         return redisTemplate.execute(new RedisCallback<Long>() {
             @Override
             public Long doInRedis(RedisConnection connection) throws DataAccessException {
+                byte[] b1 = keySerializer.serialize(cacheName);
                 long result = 0;
                 for (Object o : keys) {
-                    result += connection.del(keySerializer.serialize(keys));
+                    result += connection.del(getRealKey(b1, o));
                 }
                 return result;
             }
@@ -70,20 +103,19 @@ public class RedisClientImpl implements RedisClient {
                 if (liveTime > 0) {
                     connection.expire(key, liveTime);
                 }
-
                 return true;
             }
         });
     }
 
     @Override
-    public void set(Object key, Object value, long liveTime) {
-        this.set(keySerializer.serialize(key), valSerializer.serialize(value), liveTime);
+    public void set(Object cacheName, Object key, Object value, long liveTime) {
+        this.set(getRealKey(cacheName, key), valSerializer.serialize(value), liveTime);
     }
 
     @Override
-    public void set(Object key, Object value) {
-        this.set(key, value, 0L);
+    public void set(Object cacheName, Object key, Object value) {
+        this.set(cacheName, key, value, 0L);
     }
 
     @Override
@@ -99,7 +131,7 @@ public class RedisClientImpl implements RedisClient {
      */
 
     @Override
-    public  <T> T get(byte[] key) {
+    public <T> T get(byte[] key) {
         return redisTemplate.execute(new RedisCallback<T>() {
             @Override
             public T doInRedis(RedisConnection connection) throws DataAccessException {
@@ -110,9 +142,10 @@ public class RedisClientImpl implements RedisClient {
     }
 
     @Override
-    public <T> T get(Object key) {
-       return  this.get(keySerializer.serialize(key));
+    public <T> T get(Object cacheName, Object key) {
+        return this.get(getRealKey(cacheName, key));
     }
+
     @Override
     public Set keys(byte[] pattern) {
         return redisTemplate.execute(new RedisCallback<Set>() {
@@ -125,10 +158,11 @@ public class RedisClientImpl implements RedisClient {
 
     @Override
     public Set keys(String pattern) {
-       return  this.keys(keySerializer.serialize(pattern));
+        return this.keys(keySerializer.serialize(pattern));
     }
+
     @Override
-    public boolean exists(byte[] key){
+    public boolean exists(byte[] key) {
         return redisTemplate.execute(new RedisCallback<Boolean>() {
             @Override
             public Boolean doInRedis(RedisConnection connection) throws DataAccessException {
@@ -136,9 +170,10 @@ public class RedisClientImpl implements RedisClient {
             }
         });
     }
+
     @Override
-    public boolean exists(Object key) {
-        return this.exists(valSerializer.serialize(key));
+    public boolean exists(Object cacheName, Object key) {
+        return this.exists(getRealKey(cacheName, key));
     }
 
     @Override

@@ -12,9 +12,10 @@ public interface RedisClient {
     /**
      * 通过key删除
      *
+     * @param cacheName
      * @param keys
      */
-    long del(Object... keys);
+    long del(Object cacheName, Object... keys);
 
     /**
      * 添加key value 并且设置存活时间(byte)
@@ -23,7 +24,7 @@ public interface RedisClient {
      * @param value
      * @param liveTime
      */
-    void set(byte[] key, byte[] value, long liveTime);
+    void set( byte[] key, byte[] value, long liveTime);
 
     /**
      * 添加key value 并且设置存活时间
@@ -32,7 +33,7 @@ public interface RedisClient {
      * @param value
      * @param liveTime 单位秒
      */
-    void set(Object key, Object value, long liveTime);
+    void set(Object cacheName, Object key, Object value, long liveTime);
 
     /**
      * 添加key value
@@ -40,7 +41,7 @@ public interface RedisClient {
      * @param key
      * @param value
      */
-    void set(Object key, Object value);
+    void set(Object cacheName, Object key, Object value);
 
     /**
      * 添加key value (字节)(序列化)
@@ -61,10 +62,11 @@ public interface RedisClient {
     /**
      * 获取redis value (String)
      *
+     * @param cacheName
      * @param key
      * @return
      */
-    <T> T get(Object key);
+    <T> T get(Object cacheName, Object key);
 
     /**
      * 通过正则匹配keys
@@ -93,10 +95,11 @@ public interface RedisClient {
     /**
      * 检查key是否已经存在
      *
+     * @param cacheName
      * @param key
      * @return
      */
-    boolean exists(Object key);
+    boolean exists(Object cacheName, Object key);
 
     /**
      * 清空redis 所有数据

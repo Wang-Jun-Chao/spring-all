@@ -19,5 +19,5 @@ public @interface RedisCachePut {
 
     int expire() default 0;
 
-    TimeUnit timeUnit();
+    TimeUnit timeUnit() default TimeUnit.SECONDS;
 }

@@ -7,15 +7,21 @@ package com.example.spring.boot.redis.entity;
  * All Rights Reserved !!!
  */
 public class City {
-    private int id;
+    private long id;
     private String name;
     private Province province;
 
-    public int getId() {
+    public City(long id, String name, Province province) {
+        this.id = id;
+        this.name = name;
+        this.province = province;
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

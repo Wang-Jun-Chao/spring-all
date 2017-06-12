@@ -36,14 +36,34 @@ public class RedisCacheAspect {
         this.redisClient = redisClient;
     }
 
+    /**
+     * 对象入缓存
+     * @param pjp
+     * @param cachePut
+     * @return
+     * @throws Throwable
+     */
     @Around("@annotation(cachePut)")
     public Object cachePut(ProceedingJoinPoint pjp, RedisCachePut cachePut) throws Throwable {
         Object keyObject = getCacheKey(pjp, cachePut.key());
         Object result = pjp.proceed();
-        redisClient.set(keyObject, result, cachePut.expire());
+
+        // 不为空才保存数据
+        if (result != null && keyObject != null){
+            redisClient.set(keyObject, result, cachePut.expire());
+        }
+
         return result;
     }
 
+    /**
+     * 优先从缓存中取对象
+     *
+     * @param pjp
+     * @param cacheGet
+     * @return
+     * @throws Throwable
+     */
     @Around("@annotation(cacheGet)")
     public Object cacheGet(ProceedingJoinPoint pjp, RedisCacheGet cacheGet) throws Throwable {
         Object keyObject = getCacheKey(pjp, cacheGet.key());
@@ -62,6 +82,14 @@ public class RedisCacheAspect {
         return result;
     }
 
+    /**
+     * 删除缓存
+     *
+     * @param pjp
+     * @param cacheEvict
+     * @return
+     * @throws Throwable
+     */
     @Around("@annotation(cacheEvict)")
     public Object cacheEvict(ProceedingJoinPoint pjp, RedisCacheEvict cacheEvict) throws Throwable {
         Object keyObject = getCacheKey(pjp, cacheEvict.key());
@@ -70,7 +98,7 @@ public class RedisCacheAspect {
     }
 
 
-    private String getCacheKey(ProceedingJoinPoint pjp, String key) throws Exception {
+    private Object getCacheKey(ProceedingJoinPoint pjp, String key) throws Exception {
         // 以#开头
         if (key.length() > 0 && key.charAt(0) == SHARP) {
             // 去掉#
@@ -92,7 +120,7 @@ public class RedisCacheAspect {
                 objectKey = getObjectKey(argVal, key);
             }
 
-            return objectKey == null ? null : objectKey.toString();
+            return objectKey;
 
         } else { // 不是以#开头的就以其值作为参数key
             return key;
