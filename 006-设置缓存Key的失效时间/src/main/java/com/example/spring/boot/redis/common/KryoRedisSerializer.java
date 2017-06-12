@@ -18,9 +18,6 @@ public class KryoRedisSerializer<T> implements RedisSerializer<T> {
 
     @Override
     public byte[] serialize(T t) throws SerializationException {
-
-        System.out.println("[serialize]" + t);
-
         byte[] buffer = new byte[2048];
         Output output = new Output(buffer);
         kryo.writeClassAndObject(output, t);
@@ -29,9 +26,6 @@ public class KryoRedisSerializer<T> implements RedisSerializer<T> {
 
     @Override
     public T deserialize(byte[] bytes) throws SerializationException {
-
-        System.out.println("[deserialize]" + Arrays.toString(bytes));
-
         Input input = new Input(bytes);
         @SuppressWarnings("unchecked")
         T t = (T) kryo.readClassAndObject(input);

@@ -10,11 +10,8 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
 import org.springframework.core.ParameterNameDiscoverer;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import java.lang.reflect.Method;
@@ -47,20 +44,25 @@ public class RedisCacheAspect {
         return result;
     }
 
-    @Before("@annotation(cacheGet)")
+    @Around("@annotation(cacheGet)")
     public Object cacheGet(ProceedingJoinPoint pjp, RedisCacheGet cacheGet) throws Throwable {
         Object keyObject = getCacheKey(pjp, cacheGet.key());
         Object result = redisClient.get(keyObject);
-        // TODO 测试void返回方法
+        // 如果从缓存中没有取到数据，就从调用方法获取数据
         if (result == null) {
             result = pjp.proceed();
-            redisClient.set(keyObject, result, cacheGet.expire());
+
+            // 方法的返回值不是void类型，就要将结果入缓存
+            Class clz = getAdvicedMethod(pjp).getReturnType();
+            if (clz != Void.class) {
+                redisClient.set(keyObject, result, cacheGet.expire());
+            }
         }
 
         return result;
     }
 
-    @Before("@annotation(cacheEvict)")
+    @Around("@annotation(cacheEvict)")
     public Object cacheEvict(ProceedingJoinPoint pjp, RedisCacheEvict cacheEvict) throws Throwable {
         Object keyObject = getCacheKey(pjp, cacheEvict.key());
         redisClient.del(keyObject);
@@ -87,7 +89,7 @@ public class RedisCacheAspect {
             // 获取参数的属性值
             Object objectKey = argVal;
             if (dotIdx > 0) {
-                objectKey =  getObjectKey(argVal, key);
+                objectKey = getObjectKey(argVal, key);
             }
 
             return objectKey == null ? null : objectKey.toString();
@@ -100,8 +102,8 @@ public class RedisCacheAspect {
     /**
      * 获取参数对象
      *
-     * @param pjp
-     * @param parameterName
+     * @param pjp 连接点
+     * @param parameterName 参数名称
      * @return
      */
     private Object getArg(ProceedingJoinPoint pjp, String parameterName) throws NoSuchMethodException {
@@ -112,7 +114,6 @@ public class RedisCacheAspect {
         if (parameterNames != null) {
             int idx = 0;
             for (String name : parameterNames) {
-                System.out.println(name);
                 if (name.equals(parameterName)) {
                     return pjp.getArgs()[idx];
                 }
@@ -126,7 +127,7 @@ public class RedisCacheAspect {
     /**
      * 获取拦截的方法
      *
-     * @param pjp
+     * @param pjp 连接点
      * @return
      * @throws NoSuchMethodException
      */
@@ -178,7 +179,7 @@ public class RedisCacheAspect {
      * @param name
      * @return
      */
-    public String getterMethod(String name) {
+    private String getterMethod(String name) {
         return "get" + Character.toUpperCase(name.charAt(0)) + name.substring(1);
     }
 
@@ -190,7 +191,7 @@ public class RedisCacheAspect {
      * @return
      * @throws Exception
      */
-    public Object getProperty(Object obj, String getterMethodName) throws Exception {
+    private Object getProperty(Object obj, String getterMethodName) throws Exception {
         return obj.getClass().getMethod(getterMethodName).invoke(obj);
     }
 }
