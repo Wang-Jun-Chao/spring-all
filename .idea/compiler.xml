@@ -16,9 +16,11 @@
         <module name="007-SpringBoot中集成Mock" />
         <module name="008-SpringMVC访问外部文件" />
         <module name="ch0101-Spring基础" />
-        <module name="ch0101-Spring基础-依赖注入" />
+        <module name="ch0102-Spring基础-AOP" />
         <module name="ch0102-Spring基础-Java配置" />
+        <module name="ch0103-Spring基础-AOP" />
         <module name="ch0201-SpringMVC基础" />
+        <module name="ch0201-Spring常用配置-Bean的Scope" />
         <module name="ch10war" />
         <module name="ch5_2_2" />
         <module name="ch5_2_3" />
@@ -55,8 +57,11 @@
       <module name="008-SpringMVC访问外部文件" target="1.8" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0101-Spring基础-依赖注入" target="1.8" />
+      <module name="ch0102-Spring基础-AOP" target="1.8" />
       <module name="ch0102-Spring基础-Java配置" target="1.8" />
+      <module name="ch0103-Spring基础-AOP" target="1.8" />
       <module name="ch0201-SpringMVC基础" target="1.7" />
+      <module name="ch0201-Spring常用配置-Bean的Scope" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
