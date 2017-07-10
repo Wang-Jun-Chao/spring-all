@@ -41,6 +41,7 @@
         <option value="$PROJECT_DIR$/007-SpringBoot中集成Mock/pom.xml" />
         <option value="$PROJECT_DIR$/008-SpringMVC访问外部文件/pom.xml" />
         <option value="$PROJECT_DIR$/ch0101-Spring基础-依赖注入/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0102-Spring基础-Java配置/pom.xml" />
       </list>
     </option>
   </component>
