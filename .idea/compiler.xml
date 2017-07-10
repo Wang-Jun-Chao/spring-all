@@ -24,6 +24,7 @@
         <module name="ch0202-Spring常用配置-SpringEL和资源调用" />
         <module name="ch0203-Spring常用配置-Bean的初始化和销毁" />
         <module name="ch0203-Spring常用配置-Profile" />
+        <module name="ch0203-Spring常用配置-事件" />
         <module name="ch10war" />
         <module name="ch5_2_2" />
         <module name="ch5_2_3" />
@@ -68,6 +69,7 @@
       <module name="ch0202-Spring常用配置-SpringEL和资源调用" target="1.8" />
       <module name="ch0203-Spring常用配置-Bean的初始化和销毁" target="1.8" />
       <module name="ch0203-Spring常用配置-Profile" target="1.8" />
+      <module name="ch0203-Spring常用配置-事件" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />

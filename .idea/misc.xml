@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/pom.xml" />
         <option value="$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/pom.xml" />
         <option value="$PROJECT_DIR$/ch0203-Spring常用配置-Profile/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0203-Spring常用配置-事件/pom.xml" />
       </list>
     </option>
   </component>
