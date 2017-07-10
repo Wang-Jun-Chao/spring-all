@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch0103-Spring基础-AOP/ch0103-Spring基础-AOP.iml" filepath="$PROJECT_DIR$/ch0103-Spring基础-AOP/ch0103-Spring基础-AOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" filepath="$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" filepath="$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" filepath="$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
