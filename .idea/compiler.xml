@@ -29,6 +29,7 @@
         <module name="ch0302-Spring高级话题-多线程" />
         <module name="ch0303-Spring高级话题-计划任务" />
         <module name="ch0304-Spring高级话题-条件注解Condition" />
+        <module name="ch0305-Spring高级话题-组合注解与元注解" />
         <module name="ch10war" />
         <module name="ch5_2_2" />
         <module name="ch5_2_3" />
@@ -78,6 +79,7 @@
       <module name="ch0302-Spring高级话题-多线程" target="1.8" />
       <module name="ch0303-Spring高级话题-计划任务" target="1.8" />
       <module name="ch0304-Spring高级话题-条件注解Condition" target="1.8" />
+      <module name="ch0305-Spring高级话题-组合注解与元注解" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />

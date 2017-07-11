@@ -51,6 +51,7 @@
         <option value="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/pom.xml" />
         <option value="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/pom.xml" />
         <option value="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/pom.xml" />
       </list>
     </option>
   </component>
