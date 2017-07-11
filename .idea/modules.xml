@@ -21,6 +21,9 @@
       <module fileurl="file://$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0203-Spring常用配置-Profile.iml" filepath="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0203-Spring常用配置-Profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0205-Spring常用配置-事件/ch0205-Spring常用配置-事件.iml" filepath="$PROJECT_DIR$/ch0205-Spring常用配置-事件/ch0205-Spring常用配置-事件.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/ch0301-Spring高级话题-SpringAware.iml" filepath="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/ch0301-Spring高级话题-SpringAware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0302-Spring高级话题-多线程/ch0302-Spring高级话题-多线程.iml" filepath="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/ch0302-Spring高级话题-多线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/ch0303-Spring高级话题-计划任务.iml" filepath="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/ch0303-Spring高级话题-计划任务.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" filepath="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />

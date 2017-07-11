@@ -1,0 +1,25 @@
+package com.example.spring.framework.condition;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Conditional;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * Author: 王俊超
+ * Date: 2017-07-11 08:13
+ * All Rights Reserved !!!
+ */
+@Configuration
+public class ConditionConifg {
+    @Bean
+    @Conditional(WindowsCondition.class) //1
+    public ListService windowsListService() {
+        return new WindowsListService();
+    }
+
+    @Bean
+    @Conditional(LinuxCondition.class) //2
+    public ListService linuxListService() {
+        return new LinuxListService();
+    }
+}
