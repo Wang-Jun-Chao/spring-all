@@ -1,9 +1,11 @@
 package com.example.spring.framework.mvc.configuration.config;
 
+import com.example.spring.framework.mvc.configuration.interceptor.DemoInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
@@ -31,7 +33,19 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter{
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
-        registry.addResourceHandler("/assets/*").addResourceLocations("classpath:/asserts");
+        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");
         super.addResourceHandlers(registry);
+    }
+
+
+    // 1
+    @Bean
+    public DemoInterceptor demoInterceptor() {
+        return new DemoInterceptor();
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {// 2
+        registry.addInterceptor(demoInterceptor());
     }
 }
