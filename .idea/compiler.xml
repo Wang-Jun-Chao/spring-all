@@ -15,6 +15,7 @@
         <module name="ch0306-Spring高级话题-测试" />
         <module name="ch0401-SpringMVC基础-项目快速搭建" />
         <module name="ch0402-SpringMVC基础-常用注解" />
+        <module name="ch0403-SpringMVC基础-基本配置" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -49,6 +50,7 @@
       <module name="ch0306-Spring高级话题-测试" target="1.8" />
       <module name="ch0401-SpringMVC基础-项目快速搭建" target="1.8" />
       <module name="ch0402-SpringMVC基础-常用注解" target="1.8" />
+      <module name="ch0403-SpringMVC基础-基本配置" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
