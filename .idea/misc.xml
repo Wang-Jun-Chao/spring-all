@@ -4,6 +4,8 @@
     <file type="web" url="file://$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置" />
     <file type="web" url="file://$PROJECT_DIR$/008-SpringMVC访问外部文件" />
     <file type="web" url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" />
+    <file type="web" url="file://$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建" />
+    <file type="web" url="file://$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解" />
     <file type="web" url="file://$PROJECT_DIR$/ch10war" />
   </component>
   <component name="MavenProjectsManager">
@@ -15,6 +17,7 @@
         <option value="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/pom.xml" />
         <option value="$PROJECT_DIR$/ch0306-Spring高级话题-测试/pom.xml" />
         <option value="$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解/pom.xml" />
       </list>
     </option>
   </component>

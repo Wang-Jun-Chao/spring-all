@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ch0401-SpringMVC基础-项目快速搭建:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/ch0401_SpringMVC__war_exploded2</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ch0401-SpringMVC基础-项目快速搭建/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ch0401-SpringMVC基础-项目快速搭建" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
