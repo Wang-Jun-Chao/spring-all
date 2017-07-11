@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0204-spring-common-config-bean-profile</artifactId>
+    <artifactId>ch0306-spring-advance-test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -24,6 +24,14 @@
             <artifactId>spring-aop</artifactId>
             <version>${spring-framework.version}</version>
         </dependency>
+
+        <!-- Spring test 支持 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring-framework.version}</version>
+        </dependency>
+
         <!-- aspectj支持 -->
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -36,12 +44,7 @@
             <version>1.8.10</version>
         </dependency>
 
-        <!-- Spring test 支持 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>${spring-framework.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -74,5 +77,5 @@
         </plugins>
     </build>
 
-    
+
 </project>

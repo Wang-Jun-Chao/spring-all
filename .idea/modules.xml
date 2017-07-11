@@ -18,13 +18,14 @@
       <module fileurl="file://$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" filepath="$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" filepath="$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/ch0203-Spring常用配置-Bean的初始化和销毁.iml" filepath="$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/ch0203-Spring常用配置-Bean的初始化和销毁.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0203-Spring常用配置-Profile.iml" filepath="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0203-Spring常用配置-Profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0204-Spring常用配置-Profile.iml" filepath="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0204-Spring常用配置-Profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0205-Spring常用配置-事件/ch0205-Spring常用配置-事件.iml" filepath="$PROJECT_DIR$/ch0205-Spring常用配置-事件/ch0205-Spring常用配置-事件.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/ch0301-Spring高级话题-SpringAware.iml" filepath="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/ch0301-Spring高级话题-SpringAware.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0302-Spring高级话题-多线程/ch0302-Spring高级话题-多线程.iml" filepath="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/ch0302-Spring高级话题-多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/ch0303-Spring高级话题-计划任务.iml" filepath="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/ch0303-Spring高级话题-计划任务.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" filepath="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/ch0305-Spring高级话题-组合注解与元注解.iml" filepath="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/ch0305-Spring高级话题-组合注解与元注解.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0306-Spring高级话题-测试/ch0306-Spring高级话题-测试.iml" filepath="$PROJECT_DIR$/ch0306-Spring高级话题-测试/ch0306-Spring高级话题-测试.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />

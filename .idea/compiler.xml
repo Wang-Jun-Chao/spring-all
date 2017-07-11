@@ -6,51 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="001-Redis从数据库中读取配置" />
-        <module name="002-Maven插件-打包时多环境配置文件设置" />
         <module name="003-Redis使用Kryo序列化工具" />
-        <module name="003-使用JVM参数激活配置文件" />
-        <module name="004-Redis使用Kryo序列化工具" />
-        <module name="005-Java程序运行Java源文件" />
-        <module name="006-设置缓存Key的失效时间" />
-        <module name="007-SpringBoot中集成Mock" />
-        <module name="008-SpringMVC访问外部文件" />
-        <module name="ch0101-Spring基础" />
         <module name="ch0102-Spring基础-AOP" />
-        <module name="ch0102-Spring基础-Java配置" />
-        <module name="ch0103-Spring基础-AOP" />
-        <module name="ch0201-SpringMVC基础" />
-        <module name="ch0201-Spring常用配置-Bean的Scope" />
-        <module name="ch0202-Spring常用配置-SpringEL和资源调用" />
-        <module name="ch0203-Spring常用配置-Bean的初始化和销毁" />
+        <module name="ch0203-spring-common-config-bean-profile" />
         <module name="ch0203-Spring常用配置-Profile" />
         <module name="ch0203-Spring常用配置-事件" />
-        <module name="ch0301-Spring高级话题-SpringAware" />
-        <module name="ch0302-Spring高级话题-多线程" />
-        <module name="ch0303-Spring高级话题-计划任务" />
-        <module name="ch0304-Spring高级话题-条件注解Condition" />
-        <module name="ch0305-Spring高级话题-组合注解与元注解" />
-        <module name="ch10war" />
-        <module name="ch5_2_2" />
-        <module name="ch5_2_3" />
-        <module name="ch6_2_3" />
-        <module name="ch6_4" />
-        <module name="ch6_5" />
-        <module name="ch6_5_1" />
-        <module name="ch7_2" />
-        <module name="ch7_4" />
-        <module name="ch7_6" />
-        <module name="ch7_7" />
-        <module name="ch8_2" />
-        <module name="ch8_3" />
-        <module name="ch8_4" />
-        <module name="ch8_5" />
-        <module name="ch8_6_1" />
-        <module name="ch8_6_2" />
-        <module name="ch9_1" />
-        <module name="ch9_2" />
-        <module name="ch9_3_4" />
-        <module name="ch9_3_5" />
+        <module name="ch0204-Spring常用配置-Profile" />
+        <module name="ch0306-Spring高级话题-测试" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -72,14 +34,17 @@
       <module name="ch0201-SpringMVC基础" target="1.7" />
       <module name="ch0201-Spring常用配置-Bean的Scope" target="1.8" />
       <module name="ch0202-Spring常用配置-SpringEL和资源调用" target="1.8" />
+      <module name="ch0203-spring-common-config-bean-profile" target="1.8" />
       <module name="ch0203-Spring常用配置-Bean的初始化和销毁" target="1.8" />
       <module name="ch0203-Spring常用配置-Profile" target="1.8" />
       <module name="ch0203-Spring常用配置-事件" target="1.8" />
+      <module name="ch0204-Spring常用配置-Profile" target="1.8" />
       <module name="ch0301-Spring高级话题-SpringAware" target="1.8" />
       <module name="ch0302-Spring高级话题-多线程" target="1.8" />
       <module name="ch0303-Spring高级话题-计划任务" target="1.8" />
       <module name="ch0304-Spring高级话题-条件注解Condition" target="1.8" />
       <module name="ch0305-Spring高级话题-组合注解与元注解" target="1.8" />
+      <module name="ch0306-Spring高级话题-测试" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />

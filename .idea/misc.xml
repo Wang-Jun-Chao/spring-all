@@ -9,49 +9,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/ch0201-SpringMVC基础/pom.xml" />
-        <option value="$PROJECT_DIR$/ch5_2_2/pom.xml" />
-        <option value="$PROJECT_DIR$/ch5_2_3/pom.xml" />
-        <option value="$PROJECT_DIR$/ch6_2_3/pom.xml" />
-        <option value="$PROJECT_DIR$/ch6_4/pom.xml" />
-        <option value="$PROJECT_DIR$/ch6_5/pom.xml" />
-        <option value="$PROJECT_DIR$/ch6_5_1/pom.xml" />
-        <option value="$PROJECT_DIR$/ch7_2/pom.xml" />
-        <option value="$PROJECT_DIR$/ch7_4/pom.xml" />
-        <option value="$PROJECT_DIR$/ch7_6/pom.xml" />
-        <option value="$PROJECT_DIR$/ch7_7/pom.xml" />
-        <option value="$PROJECT_DIR$/ch8_2/pom.xml" />
-        <option value="$PROJECT_DIR$/ch8_3/pom.xml" />
-        <option value="$PROJECT_DIR$/ch8_4/pom.xml" />
-        <option value="$PROJECT_DIR$/ch8_5/pom.xml" />
-        <option value="$PROJECT_DIR$/ch8_6_1/pom.xml" />
-        <option value="$PROJECT_DIR$/ch9_1/pom.xml" />
-        <option value="$PROJECT_DIR$/ch8_6_2/pom.xml" />
-        <option value="$PROJECT_DIR$/ch9_2/pom.xml" />
-        <option value="$PROJECT_DIR$/ch9_3_4/pom.xml" />
-        <option value="$PROJECT_DIR$/ch9_3_5/pom.xml" />
-        <option value="$PROJECT_DIR$/001-Redis从数据库中读取配置/pom.xml" />
-        <option value="$PROJECT_DIR$/ch10war/pom.xml" />
-        <option value="$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/pom.xml" />
-        <option value="$PROJECT_DIR$/003-使用JVM参数激活配置文件/pom.xml" />
         <option value="$PROJECT_DIR$/003-Redis使用Kryo序列化工具/pom.xml" />
-        <option value="$PROJECT_DIR$/004-Redis使用Kryo序列化工具/pom.xml" />
-        <option value="$PROJECT_DIR$/005-Java程序运行Java源文件/pom.xml" />
-        <option value="$PROJECT_DIR$/006-设置缓存Key的失效时间/pom.xml" />
-        <option value="$PROJECT_DIR$/007-SpringBoot中集成Mock/pom.xml" />
-        <option value="$PROJECT_DIR$/008-SpringMVC访问外部文件/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0102-Spring基础-Java配置/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0103-Spring基础-AOP/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/pom.xml" />
         <option value="$PROJECT_DIR$/ch0203-Spring常用配置-Profile/pom.xml" />
         <option value="$PROJECT_DIR$/ch0203-Spring常用配置-事件/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/pom.xml" />
-        <option value="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0306-Spring高级话题-测试/pom.xml" />
       </list>
     </option>
   </component>
