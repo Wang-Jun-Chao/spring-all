@@ -14,7 +14,7 @@
     function req() {
         $.ajax({
             url: "convert",
-            data: "1-wangyunfei", //1
+            data: "1-wangjunchao", //1
             type: "POST",
             contentType: "application/x-wisely", //2
             success: function (data) {
