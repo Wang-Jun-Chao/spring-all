@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解" />
     <file type="web" url="file://$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置" />
     <file type="web" url="file://$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置" />
+    <file type="web" url="file://$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter" />
     <file type="web" url="file://$PROJECT_DIR$/ch10war" />
   </component>
   <component name="MavenProjectsManager">
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解/pom.xml" />
         <option value="$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置/pom.xml" />
         <option value="$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/pom.xml" />
       </list>
     </option>
   </component>
