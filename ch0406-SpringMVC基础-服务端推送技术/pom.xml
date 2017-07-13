@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0402-spring-mvc-basic-common-annotation</artifactId>
+    <artifactId>ch0406-spring-mvc-server-push</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

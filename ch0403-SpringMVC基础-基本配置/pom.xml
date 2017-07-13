@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0403-Spring-mvc-basic-configuration</artifactId>
+    <artifactId>ch0403-spring-mvc-basic-configuration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
