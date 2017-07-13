@@ -9,7 +9,7 @@
 <body>
 <div id="resp"></div>
 <input type="button" onclick="req();" value="请求"/>
-<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="assets/assets.js/jquery.assets.js" type="text/javascript"></script>
 <script>
     function req() {
         $.ajax({

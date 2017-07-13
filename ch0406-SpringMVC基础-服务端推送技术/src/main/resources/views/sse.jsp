@@ -12,7 +12,7 @@
 
 
 <div id="msgFrompPush"></div>
-<script type="text/javascript" src="<c:url value="assets/assets.js/jquery.assets.js" />"></script>
+<script type="text/javascript" src="<c:url value="assets/js/jquery.js" />"></script>
 <script type="text/javascript">
 
 
