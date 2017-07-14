@@ -36,6 +36,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/ch0501-SpringBoot基础-简单演示.iml" filepath="$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/ch0501-SpringBoot基础-简单演示.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/ch0601-SpringBoot-核心-类型安全的配置.iml" filepath="$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/ch0601-SpringBoot-核心-类型安全的配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/ch0602-SpringBoot-核心-Profile配置.iml" filepath="$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/ch0602-SpringBoot-核心-Profile配置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-SpringBoot-核心-Hello.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-SpringBoot-核心-Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理/ch0603-SpringBoot-核心-运行原理.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理/ch0603-SpringBoot-核心-运行原理.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />

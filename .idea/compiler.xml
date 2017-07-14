@@ -11,18 +11,9 @@
         <module name="ch0203-spring-common-config-bean-profile" />
         <module name="ch0203-Spring常用配置-Profile" />
         <module name="ch0203-Spring常用配置-事件" />
-        <module name="ch0204-Spring常用配置-Profile" />
-        <module name="ch0306-Spring高级话题-测试" />
-        <module name="ch0401-SpringMVC基础-项目快速搭建" />
-        <module name="ch0402-SpringMVC基础-常用注解" />
-        <module name="ch0403-SpringMVC基础-基本配置" />
-        <module name="ch0404-SpringMVC基础-高级配置" />
-        <module name="ch0405-SpringMVC基础-自定义HttpMessageConverter" />
-        <module name="ch0406-SpringMVC基础-服务端推送技术" />
-        <module name="ch0407-SpringMVC基础-测试" />
-        <module name="ch0501-SpringBoot基础-简单演示" />
-        <module name="ch0601-SpringBoot-核心-类型安全的配置" />
         <module name="ch0602-SpringBoot-核心-日志配置" />
+        <module name="ch0603-spring-boot-core-autoconfig" />
+        <module name="ch0603-SpringBoot-核心-自动配置" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -64,7 +55,11 @@
       <module name="ch0407-SpringMVC基础-测试" target="1.8" />
       <module name="ch0501-SpringBoot基础-简单演示" target="1.8" />
       <module name="ch0601-SpringBoot-核心-类型安全的配置" target="1.8" />
+      <module name="ch0602-SpringBoot-核心-Profile配置" target="1.8" />
       <module name="ch0602-SpringBoot-核心-日志配置" target="1.8" />
+      <module name="ch0603-spring-boot-core-autoconfig" target="1.8" />
+      <module name="ch0603-SpringBoot-核心-Hello" target="1.8" />
+      <module name="ch0603-SpringBoot-核心-自动配置" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
