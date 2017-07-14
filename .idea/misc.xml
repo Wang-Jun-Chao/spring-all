@@ -28,6 +28,9 @@
         <option value="$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/pom.xml" />
         <option value="$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术/pom.xml" />
         <option value="$PROJECT_DIR$/ch0407-SpringMVC基础-测试/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0602-SpringBoot-核心-日志配置/pom.xml" />
       </list>
     </option>
   </component>
