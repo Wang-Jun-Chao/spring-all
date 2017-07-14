@@ -15,7 +15,7 @@ import java.util.Random;
  */
 @Controller
 public class SeeController {
-    @RequestMapping(value = "/push", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    @RequestMapping(value = "/push", produces = "text/event-stream;charset=UTF-8")
     public @ResponseBody
     String push() {
         Random r = new Random();

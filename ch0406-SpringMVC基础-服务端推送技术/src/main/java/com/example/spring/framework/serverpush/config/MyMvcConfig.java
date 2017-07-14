@@ -40,6 +40,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter{
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/see").setViewName("/see");
+        registry.addViewController("/async").setViewName("/async");
     }
 
 //    @Override
