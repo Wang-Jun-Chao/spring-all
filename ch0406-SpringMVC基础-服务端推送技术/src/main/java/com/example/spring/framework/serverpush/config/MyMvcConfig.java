@@ -3,6 +3,7 @@ package com.example.spring.framework.serverpush.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -17,6 +18,7 @@ import org.springframework.web.servlet.view.JstlView;
  */
 @Configuration
 @EnableWebMvc
+@EnableScheduling
 @ComponentScan("com.example.spring.framework.serverpush")
 public class MyMvcConfig extends WebMvcConfigurerAdapter{
     @Bean
