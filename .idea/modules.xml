@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch0704-SpringBoot-Web-Jetty配置/ch0704-SpringBoot-Web-Jetty配置.iml" filepath="$PROJECT_DIR$/ch0704-SpringBoot-Web-Jetty配置/ch0704-SpringBoot-Web-Jetty配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0705-SpringBoot-Web-Undertow配置/ch0705-SpringBoot-Web-Undertow配置.iml" filepath="$PROJECT_DIR$/ch0705-SpringBoot-Web-Undertow配置/ch0705-SpringBoot-Web-Undertow配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0706-SpringBoot-Web-SSL配置/ch0706-SpringBoot-Web-SSL配置.iml" filepath="$PROJECT_DIR$/ch0706-SpringBoot-Web-SSL配置/ch0706-SpringBoot-Web-SSL配置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0707-SpringBoot-Web-Websocket/ch0707-SpringBoot-Web-Websocket.iml" filepath="$PROJECT_DIR$/ch0707-SpringBoot-Web-Websocket/ch0707-SpringBoot-Web-Websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
