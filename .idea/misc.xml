@@ -27,6 +27,8 @@
         <option value="$PROJECT_DIR$/ch0701-SpringBoot-Web-Thymeleaf模板引擎/pom.xml" />
         <option value="$PROJECT_DIR$/ch0702-SpringBoot-Web-Tomcat配置/pom.xml" />
         <option value="$PROJECT_DIR$/ch0703-SpringBoot-Web-Tomcat配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0704-SpringBoot-Web-Jetty配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0705-SpringBoot-Web-Undertow配置/pom.xml" />
       </list>
     </option>
   </component>
