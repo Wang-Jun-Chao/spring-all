@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.boot</groupId>
-    <artifactId>ch0603-spring-boot-core-hello</artifactId>
+    <artifactId>ch0603-spring-boot-core-autoconfig-hello</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
@@ -15,8 +15,17 @@
     </parent>
     <dependencies>
         <dependency>
+            <groupId>com.example.spring.boot</groupId>
+            <artifactId>ch0603-spring-boot-core-autoconfig</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
     </dependencies>
 </project>

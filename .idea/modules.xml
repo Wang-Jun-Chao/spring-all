@@ -25,8 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" filepath="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/ch0305-Spring高级话题-组合注解与元注解.iml" filepath="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/ch0305-Spring高级话题-组合注解与元注解.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/ch0602-SpringBoot-核心-Profile配置.iml" filepath="$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/ch0602-SpringBoot-核心-Profile配置.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-spring-boot-core-hello.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-spring-boot-core-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理/ch0603-SpringBoot-核心-运行原理.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理/ch0603-SpringBoot-核心-运行原理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理-Hello/ch0603-SpringBoot-核心-运行原理-Hello.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理-Hello/ch0603-SpringBoot-核心-运行原理-Hello.iml" />
+      <module fileurl="file://D:\IdeaProject\JavaEE开发颠覆者SpringBoot实战\ch0603-SpringBoot-核心-运行原理-Hello\ch0603-spring-boot-core-hello.iml" filepath="D:\IdeaProject\JavaEE开发颠覆者SpringBoot实战\ch0603-SpringBoot-核心-运行原理-Hello\ch0603-spring-boot-core-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />

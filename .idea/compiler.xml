@@ -16,6 +16,7 @@
         <module name="ch0603-spring-boot-core-hello" />
         <module name="ch0603-SpringBoot-核心-自动配置" />
         <module name="ch0603-SpringBoot-核心-运行原理" />
+        <module name="ch0603-SpringBoot-核心-运行原理-Hello" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -64,6 +65,7 @@
       <module name="ch0603-SpringBoot-核心-Hello" target="1.8" />
       <module name="ch0603-SpringBoot-核心-自动配置" target="1.8" />
       <module name="ch0603-SpringBoot-核心-运行原理" target="1.8" />
+      <module name="ch0603-SpringBoot-核心-运行原理-Hello" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
