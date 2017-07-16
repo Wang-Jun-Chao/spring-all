@@ -1,4 +1,4 @@
-package com.example.spring.boot.undertow;
+package com.example.spring.boot.ssl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +15,7 @@ public class SampleApplication {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello world from Undertow!";
+        return "Hello world!";
     }
 
     public static void main(String[] args) {

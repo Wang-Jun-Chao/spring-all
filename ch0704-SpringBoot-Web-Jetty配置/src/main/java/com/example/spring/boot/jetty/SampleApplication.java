@@ -15,7 +15,7 @@ public class SampleApplication {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello world!";
+        return "Hello world from Jetty!";
     }
 
     public static void main(String[] args) {
