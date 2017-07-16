@@ -22,6 +22,7 @@
         <module name="ch0703-SpringBoot-Web-Tomcat配置" />
         <module name="ch0704-SpringBoot-Web-Jetty配置" />
         <module name="ch0705-SpringBoot-Web-Undertow配置" />
+        <module name="ch0706-SpringBoot-Web-SSL配置" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -76,6 +77,7 @@
       <module name="ch0703-SpringBoot-Web-Tomcat配置" target="1.8" />
       <module name="ch0704-SpringBoot-Web-Jetty配置" target="1.8" />
       <module name="ch0705-SpringBoot-Web-Undertow配置" target="1.8" />
+      <module name="ch0706-SpringBoot-Web-SSL配置" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
