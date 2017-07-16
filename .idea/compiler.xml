@@ -13,7 +13,9 @@
         <module name="ch0203-Spring常用配置-事件" />
         <module name="ch0602-SpringBoot-核心-日志配置" />
         <module name="ch0603-spring-boot-core-autoconfig" />
+        <module name="ch0603-spring-boot-core-hello" />
         <module name="ch0603-SpringBoot-核心-自动配置" />
+        <module name="ch0603-SpringBoot-核心-运行原理" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -58,8 +60,10 @@
       <module name="ch0602-SpringBoot-核心-Profile配置" target="1.8" />
       <module name="ch0602-SpringBoot-核心-日志配置" target="1.8" />
       <module name="ch0603-spring-boot-core-autoconfig" target="1.8" />
+      <module name="ch0603-spring-boot-core-hello" target="1.8" />
       <module name="ch0603-SpringBoot-核心-Hello" target="1.8" />
       <module name="ch0603-SpringBoot-核心-自动配置" target="1.8" />
+      <module name="ch0603-SpringBoot-核心-运行原理" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />

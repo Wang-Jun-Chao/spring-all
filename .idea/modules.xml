@@ -18,25 +18,14 @@
       <module fileurl="file://$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" filepath="$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" filepath="$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/ch0203-Spring常用配置-Bean的初始化和销毁.iml" filepath="$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/ch0203-Spring常用配置-Bean的初始化和销毁.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0204-Spring常用配置-Profile.iml" filepath="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/ch0204-Spring常用配置-Profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0205-Spring常用配置-事件/ch0205-Spring常用配置-事件.iml" filepath="$PROJECT_DIR$/ch0205-Spring常用配置-事件/ch0205-Spring常用配置-事件.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/ch0301-Spring高级话题-SpringAware.iml" filepath="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/ch0301-Spring高级话题-SpringAware.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0302-Spring高级话题-多线程/ch0302-Spring高级话题-多线程.iml" filepath="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/ch0302-Spring高级话题-多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/ch0303-Spring高级话题-计划任务.iml" filepath="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/ch0303-Spring高级话题-计划任务.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" filepath="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/ch0304-Spring高级话题-条件注解Condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/ch0305-Spring高级话题-组合注解与元注解.iml" filepath="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/ch0305-Spring高级话题-组合注解与元注解.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0306-Spring高级话题-测试/ch0306-Spring高级话题-测试.iml" filepath="$PROJECT_DIR$/ch0306-Spring高级话题-测试/ch0306-Spring高级话题-测试.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/ch0401-SpringMVC基础-项目快速搭建.iml" filepath="$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/ch0401-SpringMVC基础-项目快速搭建.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解/ch0402-SpringMVC基础-常用注解.iml" filepath="$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解/ch0402-SpringMVC基础-常用注解.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置/ch0403-SpringMVC基础-基本配置.iml" filepath="$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置/ch0403-SpringMVC基础-基本配置.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置/ch0404-SpringMVC基础-高级配置.iml" filepath="$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置/ch0404-SpringMVC基础-高级配置.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/ch0405-SpringMVC基础-自定义HttpMessageConverter.iml" filepath="$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/ch0405-SpringMVC基础-自定义HttpMessageConverter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术/ch0406-SpringMVC基础-服务端推送技术.iml" filepath="$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术/ch0406-SpringMVC基础-服务端推送技术.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0407-SpringMVC基础-测试/ch0407-SpringMVC基础-测试.iml" filepath="$PROJECT_DIR$/ch0407-SpringMVC基础-测试/ch0407-SpringMVC基础-测试.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/ch0501-SpringBoot基础-简单演示.iml" filepath="$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/ch0501-SpringBoot基础-简单演示.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/ch0601-SpringBoot-核心-类型安全的配置.iml" filepath="$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/ch0601-SpringBoot-核心-类型安全的配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/ch0602-SpringBoot-核心-Profile配置.iml" filepath="$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/ch0602-SpringBoot-核心-Profile配置.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-SpringBoot-核心-Hello.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-SpringBoot-核心-Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-spring-boot-core-hello.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-Hello/ch0603-spring-boot-core-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理/ch0603-SpringBoot-核心-运行原理.iml" filepath="$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理/ch0603-SpringBoot-核心-运行原理.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
