@@ -18,6 +18,8 @@
         <module name="ch0603-SpringBoot-核心-运行原理" />
         <module name="ch0603-SpringBoot-核心-运行原理-Hello" />
         <module name="ch0701-SpringBoot-Web-Thymeleaf模板引擎" />
+        <module name="ch0702-SpringBoot-Web-Tomcat配置" />
+        <module name="ch0703-SpringBoot-Web-Tomcat配置" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -68,6 +70,8 @@
       <module name="ch0603-SpringBoot-核心-运行原理" target="1.8" />
       <module name="ch0603-SpringBoot-核心-运行原理-Hello" target="1.8" />
       <module name="ch0701-SpringBoot-Web-Thymeleaf模板引擎" target="1.8" />
+      <module name="ch0702-SpringBoot-Web-Tomcat配置" target="1.8" />
+      <module name="ch0703-SpringBoot-Web-Tomcat配置" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
