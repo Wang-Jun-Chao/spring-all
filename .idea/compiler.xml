@@ -27,6 +27,7 @@
         <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" />
         <module name="ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" />
         <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" />
+        <module name="ch0802-SpringBoot-数据访问-SpringDataRest" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -86,6 +87,7 @@
       <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" target="1.8" />
       <module name="ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" target="1.8" />
       <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" target="1.8" />
+      <module name="ch0802-SpringBoot-数据访问-SpringDataRest" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
