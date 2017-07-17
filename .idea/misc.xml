@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/ch0707-SpringBoot-Web-Websocket/pom.xml" />
         <option value="$PROJECT_DIR$/ch0708-SpringBoot-Web-Websocket-点对点通讯/pom.xml" />
         <option value="$PROJECT_DIR$/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0801-SpringBoot-数据访问-SpringDataJPA/pom.xml" />
       </list>
     </option>
   </component>
