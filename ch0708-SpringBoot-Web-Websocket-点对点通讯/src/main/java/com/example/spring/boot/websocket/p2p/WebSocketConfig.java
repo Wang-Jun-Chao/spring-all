@@ -1,0 +1,24 @@
+package com.example.spring.boot.websocket.p2p;
+
+import org.springframework.messaging.simp.config.MessageBrokerRegistry;
+import org.springframework.web.method.annotation.AbstractWebArgumentResolverAdapter;
+import org.springframework.web.socket.config.annotation.AbstractWebSocketMessageBrokerConfigurer;
+import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
+
+/**
+ * Author: 王俊超
+ * Date: 2017-07-17 07:56
+ * All Rights Reserved !!!
+ */
+public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer{
+    @Override
+    public void registerStompEndpoints(StompEndpointRegistry registry) {
+//        registry.addEndpoint("/endpointWisely").withSockJS();
+        registry.addEndpoint("/endpointChat").withSockJS();
+    }
+
+    @Override
+    public void configureMessageBroker(MessageBrokerRegistry registry) {
+        registry.enableSimpleBroker("/queue", "/topic");
+    }
+}

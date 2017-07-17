@@ -24,6 +24,7 @@
         <module name="ch0705-SpringBoot-Web-Undertow配置" />
         <module name="ch0706-SpringBoot-Web-SSL配置" />
         <module name="ch0707-SpringBoot-Web-Websocket" />
+        <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -80,6 +81,7 @@
       <module name="ch0705-SpringBoot-Web-Undertow配置" target="1.8" />
       <module name="ch0706-SpringBoot-Web-SSL配置" target="1.8" />
       <module name="ch0707-SpringBoot-Web-Websocket" target="1.8" />
+      <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />

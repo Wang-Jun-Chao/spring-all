@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/ch0705-SpringBoot-Web-Undertow配置/pom.xml" />
         <option value="$PROJECT_DIR$/ch0706-SpringBoot-Web-SSL配置/pom.xml" />
         <option value="$PROJECT_DIR$/ch0707-SpringBoot-Web-Websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0708-SpringBoot-Web-Websocket-点对点通讯/pom.xml" />
       </list>
     </option>
   </component>
