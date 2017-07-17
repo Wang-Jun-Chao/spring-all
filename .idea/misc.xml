@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS/pom.xml" />
         <option value="$PROJECT_DIR$/ch0801-SpringBoot-数据访问-SpringDataJPA/pom.xml" />
         <option value="$PROJECT_DIR$/ch0802-SpringBoot-数据访问-SpringDataRest/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务/pom.xml" />
       </list>
     </option>
   </component>

@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS.iml" filepath="$PROJECT_DIR$/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0801-SpringBoot-数据访问-SpringDataJPA/ch0801-SpringBoot-数据访问-SpringDataJPA.iml" filepath="$PROJECT_DIR$/ch0801-SpringBoot-数据访问-SpringDataJPA/ch0801-SpringBoot-数据访问-SpringDataJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0802-SpringBoot-数据访问-SpringDataRest/ch0802-SpringBoot-数据访问-SpringDataRest.iml" filepath="$PROJECT_DIR$/ch0802-SpringBoot-数据访问-SpringDataRest/ch0802-SpringBoot-数据访问-SpringDataRest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务/ch0803-SpringBoot-数据访问-声明式事务.iml" filepath="$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务/ch0803-SpringBoot-数据访问-声明式事务.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
