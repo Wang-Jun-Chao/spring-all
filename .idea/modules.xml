@@ -40,6 +40,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch0802-SpringBoot-数据访问-SpringDataRest/ch0802-SpringBoot-数据访问-SpringDataRest.iml" filepath="$PROJECT_DIR$/ch0802-SpringBoot-数据访问-SpringDataRest/ch0802-SpringBoot-数据访问-SpringDataRest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务/ch0803-SpringBoot-数据访问-声明式事务.iml" filepath="$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务/ch0803-SpringBoot-数据访问-声明式事务.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0804-SpringBoot-数据访问-数据缓存Cache/ch0804-SpringBoot-数据访问-数据缓存Cache.iml" filepath="$PROJECT_DIR$/ch0804-SpringBoot-数据访问-数据缓存Cache/ch0804-SpringBoot-数据访问-数据缓存Cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0805-SpringBoot-数据访问-NoSQL/ch0805-SpringBoot-数据访问-NoSQL.iml" filepath="$PROJECT_DIR$/ch0805-SpringBoot-数据访问-NoSQL/ch0805-SpringBoot-数据访问-NoSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
