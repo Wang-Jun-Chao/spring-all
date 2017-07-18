@@ -29,6 +29,7 @@
         <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" />
         <module name="ch0802-SpringBoot-数据访问-SpringDataRest" />
         <module name="ch0803-SpringBoot-数据访问-声明式事务" />
+        <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -90,6 +91,7 @@
       <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" target="1.8" />
       <module name="ch0802-SpringBoot-数据访问-SpringDataRest" target="1.8" />
       <module name="ch0803-SpringBoot-数据访问-声明式事务" target="1.8" />
+      <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
