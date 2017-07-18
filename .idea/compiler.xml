@@ -31,6 +31,7 @@
         <module name="ch0803-SpringBoot-数据访问-声明式事务" />
         <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" />
         <module name="ch0805-SpringBoot-数据访问-NoSQL" />
+        <module name="ch0806-SpringBoot-数据访问-Redis" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -94,6 +95,7 @@
       <module name="ch0803-SpringBoot-数据访问-声明式事务" target="1.8" />
       <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" target="1.8" />
       <module name="ch0805-SpringBoot-数据访问-NoSQL" target="1.8" />
+      <module name="ch0806-SpringBoot-数据访问-Redis" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />

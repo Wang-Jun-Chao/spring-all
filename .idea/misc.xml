@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务/pom.xml" />
         <option value="$PROJECT_DIR$/ch0804-SpringBoot-数据访问-数据缓存Cache/pom.xml" />
         <option value="$PROJECT_DIR$/ch0805-SpringBoot-数据访问-NoSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0806-SpringBoot-数据访问-Redis/pom.xml" />
       </list>
     </option>
   </component>
