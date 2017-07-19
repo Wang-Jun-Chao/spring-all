@@ -9,6 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * Date: 2017-07-19 21:26
  * All Rights Reserved !!!
  */
-public interface SysUserRepository extends JpaRepository<SysUser, Long> {
+public interface SysUserRepository extends JpaRepository<SysUser, Long>{
     SysUser findByUsername(String username);
 }
