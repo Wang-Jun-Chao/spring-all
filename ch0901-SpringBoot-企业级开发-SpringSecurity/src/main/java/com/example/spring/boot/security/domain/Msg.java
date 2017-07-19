@@ -1,10 +1,5 @@
 package com.example.spring.boot.security.domain;
 
-/**
- * Author: 王俊超
- * Date: 2017-07-19 21:19
- * All Rights Reserved !!!
- */
 public class Msg {
     private String title;
     private String content;
@@ -40,4 +35,5 @@ public class Msg {
     public void setEtraInfo(String etraInfo) {
         this.etraInfo = etraInfo;
     }
+
 }

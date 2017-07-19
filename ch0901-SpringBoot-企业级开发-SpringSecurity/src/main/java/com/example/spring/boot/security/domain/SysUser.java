@@ -9,13 +9,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Author: 王俊超
- * Date: 2017-07-19 21:21
- * All Rights Reserved !!!
- */
 @Entity
-public class SysUser implements UserDetails {
+public class SysUser implements UserDetails { //1
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -26,27 +21,15 @@ public class SysUser implements UserDetails {
     @ManyToMany(cascade = {CascadeType.REFRESH}, fetch = FetchType.EAGER)
     private List<SysRole> roles;
 
+
     @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-
-        List<GrantedAuthority> auths = new ArrayList<>();
+    public Collection<? extends GrantedAuthority> getAuthorities() { //2
+        List<GrantedAuthority> auths = new ArrayList<GrantedAuthority>();
         List<SysRole> roles = this.getRoles();
-
         for (SysRole role : roles) {
             auths.add(new SimpleGrantedAuthority(role.getName()));
         }
-
         return auths;
-    }
-
-    @Override
-    public String getPassword() {
-        return password;
-    }
-
-    @Override
-    public String getUsername() {
-        return username;
     }
 
     @Override
@@ -77,8 +60,16 @@ public class SysUser implements UserDetails {
         this.id = id;
     }
 
+    public String getUsername() {
+        return username;
+    }
+
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
     }
 
     public void setPassword(String password) {
@@ -92,4 +83,6 @@ public class SysUser implements UserDetails {
     public void setRoles(List<SysRole> roles) {
         this.roles = roles;
     }
+
+
 }

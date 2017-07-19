@@ -8,35 +8,34 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-/**
- * Author: 王俊超
- * Date: 2017-07-19 08:19
- * All Rights Reserved !!!
- */
 @Configuration
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {//1
 
     @Bean
-    UserDetailsService customUserService() {
+    UserDetailsService customUserService() { //2
         return new CustomUserService();
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(customUserService());
+        auth.userDetailsService(customUserService()); //3
 
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .anyRequest().authenticated()
+                .anyRequest().authenticated() //4
                 .and()
                 .formLogin()
                 .loginPage("/login")
                 .failureUrl("/login?error")
-                .permitAll()
+                .permitAll() //5
                 .and()
-                .logout().permitAll();
+                .logout().permitAll(); //6
+
+
     }
+
+
 }
