@@ -37,6 +37,6 @@ public class SampleApplication {
 
         template.afterPropertiesSet();
         return template;
-        
+
     }
 }

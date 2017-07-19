@@ -32,6 +32,7 @@
         <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" />
         <module name="ch0805-SpringBoot-数据访问-NoSQL" />
         <module name="ch0806-SpringBoot-数据访问-Redis" />
+        <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -79,23 +80,24 @@
       <module name="ch0603-spring-boot-core-hello" target="1.8" />
       <module name="ch0603-SpringBoot-核心-Hello" target="1.8" />
       <module name="ch0603-SpringBoot-核心-自动配置" target="1.8" />
-      <module name="ch0603-SpringBoot-核心-运行原理" target="1.8" />
-      <module name="ch0603-SpringBoot-核心-运行原理-Hello" target="1.8" />
-      <module name="ch0701-SpringBoot-Web-Thymeleaf模板引擎" target="1.8" />
-      <module name="ch0702-SpringBoot-Web-Tomcat配置" target="1.8" />
-      <module name="ch0703-SpringBoot-Web-Tomcat配置" target="1.8" />
-      <module name="ch0704-SpringBoot-Web-Jetty配置" target="1.8" />
-      <module name="ch0705-SpringBoot-Web-Undertow配置" target="1.8" />
-      <module name="ch0706-SpringBoot-Web-SSL配置" target="1.8" />
-      <module name="ch0707-SpringBoot-Web-Websocket" target="1.8" />
-      <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" target="1.8" />
-      <module name="ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" target="1.8" />
-      <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" target="1.8" />
-      <module name="ch0802-SpringBoot-数据访问-SpringDataRest" target="1.8" />
-      <module name="ch0803-SpringBoot-数据访问-声明式事务" target="1.8" />
-      <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" target="1.8" />
-      <module name="ch0805-SpringBoot-数据访问-NoSQL" target="1.8" />
-      <module name="ch0806-SpringBoot-数据访问-Redis" target="1.8" />
+      <module name="ch0603-SpringBoot-核心-运行原理" target="1.6" />
+      <module name="ch0603-SpringBoot-核心-运行原理-Hello" target="1.6" />
+      <module name="ch0701-SpringBoot-Web-Thymeleaf模板引擎" target="1.6" />
+      <module name="ch0702-SpringBoot-Web-Tomcat配置" target="1.6" />
+      <module name="ch0703-SpringBoot-Web-Tomcat配置" target="1.6" />
+      <module name="ch0704-SpringBoot-Web-Jetty配置" target="1.6" />
+      <module name="ch0705-SpringBoot-Web-Undertow配置" target="1.6" />
+      <module name="ch0706-SpringBoot-Web-SSL配置" target="1.6" />
+      <module name="ch0707-SpringBoot-Web-Websocket" target="1.6" />
+      <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" target="1.6" />
+      <module name="ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" target="1.6" />
+      <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" target="1.6" />
+      <module name="ch0802-SpringBoot-数据访问-SpringDataRest" target="1.6" />
+      <module name="ch0803-SpringBoot-数据访问-声明式事务" target="1.6" />
+      <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" target="1.6" />
+      <module name="ch0805-SpringBoot-数据访问-NoSQL" target="1.6" />
+      <module name="ch0806-SpringBoot-数据访问-Redis" target="1.6" />
+      <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
