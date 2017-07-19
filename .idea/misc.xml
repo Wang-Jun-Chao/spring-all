@@ -40,6 +40,7 @@
         <option value="$PROJECT_DIR$/ch0805-SpringBoot-数据访问-NoSQL/pom.xml" />
         <option value="$PROJECT_DIR$/ch0806-SpringBoot-数据访问-Redis/pom.xml" />
         <option value="$PROJECT_DIR$/ch0901-SpringBoot-企业级开发-SpringSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch/pom.xml" />
       </list>
     </option>
   </component>
