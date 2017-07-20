@@ -1,8 +1,8 @@
-CREATE TABLE PERSON (
-  id NUMBER NOT NULL PRIMARY KEY,
-  name        VARCHAR2(20),
-  age NUMBER,
-  nation      VARCHAR2(20),
-  address     VARCHAR2(20)
+CREATE TABLE IF NOT EXISTS PERSON (
+  id      INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name    NVARCHAR(20),
+  age     INT,
+  nation  NVARCHAR(20),
+  address NVARCHAR(20)
 );
 
