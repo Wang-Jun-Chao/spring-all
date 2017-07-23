@@ -3,6 +3,7 @@ package com.example.spring.boot.batch;
 import com.example.spring.boot.domain.Person;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
@@ -20,6 +21,7 @@ import org.springframework.batch.item.file.mapping.DefaultLineMapper;
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
 import org.springframework.batch.item.validator.Validator;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.transaction.PlatformTransactionManager;
 
@@ -31,6 +33,8 @@ import javax.sql.DataSource;
  * Date: 2017-07-20 07:45
  * All Rights Reserved !!!
  */
+//@Configuration
+//@EnableBatchProcessing
 public class CsvBatchConfig {
     @Bean
     public ItemReader<Person> reader() throws Exception {
@@ -59,8 +63,8 @@ public class CsvBatchConfig {
     public ItemWriter<Person> writer(DataSource dataSource) {//1
         JdbcBatchItemWriter<Person> writer = new JdbcBatchItemWriter<Person>(); //2
         writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Person>());
-        String sql = "insert into person " + "(id,name,age,nation,address) "
-                + "values(hibernate_sequence.nextval, :name, :age, :nation,:address)";
+        String sql = "insert into person " + "(name,age,nation,address) "
+                + "values(:name, :age, :nation,:address)";
         writer.setSql(sql); //3
         writer.setDataSource(dataSource);
         return writer;
@@ -73,7 +77,7 @@ public class CsvBatchConfig {
         JobRepositoryFactoryBean jobRepositoryFactoryBean = new JobRepositoryFactoryBean();
         jobRepositoryFactoryBean.setDataSource(dataSource);
         jobRepositoryFactoryBean.setTransactionManager(transactionManager);
-        jobRepositoryFactoryBean.setDatabaseType("oracle");
+        jobRepositoryFactoryBean.setDatabaseType("mysql");
         return jobRepositoryFactoryBean.getObject();
     }
 
@@ -114,7 +118,7 @@ public class CsvBatchConfig {
 
     @Bean
     public Validator<Person> csvBeanValidator() {
-        return new CsvBeanValidator<Person>();
+        return new CsvBeanValidator<>();
     }
 
 

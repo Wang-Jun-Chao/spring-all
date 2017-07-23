@@ -68,8 +68,8 @@ public class TriggerBatchConfig {
     public ItemWriter<Person> writer(DataSource dataSource) {//1
         JdbcBatchItemWriter<Person> writer = new JdbcBatchItemWriter<Person>(); //2
         writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Person>());
-        String sql = "insert into person " + "(id,name,age,nation,address) "
-                + "values(hibernate_sequence.nextval, :name, :age, :nation,:address)";
+        String sql = "insert into person " + "(name,age,nation,address) "
+                + "values(:name, :age, :nation,:address)";
         writer.setSql(sql); //3
         writer.setDataSource(dataSource);
         return writer;
@@ -81,7 +81,7 @@ public class TriggerBatchConfig {
         JobRepositoryFactoryBean jobRepositoryFactoryBean = new JobRepositoryFactoryBean();
         jobRepositoryFactoryBean.setDataSource(dataSource);
         jobRepositoryFactoryBean.setTransactionManager(transactionManager);
-        jobRepositoryFactoryBean.setDatabaseType("oracle");
+        jobRepositoryFactoryBean.setDatabaseType("mysql");
         return jobRepositoryFactoryBean.getObject();
     }
 

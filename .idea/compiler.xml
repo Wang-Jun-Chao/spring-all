@@ -34,6 +34,7 @@
         <module name="ch0806-SpringBoot-数据访问-Redis" />
         <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" />
         <module name="ch0902-SpringBoot-企业级开发-SpringBatch" />
+        <module name="ch9_2" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>

@@ -9,8 +9,8 @@ import org.springframework.batch.core.JobExecutionListener;
  * All Rights Reserved !!!
  */
 public class CsvJobListener implements JobExecutionListener {
-    long startTime;
-    long endTime;
+    private long startTime;
+    private long endTime;
 
     @Override
     public void beforeJob(JobExecution jobExecution) {
