@@ -34,6 +34,7 @@
         <module name="ch0806-SpringBoot-数据访问-Redis" />
         <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" />
         <module name="ch0902-SpringBoot-企业级开发-SpringBatch" />
+        <module name="ch0903-SpringBoot-企业级开发-异步消息" />
         <module name="ch9_2" />
         <module name="highlight_spring4" />
       </profile>
@@ -101,6 +102,7 @@
       <module name="ch0806-SpringBoot-数据访问-Redis" target="1.6" />
       <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" target="1.8" />
       <module name="ch0902-SpringBoot-企业级开发-SpringBatch" target="1.8" />
+      <module name="ch0903-SpringBoot-企业级开发-异步消息" target="1.8" />
       <module name="ch10war" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
