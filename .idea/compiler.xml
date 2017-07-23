@@ -38,7 +38,10 @@
         <module name="ch0903-SpringBoot-企业级开发-异步消息-JMS" />
         <module name="ch0904-SpringBoot-企业级开发-异步消息-AMQP" />
         <module name="ch0904-SpringBoot-企业级开发-系统集成" />
+        <module name="ch0905-SpringBoot-企业级开发-系统集成" />
+        <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" />
         <module name="ch9_2" />
+        <module name="ch9_4" />
         <module name="highlight_spring4" />
       </profile>
     </annotationProcessing>
@@ -92,7 +95,7 @@
       <module name="ch0702-SpringBoot-Web-Tomcat配置" target="1.6" />
       <module name="ch0703-SpringBoot-Web-Tomcat配置" target="1.6" />
       <module name="ch0704-SpringBoot-Web-Jetty配置" target="1.6" />
-      <module name="ch0705-SpringBoot-Web-Undertow配置" target="1.6" />
+      <module name="ch0705-SpringBoot-Web-Undertow配置" target="1.8" />
       <module name="ch0706-SpringBoot-Web-SSL配置" target="1.8" />
       <module name="ch0707-SpringBoot-Web-Websocket" target="1.6" />
       <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" target="1.6" />
@@ -109,7 +112,9 @@
       <module name="ch0903-SpringBoot-企业级开发-异步消息-JMS" target="1.8" />
       <module name="ch0904-SpringBoot-企业级开发-异步消息-AMQP" target="1.8" />
       <module name="ch0904-SpringBoot-企业级开发-系统集成" target="1.8" />
+      <module name="ch0905-SpringBoot-企业级开发-系统集成" target="1.8" />
       <module name="ch10war" target="1.8" />
+      <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" target="1.8" />
       <module name="ch5_2_2" target="1.8" />
       <module name="ch5_2_3" target="1.8" />
       <module name="ch6_2_3" target="1.8" />
@@ -130,6 +135,7 @@
       <module name="ch9_2" target="1.8" />
       <module name="ch9_3_4" target="1.8" />
       <module name="ch9_3_5" target="1.8" />
+      <module name="ch9_4" target="1.8" />
       <module name="highlight_spring4" target="1.7" />
     </bytecodeTargetLevel>
   </component>

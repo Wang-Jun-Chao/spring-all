@@ -40,6 +40,7 @@
     <file url="file://$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch10war" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch5_2_2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch5_2_3" charset="UTF-8" />
@@ -61,5 +62,6 @@
     <file url="file://$PROJECT_DIR$/ch9_2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch9_3_4" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch9_3_5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch9_4" charset="UTF-8" />
   </component>
 </project>

@@ -46,7 +46,9 @@
       <module fileurl="file://$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch/ch0902-SpringBoot-企业级开发-SpringBatch.iml" filepath="$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch/ch0902-SpringBoot-企业级开发-SpringBatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS/ch0903-SpringBoot-企业级开发-异步消息-JMS.iml" filepath="$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS/ch0903-SpringBoot-企业级开发-异步消息-JMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" filepath="$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/ch0905-SpringBoot-企业级开发-系统集成.iml" filepath="$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/ch0905-SpringBoot-企业级开发-系统集成.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ch1201-SpringBoot-分布式系统开发-SpringCloud.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ch1201-SpringBoot-分布式系统开发-SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch6_2_3/ch6_2_3.iml" filepath="$PROJECT_DIR$/ch6_2_3/ch6_2_3.iml" />
@@ -67,6 +69,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch9_2/ch9_2.iml" filepath="$PROJECT_DIR$/ch9_2/ch9_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch9_3_4/ch9_3_4.iml" filepath="$PROJECT_DIR$/ch9_3_4/ch9_3_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch9_3_5/ch9_3_5.iml" filepath="$PROJECT_DIR$/ch9_3_5/ch9_3_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch9_4/ch9_4.iml" filepath="$PROJECT_DIR$/ch9_4/ch9_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" />
     </modules>
   </component>
 </project>
