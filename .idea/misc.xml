@@ -49,6 +49,12 @@
         <option value="$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/pom.xml" />
         <option value="$PROJECT_DIR$/ch9_4/pom.xml" />
         <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/person/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/some/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui/pom.xml" />
       </list>
     </option>
   </component>

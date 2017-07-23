@@ -42,6 +42,13 @@
     <file url="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch10war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/person" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/some" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch5_2_2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch5_2_3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch6_2_3" charset="UTF-8" />

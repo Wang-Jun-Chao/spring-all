@@ -42,7 +42,13 @@
         <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" />
         <module name="ch9_2" />
         <module name="ch9_4" />
+        <module name="config" />
+        <module name="discovery" />
         <module name="highlight_spring4" />
+        <module name="monitor" />
+        <module name="person" />
+        <module name="some" />
+        <module name="ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -136,7 +142,13 @@
       <module name="ch9_3_4" target="1.8" />
       <module name="ch9_3_5" target="1.8" />
       <module name="ch9_4" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="discovery" target="1.8" />
       <module name="highlight_spring4" target="1.7" />
+      <module name="monitor" target="1.8" />
+      <module name="person" target="1.8" />
+      <module name="some" target="1.8" />
+      <module name="ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

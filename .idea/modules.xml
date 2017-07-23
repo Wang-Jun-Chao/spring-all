@@ -71,6 +71,11 @@
       <module fileurl="file://$PROJECT_DIR$/ch9_3_5/ch9_3_5.iml" filepath="$PROJECT_DIR$/ch9_3_5/ch9_3_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch9_4/ch9_4.iml" filepath="$PROJECT_DIR$/ch9_4/ch9_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/discovery.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/person/person.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/person/person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/some/some.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/some/some.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui/ui.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui/ui.iml" />
     </modules>
   </component>
 </project>
