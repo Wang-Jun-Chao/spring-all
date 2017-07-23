@@ -47,29 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS/ch0903-SpringBoot-企业级开发-异步消息-JMS.iml" filepath="$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS/ch0903-SpringBoot-企业级开发-异步消息-JMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" filepath="$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/ch0905-SpringBoot-企业级开发-系统集成.iml" filepath="$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/ch0905-SpringBoot-企业级开发-系统集成.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ch1201-SpringBoot-分布式系统开发-SpringCloud.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ch1201-SpringBoot-分布式系统开发-SpringCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_2_3/ch6_2_3.iml" filepath="$PROJECT_DIR$/ch6_2_3/ch6_2_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_4/ch6_4.iml" filepath="$PROJECT_DIR$/ch6_4/ch6_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_5/ch6_5.iml" filepath="$PROJECT_DIR$/ch6_5/ch6_5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch6_5_1/ch6_5_1.iml" filepath="$PROJECT_DIR$/ch6_5_1/ch6_5_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_2/ch7_2.iml" filepath="$PROJECT_DIR$/ch7_2/ch7_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_4/ch7_4.iml" filepath="$PROJECT_DIR$/ch7_4/ch7_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_6/ch7_6.iml" filepath="$PROJECT_DIR$/ch7_6/ch7_6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch7_7/ch7_7.iml" filepath="$PROJECT_DIR$/ch7_7/ch7_7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_2/ch8_2.iml" filepath="$PROJECT_DIR$/ch8_2/ch8_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_3/ch8_3.iml" filepath="$PROJECT_DIR$/ch8_3/ch8_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_4/ch8_4.iml" filepath="$PROJECT_DIR$/ch8_4/ch8_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_5/ch8_5.iml" filepath="$PROJECT_DIR$/ch8_5/ch8_5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_6_1/ch8_6_1.iml" filepath="$PROJECT_DIR$/ch8_6_1/ch8_6_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch8_6_2/ch8_6_2.iml" filepath="$PROJECT_DIR$/ch8_6_2/ch8_6_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_1/ch9_1.iml" filepath="$PROJECT_DIR$/ch9_1/ch9_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_2/ch9_2.iml" filepath="$PROJECT_DIR$/ch9_2/ch9_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_3_4/ch9_3_4.iml" filepath="$PROJECT_DIR$/ch9_3_4/ch9_3_4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_3_5/ch9_3_5.iml" filepath="$PROJECT_DIR$/ch9_3_5/ch9_3_5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch9_4/ch9_4.iml" filepath="$PROJECT_DIR$/ch9_4/ch9_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/discovery.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" />

@@ -40,8 +40,6 @@
         <module name="ch0904-SpringBoot-企业级开发-系统集成" />
         <module name="ch0905-SpringBoot-企业级开发-系统集成" />
         <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" />
-        <module name="ch9_2" />
-        <module name="ch9_4" />
         <module name="config" />
         <module name="discovery" />
         <module name="highlight_spring4" />
