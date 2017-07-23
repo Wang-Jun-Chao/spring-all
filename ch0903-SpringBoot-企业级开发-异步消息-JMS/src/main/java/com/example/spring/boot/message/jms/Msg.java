@@ -1,4 +1,4 @@
-package com.example.spring.boot.message;
+package com.example.spring.boot.message.jms;
 
 import org.springframework.jms.core.MessageCreator;
 

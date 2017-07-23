@@ -44,7 +44,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch0806-SpringBoot-数据访问-Redis/ch0806-SpringBoot-数据访问-Redis.iml" filepath="$PROJECT_DIR$/ch0806-SpringBoot-数据访问-Redis/ch0806-SpringBoot-数据访问-Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0901-SpringBoot-企业级开发-SpringSecurity/ch0901-SpringBoot-企业级开发-SpringSecurity.iml" filepath="$PROJECT_DIR$/ch0901-SpringBoot-企业级开发-SpringSecurity/ch0901-SpringBoot-企业级开发-SpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch/ch0902-SpringBoot-企业级开发-SpringBatch.iml" filepath="$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch/ch0902-SpringBoot-企业级开发-SpringBatch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息/ch0903-SpringBoot-企业级开发-异步消息.iml" filepath="$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息/ch0903-SpringBoot-企业级开发-异步消息.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS/ch0903-SpringBoot-企业级开发-异步消息-JMS.iml" filepath="$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS/ch0903-SpringBoot-企业级开发-异步消息-JMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" filepath="$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch10war/ch10war.iml" filepath="$PROJECT_DIR$/ch10war/ch10war.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" filepath="$PROJECT_DIR$/ch5_2_2/ch5_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" filepath="$PROJECT_DIR$/ch5_2_3/ch5_2_3.iml" />
