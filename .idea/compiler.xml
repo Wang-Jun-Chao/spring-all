@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="003-Redis使用Kryo序列化工具" />
+        <module name="ch0101-Spring基础-依赖注入" />
         <module name="ch0102-Spring基础-AOP" />
         <module name="ch0203-spring-common-config-bean-profile" />
         <module name="ch0203-Spring常用配置-Profile" />

@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * 使用@Service 注解声明当前UseFunctionService 类是Spring 管理的一个Bean
+ * 使用@Service注解声明当前UseFunctionService 类是Spring 管理的一个Bean
  * <p>
  * Author: 王俊超
  * Date: 2017-07-10 08:03
