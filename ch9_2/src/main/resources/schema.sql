@@ -1,8 +1,0 @@
-CREATE TABLE PERSON (
-  id      INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name    NVARCHAR(20),
-  age     INT,
-  nation  NVARCHAR(20),
-  address NVARCHAR(20)
-);
-
