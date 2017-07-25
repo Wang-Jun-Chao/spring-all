@@ -3,9 +3,6 @@ package com.example.spring.framework.di;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * ；
- *
- *
  * Author: 王俊超
  * Date: 2017-07-10 08:08
  * All Rights Reserved !!!

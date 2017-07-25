@@ -1,7 +1,7 @@
 package com.example.spring.framework.di;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+        import org.springframework.context.annotation.ComponentScan;
+        import org.springframework.context.annotation.Configuration;
 
 /**
  * 使用@Configuration声明当前类是一个配置类
