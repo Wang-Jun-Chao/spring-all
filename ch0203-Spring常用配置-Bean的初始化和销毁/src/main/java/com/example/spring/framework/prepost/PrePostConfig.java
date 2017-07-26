@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("com.example.spring.framework.prepost")
 public class PrePostConfig {
 
+    // initMethod 和destroyMethod 指定BeanWayService 类的init 和destroy
+    // 方法在构造之后、Bean 销毁之前执行。
     @Bean(initMethod = "init", destroyMethod = "destroy")
     BeanWayService beanWayService() {
         return new BeanWayService();

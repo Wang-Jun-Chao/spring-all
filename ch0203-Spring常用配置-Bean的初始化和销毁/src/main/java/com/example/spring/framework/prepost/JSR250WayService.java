@@ -9,7 +9,7 @@ import javax.annotation.PreDestroy;
  * All Rights Reserved !!!
  */
 public class JSR250WayService {
-    @PostConstruct //1
+    @PostConstruct //1 在构造函数执行完之后执行。
     public void init() {
         System.out.println("jsr250-init-method");
     }
@@ -19,7 +19,7 @@ public class JSR250WayService {
         System.out.println("初始化构造函数-JSR250WayService");
     }
 
-    @PreDestroy //2
+    @PreDestroy //2 在Bean 销毁之前执行。
     public void destroy() {
         System.out.println("jsr250-destory-method");
     }

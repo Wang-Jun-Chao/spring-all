@@ -14,6 +14,7 @@
         <module name="ch0201-Spring常用配置-Bean的Scope" />
         <module name="ch0202-Spring常用配置-SpringEL和资源调用" />
         <module name="ch0203-spring-common-config-bean-profile" />
+        <module name="ch0203-Spring常用配置-Bean的初始化和销毁" />
         <module name="ch0203-Spring常用配置-Profile" />
         <module name="ch0203-Spring常用配置-事件" />
         <module name="ch0602-SpringBoot-核心-日志配置" />
