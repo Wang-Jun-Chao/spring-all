@@ -17,6 +17,7 @@
         <module name="ch0203-Spring常用配置-Bean的初始化和销毁" />
         <module name="ch0203-Spring常用配置-Profile" />
         <module name="ch0203-Spring常用配置-事件" />
+        <module name="ch0204-spring-common-config-bean-profile" />
         <module name="ch0602-SpringBoot-核心-日志配置" />
         <module name="ch0603-spring-boot-core-autoconfig" />
         <module name="ch0603-spring-boot-core-hello" />
@@ -77,6 +78,7 @@
       <module name="ch0203-Spring常用配置-Bean的初始化和销毁" target="1.8" />
       <module name="ch0203-Spring常用配置-Profile" target="1.8" />
       <module name="ch0203-Spring常用配置-事件" target="1.8" />
+      <module name="ch0204-spring-common-config-bean-profile" target="1.8" />
       <module name="ch0204-Spring常用配置-Profile" target="1.8" />
       <module name="ch0301-Spring高级话题-SpringAware" target="1.8" />
       <module name="ch0302-Spring高级话题-多线程" target="1.8" />
