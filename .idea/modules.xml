@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/ch0101-Spring基础-依赖注入/ch0101-Spring基础-依赖注入.iml" filepath="$PROJECT_DIR$/ch0101-Spring基础-依赖注入/ch0101-Spring基础-依赖注入.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0102-Spring基础-Java配置/ch0102-Spring基础-Java配置.iml" filepath="$PROJECT_DIR$/ch0102-Spring基础-Java配置/ch0102-Spring基础-Java配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0103-Spring基础-AOP/ch0103-Spring基础-AOP.iml" filepath="$PROJECT_DIR$/ch0103-Spring基础-AOP/ch0103-Spring基础-AOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" filepath="$PROJECT_DIR$/ch0201-SpringMVC基础/ch0201-SpringMVC基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" filepath="$PROJECT_DIR$/ch0201-Spring常用配置-Bean的Scope/ch0201-Spring常用配置-Bean的Scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" filepath="$PROJECT_DIR$/ch0202-Spring常用配置-SpringEL和资源调用/ch0202-Spring常用配置-SpringEL和资源调用.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/ch0203-Spring常用配置-Bean的初始化和销毁.iml" filepath="$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/ch0203-Spring常用配置-Bean的初始化和销毁.iml" />

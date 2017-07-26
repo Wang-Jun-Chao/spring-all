@@ -11,6 +11,7 @@
         <module name="ch0102-Spring基础-AOP" />
         <module name="ch0102-Spring基础-Java配置" />
         <module name="ch0103-Spring基础-AOP" />
+        <module name="ch0201-Spring常用配置-Bean的Scope" />
         <module name="ch0203-spring-common-config-bean-profile" />
         <module name="ch0203-Spring常用配置-Profile" />
         <module name="ch0203-Spring常用配置-事件" />
