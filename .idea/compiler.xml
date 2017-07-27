@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="003-Redis使用Kryo序列化工具" />
+        <module name="009-JacksonJson使用" />
         <module name="ch0101-Spring基础-依赖注入" />
         <module name="ch0102-Spring基础-AOP" />
         <module name="ch0102-Spring基础-Java配置" />
@@ -66,6 +67,7 @@
       <module name="006-设置缓存Key的失效时间" target="1.8" />
       <module name="007-SpringBoot中集成Mock" target="1.8" />
       <module name="008-SpringMVC访问外部文件" target="1.8" />
+      <module name="009-JacksonJson使用" target="1.8" />
       <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0101-Spring基础-依赖注入" target="1.8" />
       <module name="ch0102-Spring基础-AOP" target="1.8" />
