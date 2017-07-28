@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/009-JacksonJson使用/pom.xml" />
         <option value="$PROJECT_DIR$/ch0205-Spring常用配置-事件/pom.xml" />
         <option value="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/pom.xml" />
       </list>
     </option>
   </component>
