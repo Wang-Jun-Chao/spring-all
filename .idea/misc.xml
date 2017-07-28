@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/ch0205-Spring常用配置-事件/pom.xml" />
         <option value="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/pom.xml" />
         <option value="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/pom.xml" />
       </list>
     </option>
   </component>
