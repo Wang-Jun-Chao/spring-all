@@ -65,6 +65,15 @@
         <option value="$PROJECT_DIR$/ch0301-Spring高级话题-SpringAware/pom.xml" />
         <option value="$PROJECT_DIR$/ch0302-Spring高级话题-多线程/pom.xml" />
         <option value="$PROJECT_DIR$/ch0303-Spring高级话题-计划任务/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0407-SpringMVC基础-测试/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/pom.xml" />
       </list>
     </option>
   </component>

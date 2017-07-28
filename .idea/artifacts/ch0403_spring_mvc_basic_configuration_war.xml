@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch0403-spring-mvc-basic-configuration:war">
+    <output-path>$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置/target</output-path>
+    <root id="archive" name="ch0403-spring-mvc-basic-configuration-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ch0403-spring-mvc-basic-configuration:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch0401-spring-mvc-basic-project-creation:war">
+    <output-path>$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/target</output-path>
+    <root id="archive" name="ch0401-spring-mvc-basic-project-creation-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ch0401-spring-mvc-basic-project-creation:war exploded" />
+    </root>
+  </artifact>
+</component>
