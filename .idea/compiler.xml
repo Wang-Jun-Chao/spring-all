@@ -21,6 +21,7 @@
         <module name="ch0204-spring-common-config-bean-profile" />
         <module name="ch0204-Spring常用配置-Profile" />
         <module name="ch0205-Spring常用配置-事件" />
+        <module name="ch0301-Spring高级话题-SpringAware" />
         <module name="ch0602-SpringBoot-核心-日志配置" />
         <module name="ch0603-spring-boot-core-autoconfig" />
         <module name="ch0603-spring-boot-core-hello" />
