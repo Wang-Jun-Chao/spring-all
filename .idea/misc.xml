@@ -61,6 +61,7 @@
         <option value="$PROJECT_DIR$/ch0203-Spring常用配置-Bean的初始化和销毁/pom.xml" />
         <option value="$PROJECT_DIR$/ch0204-Spring常用配置-Profile/pom.xml" />
         <option value="$PROJECT_DIR$/009-JacksonJson使用/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0205-Spring常用配置-事件/pom.xml" />
       </list>
     </option>
   </component>

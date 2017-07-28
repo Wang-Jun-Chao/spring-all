@@ -3,6 +3,8 @@ package com.example.spring.framework.event;
 import org.springframework.context.ApplicationEvent;
 
 /**
+ * 自定义事件
+ *
  * Author: 王俊超
  * Date: 2017-07-11 07:33
  * All Rights Reserved !!!
