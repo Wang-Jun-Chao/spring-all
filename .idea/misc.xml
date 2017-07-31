@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/ch0407-SpringMVC基础-测试/pom.xml" />
         <option value="$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示/pom.xml" />
         <option value="$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/pom.xml" />
       </list>
     </option>
   </component>

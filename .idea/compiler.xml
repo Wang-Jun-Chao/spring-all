@@ -24,8 +24,10 @@
         <module name="ch0301-Spring高级话题-SpringAware" />
         <module name="ch0302-Spring高级话题-多线程" />
         <module name="ch0303-Spring高级话题-计划任务" />
+        <module name="ch0304-Spring高级话题-条件注解Condition" />
         <module name="ch0401-spring-mvc-basic-project-creation" />
         <module name="ch0401-SpringMVC基础-项目快速搭建" />
+        <module name="ch0401-SpringMVC基础-项目快速搭建、" />
         <module name="ch0402-spring-mvc-basic-common-annotation" />
         <module name="ch0403-spring-mvc-basic-configuration" />
         <module name="ch0404-spring-mvc-advance-configuration" />
@@ -106,6 +108,7 @@
       <module name="ch0306-Spring高级话题-测试" target="1.8" />
       <module name="ch0401-spring-mvc-basic-project-creation" target="1.8" />
       <module name="ch0401-SpringMVC基础-项目快速搭建" target="1.8" />
+      <module name="ch0401-SpringMVC基础-项目快速搭建、" target="1.8" />
       <module name="ch0402-spring-mvc-basic-common-annotation" target="1.8" />
       <module name="ch0402-SpringMVC基础-常用注解" target="1.8" />
       <module name="ch0403-spring-mvc-basic-configuration" target="1.8" />
