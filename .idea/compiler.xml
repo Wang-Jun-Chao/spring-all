@@ -25,6 +25,7 @@
         <module name="ch0302-Spring高级话题-多线程" />
         <module name="ch0303-Spring高级话题-计划任务" />
         <module name="ch0304-Spring高级话题-条件注解Condition" />
+        <module name="ch0305-Spring高级话题-组合注解与元注解" />
         <module name="ch0401-spring-mvc-basic-project-creation" />
         <module name="ch0401-SpringMVC基础-项目快速搭建" />
         <module name="ch0401-SpringMVC基础-项目快速搭建、" />
