@@ -12,6 +12,10 @@
         </encoder>
     </appender>
 
+    <!--
+         将org.springframework.web 包下的类的日志级别设置为DEBUG ，开发Spring
+         MVC 经常出现和参数类型相关的4XX 错误，设立此项我们会看到更详细的错误信息。
+    -->
     <logger name="org.springframework.web" level="DEBUG"/> <!-- 1 -->
     <root level="info">
         <appender-ref ref="console"/>
