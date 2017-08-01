@@ -14,6 +14,13 @@ public class Main {
 
     }
 
+    /**
+     * ①先将活动的Profile 设置为参数传的值
+     * ②后直注册Bean 配置类，不然会报Bean 未定义的错误。
+     * ③刷新容器。
+     *
+     * @param profiles
+     */
     private static void activeProfiles(String... profiles) {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext();
