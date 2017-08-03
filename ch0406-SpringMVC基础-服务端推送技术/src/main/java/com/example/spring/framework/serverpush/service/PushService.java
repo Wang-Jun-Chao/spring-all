@@ -18,6 +18,10 @@ public class PushService {
         return deferredResult;
     }
 
+    /**
+     * ①在PushService 里产生DeferredResult ~合控制器使用，通过＠Scheduled
+     * 注解的方法定时更新DeferredResulto
+     */
     @Scheduled(fixedDelay = 5000)
     public void refresh() {
         if (deferredResult != null) {

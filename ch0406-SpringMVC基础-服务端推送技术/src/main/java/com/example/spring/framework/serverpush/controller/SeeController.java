@@ -1,11 +1,9 @@
 package com.example.spring.framework.serverpush.controller;
 
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.print.attribute.standard.Media;
 import java.util.Random;
 
 /**
@@ -15,6 +13,10 @@ import java.util.Random;
  */
 @Controller
 public class SeeController {
+    /**
+     * ①注意，这里使用输出的媒体类型为text/event-stream ，这是服务器端SSE 的支持，
+     * 本例演示每5 秒钟向浏览器推送随机消息。
+     */
     @RequestMapping(value = "/push", produces = "text/event-stream;charset=UTF-8")
     public @ResponseBody
     String push() {
