@@ -15,6 +15,7 @@
 
     deferred();//1
 
+    // 递归方法
     function deferred() {
         $.get('defer', function (data) {
             console.log(data); //2
