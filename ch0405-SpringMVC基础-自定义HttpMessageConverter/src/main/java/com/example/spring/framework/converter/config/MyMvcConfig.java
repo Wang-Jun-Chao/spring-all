@@ -5,8 +5,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
-import org.springframework.web.multipart.MultipartResolver;
-import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
@@ -24,7 +22,7 @@ import java.util.List;
 @Configuration
 @EnableWebMvc
 @ComponentScan("com.example.spring.framework.converter")
-public class MyMvcConfig extends WebMvcConfigurerAdapter{
+public class MyMvcConfig extends WebMvcConfigurerAdapter {
     @Bean
     public InternalResourceViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
@@ -48,6 +46,12 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter{
         registry.addViewController("/converter").setViewName("/converter");
     }
 
+    /**
+     * 配置自定义的HttpMessageConverter 的Bean ，在Spring MVC 里注册HttpMessageConverter有两个方法：
+     * 1、configureMessageConverters ：重载会覆盖掉Spring MVC 默认注册的多个HttpMessageConverter
+     * 2、extendMessageConverters ：仅添加一个自定义的HttpMessageConverter ，不覆盖默认注册的HttpMessageConverter
+     * 在这里重写extendMessageConverters
+     */
     @Override
     public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
 

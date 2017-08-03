@@ -14,9 +14,9 @@
     function req() {
         $.ajax({
             url: "convert",
-            data: "1-wangjunchao", //1
+            data: "1-wangjunchao", // 注意这里的数据格式，后台处理按此格式处理，用“-”隔开。
             type: "POST",
-            contentType: "application/x-wisely", //2
+            contentType: "application/x-wisely", // contentType 设置的媒体类型是我们自定义的application/x-wisely
             success: function (data) {
                 $("#resp").html(data);
             }

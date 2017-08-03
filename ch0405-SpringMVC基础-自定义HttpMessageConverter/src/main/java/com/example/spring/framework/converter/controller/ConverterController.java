@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ConverterController {
 
+    /**
+     * 指定返回的媒体类型为我们自定义的媒体类型application/x惆wisely
+     */
     @RequestMapping(method = RequestMethod.POST, value = "/convert",
             produces = "application/x-wisely")
     public @ResponseBody
