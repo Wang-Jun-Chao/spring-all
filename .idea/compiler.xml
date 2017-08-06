@@ -37,6 +37,7 @@
         <module name="ch0406-spring-mvc-test" />
         <module name="ch0501-spring-boot-basic-sample" />
         <module name="ch0601-spring-boot-core-safetype-configuration" />
+        <module name="ch0602-SpringBoot-核心-Profile配置" />
         <module name="ch0602-SpringBoot-核心-日志配置" />
         <module name="ch0603-spring-boot-core-autoconfig" />
         <module name="ch0603-spring-boot-core-hello" />
