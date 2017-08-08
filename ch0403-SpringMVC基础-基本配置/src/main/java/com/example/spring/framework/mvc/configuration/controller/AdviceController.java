@@ -1,9 +1,9 @@
 package com.example.spring.framework.mvc.configuration.controller;
 
-import com.example.spring.framework.mvc.configuration.domain.DemoObj;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
+        import com.example.spring.framework.mvc.configuration.domain.DemoObj;
+        import org.springframework.stereotype.Controller;
+        import org.springframework.web.bind.annotation.ModelAttribute;
+        import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Author: 王俊超
