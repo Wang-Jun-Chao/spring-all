@@ -76,63 +76,38 @@
         <module name="ui" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="001-Redis从数据库中读取配置" target="1.8" />
       <module name="002-Maven插件-打包时多环境配置文件设置" target="1.8" />
-      <module name="003-Redis使用Kryo序列化工具" target="1.8" />
       <module name="003-使用JVM参数激活配置文件" target="1.8" />
       <module name="004-Redis使用Kryo序列化工具" target="1.8" />
       <module name="005-Java程序运行Java源文件" target="1.8" />
       <module name="006-设置缓存Key的失效时间" target="1.8" />
       <module name="007-SpringBoot中集成Mock" target="1.8" />
       <module name="008-SpringMVC访问外部文件" target="1.8" />
-      <module name="009-JacksonJson使用" target="1.8" />
-      <module name="ch0101-Spring基础" target="1.7" />
       <module name="ch0101-Spring基础-依赖注入" target="1.8" />
-      <module name="ch0102-Spring基础-AOP" target="1.8" />
       <module name="ch0102-Spring基础-Java配置" target="1.8" />
       <module name="ch0103-Spring基础-AOP" target="1.8" />
-      <module name="ch0201-SpringMVC基础" target="1.7" />
       <module name="ch0201-Spring常用配置-Bean的Scope" target="1.8" />
       <module name="ch0202-Spring常用配置-SpringEL和资源调用" target="1.8" />
-      <module name="ch0203-spring-common-config-bean-profile" target="1.8" />
       <module name="ch0203-Spring常用配置-Bean的初始化和销毁" target="1.8" />
-      <module name="ch0203-Spring常用配置-Profile" target="1.8" />
-      <module name="ch0203-Spring常用配置-事件" target="1.8" />
       <module name="ch0204-spring-common-config-bean-profile" target="1.8" />
-      <module name="ch0204-Spring常用配置-Profile" target="1.8" />
       <module name="ch0205-Spring常用配置-事件" target="1.8" />
       <module name="ch0301-Spring高级话题-SpringAware" target="1.8" />
       <module name="ch0302-Spring高级话题-多线程" target="1.8" />
       <module name="ch0303-Spring高级话题-计划任务" target="1.8" />
       <module name="ch0304-Spring高级话题-条件注解Condition" target="1.8" />
       <module name="ch0305-Spring高级话题-组合注解与元注解" target="1.8" />
-      <module name="ch0306-Spring高级话题-测试" target="1.8" />
-      <module name="ch0401-spring-mvc-basic-project-creation" target="1.8" />
-      <module name="ch0401-SpringMVC基础-项目快速搭建" target="1.8" />
       <module name="ch0401-SpringMVC基础-项目快速搭建、" target="1.8" />
       <module name="ch0402-spring-mvc-basic-common-annotation" target="1.8" />
-      <module name="ch0402-SpringMVC基础-常用注解" target="1.8" />
       <module name="ch0403-spring-mvc-basic-configuration" target="1.8" />
-      <module name="ch0403-SpringMVC基础-基本配置" target="1.8" />
       <module name="ch0404-spring-mvc-advance-configuration" target="1.8" />
-      <module name="ch0404-SpringMVC基础-高级配置" target="1.8" />
       <module name="ch0405-spring-mvc-custom-converter" target="1.8" />
-      <module name="ch0405-SpringMVC基础-自定义HttpMessageConverter" target="1.8" />
       <module name="ch0406-spring-mvc-serverpush" target="1.8" />
       <module name="ch0406-spring-mvc-test" target="1.8" />
-      <module name="ch0406-SpringMVC基础-服务端推送技术" target="1.8" />
-      <module name="ch0407-SpringMVC基础-测试" target="1.8" />
       <module name="ch0501-spring-boot-basic-sample" target="1.8" />
-      <module name="ch0501-SpringBoot基础-简单演示" target="1.8" />
       <module name="ch0601-spring-boot-core-safetype-configuration" target="1.8" />
-      <module name="ch0601-SpringBoot-核心-类型安全的配置" target="1.8" />
       <module name="ch0602-SpringBoot-核心-Profile配置" target="1.8" />
-      <module name="ch0602-SpringBoot-核心-日志配置" target="1.8" />
-      <module name="ch0603-spring-boot-core-autoconfig" target="1.8" />
-      <module name="ch0603-spring-boot-core-hello" target="1.8" />
-      <module name="ch0603-SpringBoot-核心-Hello" target="1.8" />
-      <module name="ch0603-SpringBoot-核心-自动配置" target="1.8" />
       <module name="ch0603-SpringBoot-核心-运行原理" target="1.6" />
       <module name="ch0603-SpringBoot-核心-运行原理-Hello" target="1.6" />
       <module name="ch0701-SpringBoot-Web-Thymeleaf模板引擎" target="1.6" />
@@ -152,37 +127,12 @@
       <module name="ch0806-SpringBoot-数据访问-Redis" target="1.6" />
       <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" target="1.8" />
       <module name="ch0902-SpringBoot-企业级开发-SpringBatch" target="1.8" />
-      <module name="ch0903-SpringBoot-企业级开发-异步消息" target="1.8" />
       <module name="ch0903-SpringBoot-企业级开发-异步消息-JMS" target="1.8" />
       <module name="ch0904-SpringBoot-企业级开发-异步消息-AMQP" target="1.8" />
-      <module name="ch0904-SpringBoot-企业级开发-系统集成" target="1.8" />
       <module name="ch0905-SpringBoot-企业级开发-系统集成" target="1.8" />
-      <module name="ch10war" target="1.8" />
       <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" target="1.8" />
-      <module name="ch5_2_2" target="1.8" />
-      <module name="ch5_2_3" target="1.8" />
-      <module name="ch6_2_3" target="1.8" />
-      <module name="ch6_4" target="1.8" />
-      <module name="ch6_5" target="1.8" />
-      <module name="ch6_5_1" target="1.8" />
-      <module name="ch7_2" target="1.8" />
-      <module name="ch7_4" target="1.8" />
-      <module name="ch7_6" target="1.8" />
-      <module name="ch7_7" target="1.8" />
-      <module name="ch8_2" target="1.8" />
-      <module name="ch8_3" target="1.8" />
-      <module name="ch8_4" target="1.8" />
-      <module name="ch8_5" target="1.8" />
-      <module name="ch8_6_1" target="1.8" />
-      <module name="ch8_6_2" target="1.8" />
-      <module name="ch9_1" target="1.8" />
-      <module name="ch9_2" target="1.8" />
-      <module name="ch9_3_4" target="1.8" />
-      <module name="ch9_3_5" target="1.8" />
-      <module name="ch9_4" target="1.8" />
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
-      <module name="highlight_spring4" target="1.7" />
       <module name="monitor" target="1.8" />
       <module name="person" target="1.8" />
       <module name="some" target="1.8" />
