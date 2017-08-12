@@ -1,13 +1,13 @@
 package com.example.spring.framework.converter;
 
-import com.example.spring.framework.converter.config.MyMvcConfig;
-import org.springframework.web.WebApplicationInitializer;
-import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
-import org.springframework.web.servlet.DispatcherServlet;
+        import com.example.spring.framework.converter.config.MyMvcConfig;
+        import org.springframework.web.WebApplicationInitializer;
+        import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
+        import org.springframework.web.servlet.DispatcherServlet;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
+        import javax.servlet.ServletContext;
+        import javax.servlet.ServletException;
+        import javax.servlet.ServletRegistration;
 
 /**
  * Author: 王俊超
