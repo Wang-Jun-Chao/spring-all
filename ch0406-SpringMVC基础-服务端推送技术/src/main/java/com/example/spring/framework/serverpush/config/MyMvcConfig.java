@@ -17,31 +17,31 @@ import org.springframework.web.servlet.view.JstlView;
  * All Rights Reserved !!!
  */
 @Configuration
-//@EnableWebMvc
-//@EnableScheduling
+@EnableWebMvc
+@EnableScheduling
 @ComponentScan("com.example.spring.framework.serverpush")
 public class MyMvcConfig extends WebMvcConfigurerAdapter{
-//    @Bean
-//    public InternalResourceViewResolver viewResolver() {
-//        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-//        viewResolver.setPrefix("/WEB-INF/classes/views/");
-//        viewResolver.setSuffix(".jsp");
-//        viewResolver.setViewClass(JstlView.class);
-//
-//        return viewResolver;
-//    }
-//
-//    @Override
-//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-//
-//        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");
-//        super.addResourceHandlers(registry);
-//    }
-//
-//
-//    @Override
-//    public void addViewControllers(ViewControllerRegistry registry) {
-//        registry.addViewController("/see").setViewName("/see");
-//        registry.addViewController("/async").setViewName("/async");
-//    }
+    @Bean
+    public InternalResourceViewResolver viewResolver() {
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        viewResolver.setPrefix("/WEB-INF/classes/views/");
+        viewResolver.setSuffix(".jsp");
+        viewResolver.setViewClass(JstlView.class);
+
+        return viewResolver;
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+
+        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");
+        super.addResourceHandlers(registry);
+    }
+
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/see").setViewName("/see");
+        registry.addViewController("/async").setViewName("/async");
+    }
 }
