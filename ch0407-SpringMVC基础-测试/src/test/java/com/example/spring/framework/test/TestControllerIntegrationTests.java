@@ -19,6 +19,10 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 /**
+ * 1、@WebAppConfiguration 注解在类上，用来声明加载的ApplicationContex 是一个WebApplicationContext
+ * 它的属性指定的是Web 资源的位置，默认为src/main/webapp ，本例修改为src/main/resources
+ * 2、MockMvc模拟MVC对象
+ * 3、可以在测试用例中注入Spring 的Bean
  * Author: 王俊超
  * Date: 2017-07-14 08:17
  * All Rights Reserved !!!
@@ -29,7 +33,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class TestControllerIntegrationTests {
     private MockMvc mockMvc;
 
-    @Autowired private DemoService demoService;
+    @Autowired
+    private DemoService demoService;
 
     @Autowired
     private WebApplicationContext wac;
