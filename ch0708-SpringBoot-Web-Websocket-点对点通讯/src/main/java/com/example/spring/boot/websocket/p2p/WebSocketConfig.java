@@ -17,11 +17,13 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer{
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
+        // 注册一个名为/endpointChat的endpoint
         registry.addEndpoint("/endpointChat").withSockJS();
     }
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
+        // 点对点式应增加一个/queue 消息代理。
         registry.enableSimpleBroker("/queue", "/topic");
     }
 }
