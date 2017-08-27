@@ -3,7 +3,7 @@ spring:
     database: MYSQL
   datasource:
     platform: mysql
-    url: jdbc\:mysql\://localhost\:3306/springboot
+    url: jdbc:mysql://localhost:3306/springboot
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver

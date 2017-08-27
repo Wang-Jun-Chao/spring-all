@@ -1,9 +1,10 @@
 server:
   port: 8082
- 
+
 
 spring:
   jpa:
     hibernate:
       ddl-auto: update
+debug: true
 
