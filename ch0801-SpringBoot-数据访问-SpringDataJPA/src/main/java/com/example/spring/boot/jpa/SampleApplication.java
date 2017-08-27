@@ -1,11 +1,11 @@
 package com.example.spring.boot.jpa;
 
-        import com.example.spring.boot.jpa.dao.PersonRepository;
-        import com.example.spring.boot.jpa.support.CustomRepositoryFactoryBean;
-        import org.springframework.beans.factory.annotation.Autowired;
-        import org.springframework.boot.SpringApplication;
-        import org.springframework.boot.autoconfigure.SpringBootApplication;
-        import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import com.example.spring.boot.jpa.dao.PersonRepository;
+import com.example.spring.boot.jpa.support.CustomRepositoryFactoryBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
  * Author: 王俊超
