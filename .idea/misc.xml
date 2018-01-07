@@ -12,6 +12,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术" />
     <file type="web" url="file://$PROJECT_DIR$/ch0407-SpringMVC基础-测试" />
     <file type="web" url="file://$PROJECT_DIR$/ch10war" />
+    <file type="web" url="file://$PROJECT_DIR$/ch1301-Jersey使用" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -77,6 +78,7 @@
         <option value="$PROJECT_DIR$/ch0304-Spring高级话题-条件注解Condition/pom.xml" />
         <option value="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/pom.xml" />
         <option value="$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1301-Jersey使用/pom.xml" />
       </list>
     </option>
   </component>
