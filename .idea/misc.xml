@@ -79,6 +79,7 @@
         <option value="$PROJECT_DIR$/ch0305-Spring高级话题-组合注解与元注解/pom.xml" />
         <option value="$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/pom.xml" />
         <option value="$PROJECT_DIR$/ch1301-Jersey使用/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1302-SpringBoot-CXF使用/pom.xml" />
       </list>
     </option>
   </component>
