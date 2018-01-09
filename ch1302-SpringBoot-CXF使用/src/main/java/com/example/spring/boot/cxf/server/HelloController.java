@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Author: 王俊超
- * Date: 2018-01-09 22-19
+ * Date: 2018-01-09 22:19
  * Blog: http://blog.csdn.net/derrantcm
  * Github: https://github.com/wang-jun-chao
  * All Rights Reserved !!!
@@ -16,9 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping(
             value = "/hello/{message}",
-            method = RequestMethod.GET,
-            consumes = {"text/plain", "application/json"},
-            produces = {"text/plain", "application/json"})
+            method = RequestMethod.GET)
     public String hello(@PathVariable("message") String message) {
         return "Hello " + message + "!";
     }
