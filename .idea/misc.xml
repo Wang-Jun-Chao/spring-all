@@ -80,6 +80,7 @@
         <option value="$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置/pom.xml" />
         <option value="$PROJECT_DIR$/ch1301-Jersey使用/pom.xml" />
         <option value="$PROJECT_DIR$/ch1302-SpringBoot-CXF使用/pom.xml" />
+        <option value="$PROJECT_DIR$/ch1303-SpringBoot-ActiveMQ使用/pom.xml" />
       </list>
     </option>
   </component>

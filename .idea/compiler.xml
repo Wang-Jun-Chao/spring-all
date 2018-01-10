@@ -69,6 +69,7 @@
         <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" />
         <module name="ch1301-Jersey使用" />
         <module name="ch1302-SpringBoot-CXF使用" />
+        <module name="ch1303-SpringBoot-ActiveMQ使用" />
         <module name="config" />
         <module name="discovery" />
         <module name="highlight_spring4" />
@@ -135,6 +136,7 @@
       <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" target="1.8" />
       <module name="ch1301-Jersey使用" target="1.8" />
       <module name="ch1302-SpringBoot-CXF使用" target="1.8" />
+      <module name="ch1303-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
       <module name="monitor" target="1.8" />
