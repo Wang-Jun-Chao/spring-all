@@ -6,6 +6,10 @@
     <file url="file://$PROJECT_DIR$/004-Redis使用Kryo序列化工具" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/006-设置缓存Key的失效时间" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/007-SpringBoot中集成Mock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-Jersey使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-SpringBoot-CXF使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-SpringBoot-Actuator使用" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/LogAspect.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" charset="UTF-8" />
@@ -48,8 +52,5 @@
     <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/person" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/some" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1301-Jersey使用" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1302-SpringBoot-CXF使用" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1303-SpringBoot-ActiveMQ使用" charset="UTF-8" />
   </component>
 </project>

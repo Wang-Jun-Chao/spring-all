@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置" />
     <file type="web" url="file://$PROJECT_DIR$/008-SpringMVC访问外部文件" />
+    <file type="web" url="file://$PROJECT_DIR$/009-Jersey使用" />
     <file type="web" url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" />
     <file type="web" url="file://$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建" />
     <file type="web" url="file://$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解" />
@@ -12,7 +13,6 @@
     <file type="web" url="file://$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术" />
     <file type="web" url="file://$PROJECT_DIR$/ch0407-SpringMVC基础-测试" />
     <file type="web" url="file://$PROJECT_DIR$/ch10war" />
-    <file type="web" url="file://$PROJECT_DIR$/ch1301-Jersey使用" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -81,6 +81,8 @@
         <option value="$PROJECT_DIR$/ch1301-Jersey使用/pom.xml" />
         <option value="$PROJECT_DIR$/ch1302-SpringBoot-CXF使用/pom.xml" />
         <option value="$PROJECT_DIR$/ch1303-SpringBoot-ActiveMQ使用/pom.xml" />
+        <option value="$PROJECT_DIR$/012-SpringBoot-Actuator使用/pom.xml" />
+        <option value="$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用/pom.xml" />
       </list>
     </option>
   </component>

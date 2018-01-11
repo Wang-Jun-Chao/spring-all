@@ -10,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/006-设置缓存Key的失效时间/006-设置缓存Key的失效时间.iml" filepath="$PROJECT_DIR$/006-设置缓存Key的失效时间/006-设置缓存Key的失效时间.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-SpringBoot中集成Mock/007-SpringBoot中集成Mock.iml" filepath="$PROJECT_DIR$/007-SpringBoot中集成Mock/007-SpringBoot中集成Mock.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-SpringMVC访问外部文件/008-SpringMVC访问外部文件.iml" filepath="$PROJECT_DIR$/008-SpringMVC访问外部文件/008-SpringMVC访问外部文件.iml" />
+      <module fileurl="file://$PROJECT_DIR$/009-Jersey使用/009-Jersey使用.iml" filepath="$PROJECT_DIR$/009-Jersey使用/009-Jersey使用.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-SpringBoot-CXF使用/010-SpringBoot-CXF使用.iml" filepath="$PROJECT_DIR$/010-SpringBoot-CXF使用/010-SpringBoot-CXF使用.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用/011-SpringBoot-ActiveMQ使用.iml" filepath="$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用/011-SpringBoot-ActiveMQ使用.iml" />
+      <module fileurl="file://$PROJECT_DIR$/012-SpringBoot-Actuator使用/012-SpringBoot-Actuator使用.iml" filepath="$PROJECT_DIR$/012-SpringBoot-Actuator使用/012-SpringBoot-Actuator使用.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0101-Spring基础-依赖注入/ch0101-Spring基础-依赖注入.iml" filepath="$PROJECT_DIR$/ch0101-Spring基础-依赖注入/ch0101-Spring基础-依赖注入.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0102-Spring基础-Java配置/ch0102-Spring基础-Java配置.iml" filepath="$PROJECT_DIR$/ch0102-Spring基础-Java配置/ch0102-Spring基础-Java配置.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0103-Spring基础-AOP/ch0103-Spring基础-AOP.iml" filepath="$PROJECT_DIR$/ch0103-Spring基础-AOP/ch0103-Spring基础-AOP.iml" />
@@ -56,9 +60,6 @@
       <module fileurl="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" filepath="$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP/ch0904-SpringBoot-企业级开发-异步消息-AMQP.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/ch0905-SpringBoot-企业级开发-系统集成.iml" filepath="$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成/ch0905-SpringBoot-企业级开发-系统集成.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ch1201-SpringBoot-分布式系统开发-SpringCloud.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ch1201-SpringBoot-分布式系统开发-SpringCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch1301-Jersey使用/ch1301-Jersey使用.iml" filepath="$PROJECT_DIR$/ch1301-Jersey使用/ch1301-Jersey使用.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch1302-SpringBoot-CXF使用/ch1302-SpringBoot-CXF使用.iml" filepath="$PROJECT_DIR$/ch1302-SpringBoot-CXF使用/ch1302-SpringBoot-CXF使用.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch1303-SpringBoot-ActiveMQ使用/ch1303-SpringBoot-ActiveMQ使用.iml" filepath="$PROJECT_DIR$/ch1303-SpringBoot-ActiveMQ使用/ch1303-SpringBoot-ActiveMQ使用.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/discovery.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" filepath="$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" />
