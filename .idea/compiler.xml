@@ -10,6 +10,7 @@
         <module name="009-JacksonJson使用" />
         <module name="011-SpringBoot-ActiveMQ使用" />
         <module name="012-SpringBoot-Actuator使用" />
+        <module name="013-SpringBoot-Actuator自定义安全" />
         <module name="ch0101-Spring基础-依赖注入" />
         <module name="ch0102-Spring基础-AOP" />
         <module name="ch0102-Spring基础-Java配置" />
@@ -92,6 +93,7 @@
       <module name="008-SpringMVC访问外部文件" target="1.8" />
       <module name="011-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="012-SpringBoot-Actuator使用" target="1.8" />
+      <module name="013-SpringBoot-Actuator自定义安全" target="1.8" />
       <module name="ch0101-Spring基础-依赖注入" target="1.8" />
       <module name="ch0102-Spring基础-Java配置" target="1.8" />
       <module name="ch0103-Spring基础-AOP" target="1.8" />
