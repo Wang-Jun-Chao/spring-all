@@ -1,6 +1,8 @@
 package com.example.spring.boot.actuator.security;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -54,6 +56,8 @@ public class CorsSampleActuatorApplicationTests {
         ResponseEntity<?> entity = this.testRestTemplate.getForEntity("/actuator/env",
                 Map.class);
         assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+
+        printObject(entity);
     }
 
     @Test
@@ -63,8 +67,12 @@ public class CorsSampleActuatorApplicationTests {
                 .header("Access-Control-Request-Method", "GET").build();
         ResponseEntity<?> exchange = this.testRestTemplate.exchange(healthRequest,
                 Map.class);
+
         assertThat(exchange.getStatusCode()).isEqualTo(HttpStatus.OK);
+
+        printObject(exchange);
     }
+
 
     @Test
     public void preflightRequestWhenCorsConfigInvalidShouldReturnForbidden()
@@ -75,6 +83,24 @@ public class CorsSampleActuatorApplicationTests {
         ResponseEntity<byte[]> exchange = this.testRestTemplate.exchange(entity,
                 byte[].class);
         assertThat(exchange.getStatusCode()).isEqualTo(HttpStatus.FORBIDDEN);
+
+        printObject(exchange);
     }
+
+
+    /////////////////////
+    // 工具方法
+    /////////////////////
+    private void printObject(Object object) {
+        ObjectMapper mapper = new ObjectMapper();
+        String value = null;
+        try {
+            value = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(object);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        System.out.println(value);
+    }
+
 
 }
