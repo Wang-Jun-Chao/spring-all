@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-SpringBoot-Actuator使用" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/013-SpringBoot-Actuator自定义安全" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/014-SpringBoot-Actuator-Log4j2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/LogAspect.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" charset="UTF-8" />

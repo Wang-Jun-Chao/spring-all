@@ -84,6 +84,7 @@
         <option value="$PROJECT_DIR$/012-SpringBoot-Actuator使用/pom.xml" />
         <option value="$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用/pom.xml" />
         <option value="$PROJECT_DIR$/013-SpringBoot-Actuator自定义安全/pom.xml" />
+        <option value="$PROJECT_DIR$/014-SpringBoot-Actuator-Log4j2/pom.xml" />
       </list>
     </option>
   </component>
