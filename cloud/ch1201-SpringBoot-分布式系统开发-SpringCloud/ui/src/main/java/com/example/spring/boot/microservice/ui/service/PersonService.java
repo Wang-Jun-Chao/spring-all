@@ -1,7 +1,7 @@
 package com.example.spring.boot.microservice.ui.service;
 
 import com.example.spring.boot.microservice.ui.domain.Person;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

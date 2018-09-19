@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/001-Redis从数据库中读取配置" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/003-使用JVM参数激活配置文件" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/004-Redis使用Kryo序列化工具" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/006-设置缓存Key的失效时间" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/007-SpringBoot中集成Mock" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/009-Jersey使用" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/010-SpringBoot-CXF使用" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/011-SpringBoot-ActiveMQ使用" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/012-SpringBoot-Actuator使用" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/013-SpringBoot-Actuator自定义安全" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/014-SpringBoot-Actuator-Log4j2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/LogAspect.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/ch0201-SpringMVC基础" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0402-SpringMVC基础-常用注解" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0403-SpringMVC基础-基本配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0407-SpringMVC基础-测试" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0501-SpringBoot基础-简单演示" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0601-SpringBoot-核心-类型安全的配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0602-SpringBoot-核心-Profile配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0603-SpringBoot-核心-运行原理-Hello" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0701-SpringBoot-Web-Thymeleaf模板引擎" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0702-SpringBoot-Web-Tomcat配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0703-SpringBoot-Web-Tomcat配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0704-SpringBoot-Web-Jetty配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0705-SpringBoot-Web-Undertow配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0706-SpringBoot-Web-SSL配置" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0707-SpringBoot-Web-Websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0708-SpringBoot-Web-Websocket-点对点通讯" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0801-SpringBoot-数据访问-SpringDataJPA" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0802-SpringBoot-数据访问-SpringDataRest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0803-SpringBoot-数据访问-声明式事务" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0804-SpringBoot-数据访问-数据缓存Cache" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0805-SpringBoot-数据访问-NoSQL" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0806-SpringBoot-数据访问-Redis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0901-SpringBoot-企业级开发-SpringSecurity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0902-SpringBoot-企业级开发-SpringBatch" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0903-SpringBoot-企业级开发-异步消息-JMS" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0904-SpringBoot-企业级开发-异步消息-AMQP" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch0905-SpringBoot-企业级开发-系统集成" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/person" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/some" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/009-Jersey使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/010-SpringBoot-CXF使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/011-SpringBoot-ActiveMQ使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/013-SpringBoot-Actuator自定义安全" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/014-SpringBoot-Actuator-Log4j2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0501-SpringBoot基础-简单演示" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0601-SpringBoot-核心-类型安全的配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0602-SpringBoot-核心-Profile配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0603-SpringBoot-核心-运行原理" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0603-SpringBoot-核心-运行原理-Hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0701-SpringBoot-Web-Thymeleaf模板引擎" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0702-SpringBoot-Web-Tomcat配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0703-SpringBoot-Web-Tomcat配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0704-SpringBoot-Web-Jetty配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0705-SpringBoot-Web-Undertow配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0706-SpringBoot-Web-SSL配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0707-SpringBoot-Web-Websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0708-SpringBoot-Web-Websocket-点对点通讯" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0801-SpringBoot-数据访问-SpringDataJPA" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0802-SpringBoot-数据访问-SpringDataRest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0803-SpringBoot-数据访问-声明式事务" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0804-SpringBoot-数据访问-数据缓存Cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0805-SpringBoot-数据访问-NoSQL" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0806-SpringBoot-数据访问-Redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0901-SpringBoot-企业级开发-SpringSecurity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0902-SpringBoot-企业级开发-SpringBatch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0903-SpringBoot-企业级开发-异步消息-JMS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0904-SpringBoot-企业级开发-异步消息-AMQP" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/ch0905-SpringBoot-企业级开发-系统集成" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/person" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/some" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/LogAspect.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/framework/ch0201-SpringMVC基础" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0401-SpringMVC基础-项目快速搭建" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0402-SpringMVC基础-常用注解" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0403-SpringMVC基础-基本配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0404-SpringMVC基础-高级配置" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0405-SpringMVC基础-自定义HttpMessageConverter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0406-SpringMVC基础-服务端推送技术" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework/ch0407-SpringMVC基础-测试" charset="UTF-8" />
   </component>
 </project>

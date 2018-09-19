@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0202-spring-common-config-el-and-resources</artifactId>
+    <artifactId>ch0202-Spring常用配置-SpringEL和资源调用</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>wjc.spring</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <properties>
         <java.version>1.8</java.version>

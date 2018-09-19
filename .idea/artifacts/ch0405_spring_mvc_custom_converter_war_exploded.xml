@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="ch0405-spring-mvc-custom-converter" />
+          <element id="module-output" name="ch0405-SpringMVC基础-自定义HttpMessageConverter" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" />
@@ -35,9 +35,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/target/ch0405-spring-mvc-custom-converter-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/framework/ch0405-SpringMVC基础-自定义HttpMessageConverter/target/ch0405-spring-mvc-custom-converter-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="ch0405-spring-mvc-custom-converter/web/Web" />
+      <element id="javaee-facet-resources" facet="ch0405-SpringMVC基础-自定义HttpMessageConverter/web/Web" />
     </root>
   </artifact>
 </component>

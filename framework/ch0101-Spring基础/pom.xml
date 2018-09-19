@@ -2,11 +2,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wisely</groupId>
-    <artifactId>highlight_spring4</artifactId>
+    <artifactId>ch0101-Spring基础</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <parent>
+        <groupId>wjc.spring</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <properties>
-        <java.version>1.7</java.version>
-        <spring-framework.version>4.1.5.RELEASE</spring-framework.version>
+        <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>

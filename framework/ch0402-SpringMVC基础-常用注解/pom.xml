@@ -5,9 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0402-spring-mvc-basic-common-annotation</artifactId>
+    <artifactId>ch0402-SpringMVC基础-常用注解</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+
+    <parent>
+        <groupId>wjc.spring</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <properties>
         <!-- Generic properties -->

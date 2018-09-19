@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="002-Maven插件-打包时多环境配置文件设置:war exploded">
-    <output-path>$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/target/maven-multiconfig-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/target/002-Maven插件-打包时多环境配置文件设置-1.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -8,7 +8,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/target/maven-multiconfig-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/002-Maven插件-打包时多环境配置文件设置/target/002-Maven插件-打包时多环境配置文件设置-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="002-Maven插件-打包时多环境配置文件设置/web/Web" />
     </root>

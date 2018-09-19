@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="ch0401-SpringMVC基础-项目快速搭建、" />
+          <element id="module-output" name="ch0401-SpringMVC基础-项目快速搭建" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" />
@@ -35,9 +35,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-spring-mvc-basic-project-creation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/framework/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-spring-mvc-basic-project-creation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="ch0401-SpringMVC基础-项目快速搭建、/web/Web" />
+      <element id="javaee-facet-resources" facet="ch0401-SpringMVC基础-项目快速搭建/web/Web" />
     </root>
   </artifact>
 </component>

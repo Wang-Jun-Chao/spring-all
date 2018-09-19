@@ -74,7 +74,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/009-Jersey使用/target/ch1201-spring-boot-jersey-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/boot/009-Jersey使用/target/ch1201-spring-boot-jersey-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="009-Jersey使用/web/Web" />
     </root>

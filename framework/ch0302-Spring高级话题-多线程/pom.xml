@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0302-spring-advance-taskexecutor</artifactId>
+    <artifactId>ch0302-Spring高级话题-多线程</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>wjc.spring</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <properties>
         <java.version>1.8</java.version>

@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="ch0405-SpringMVC基础-自定义HttpMessageConverter:war">
-    <output-path>$PROJECT_DIR$/ch0405-SpringMVC基础-自定义HttpMessageConverter/target</output-path>
-    <root id="archive" name="ch0405-spring-mvc-custom-converter-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/framework/ch0405-SpringMVC基础-自定义HttpMessageConverter/target</output-path>
+    <root id="archive" name="ch0405-SpringMVC基础-自定义HttpMessageConverter-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch0405-SpringMVC基础-自定义HttpMessageConverter:war exploded" />
     </root>
   </artifact>

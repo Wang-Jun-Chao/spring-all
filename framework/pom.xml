@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>wjc.spring</groupId>
+    <artifactId>framework</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <spring.framework.version>5.0.9.RELEASE</spring.framework.version>
+        <aspectj.version>1.9.1</aspectj.version>
+        <junit.version>4.12</junit.version>
+        <commons.io.version>2.6</commons.io.version>
+    </properties>
+
+    <modules>
+        <module>ch0101-Spring基础</module>
+        <module>ch0101-Spring基础-Java配置</module>
+        <module>ch0101-Spring基础-依赖注入</module>
+        <module>ch0102-Spring基础-Java配置</module>
+        <module>ch0103-Spring基础-AOP</module>
+        <module>ch0201-SpringMVC基础</module>
+        <module>ch0201-Spring常用配置-Bean的Scope</module>
+        <module>ch0202-Spring常用配置-SpringEL和资源调用</module>
+        <module>ch0203-Spring常用配置-Bean的初始化和销毁</module>
+        <module>ch0204-Spring常用配置-Profile</module>
+        <module>ch0205-Spring常用配置-事件</module>
+        <module>ch0301-Spring高级话题-SpringAware</module>
+        <module>ch0302-Spring高级话题-多线程</module>
+        <module>ch0303-Spring高级话题-计划任务</module>
+        <module>ch0305-Spring高级话题-组合注解与元注解</module>
+        <module>ch0306-Spring高级话题-测试</module>
+        <module>ch0401-SpringMVC基础-项目快速搭建</module>
+        <module>ch0402-SpringMVC基础-常用注解</module>
+        <module>ch0403-SpringMVC基础-基本配置</module>
+        <module>ch0404-SpringMVC基础-高级配置</module>
+        <module>ch0405-SpringMVC基础-自定义HttpMessageConverter</module>
+        <module>ch0406-SpringMVC基础-服务端推送技术</module>
+        <module>ch0407-SpringMVC基础-测试</module>
+    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.framework.version}</version>
+            </dependency>
+            <!-- spring aop支持 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.framework.version}</version>
+            </dependency>
+            <!-- aspectj支持 -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+
+            <!-- Spring test 支持 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>jsr250-api</artifactId>
+                <version>1.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

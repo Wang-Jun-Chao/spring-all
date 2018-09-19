@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="ch0404-SpringMVC基础-高级配置:war">
-    <output-path>$PROJECT_DIR$/ch0404-SpringMVC基础-高级配置/target</output-path>
-    <root id="archive" name="ch0404-spring-mvc-advance-configuration-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/framework/ch0404-SpringMVC基础-高级配置/target</output-path>
+    <root id="archive" name="ch0404-SpringMVC基础-高级配置-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch0404-SpringMVC基础-高级配置:war exploded" />
     </root>
   </artifact>

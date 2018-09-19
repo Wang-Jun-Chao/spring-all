@@ -5,9 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.framework</groupId>
-    <artifactId>ch0406-spring-mvc-serverpush</artifactId>
+    <artifactId>ch0406-SpringMVC基础-服务端推送技术</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+
+    <parent>
+        <groupId>wjc.spring</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <properties>
         <!-- Generic properties -->

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.spring.boot.redis</groupId>
-    <artifactId>exapmle-spring-boot-redis</artifactId>
+    <artifactId>001-Redis从数据库中读取配置</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
