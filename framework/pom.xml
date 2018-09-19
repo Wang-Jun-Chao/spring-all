@@ -17,6 +17,7 @@
     </properties>
 
     <modules>
+        <module>015-sping-spring中的xml-schema扩展机制</module>
         <module>ch0101-Spring基础</module>
         <module>ch0101-Spring基础-Java配置</module>
         <module>ch0101-Spring基础-依赖注入</module>
@@ -45,13 +46,17 @@
         <dependencies>
             <dependency>
                 <groupId>org.springframework</groupId>
-                <artifactId>spring-context</artifactId>
+                <artifactId>spring-core</artifactId>
                 <version>${spring.framework.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
+                <version>${spring.framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
                 <version>${spring.framework.version}</version>
             </dependency>
             <!-- spring aop支持 -->
@@ -93,6 +98,13 @@
                 <groupId>javax.annotation</groupId>
                 <artifactId>jsr250-api</artifactId>
                 <version>1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.2.3</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

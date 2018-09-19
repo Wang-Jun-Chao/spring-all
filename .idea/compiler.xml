@@ -117,7 +117,7 @@
       <module name="012-SpringBoot-Actuator使用" target="1.8" />
       <module name="013-SpringBoot-Actuator自定义安全" target="1.8" />
       <module name="014-SpringBoot-Actuator-Log4j2" target="1.8" />
-      <module name="015-sping-spring中的xml-schema扩展机制" target="1.5" />
+      <module name="015-sping-spring中的xml-schema扩展机制" target="1.8" />
       <module name="015-Spring-XML-schema扩展机制" target="1.8" />
       <module name="boot" target="1.8" />
       <module name="ch0101-Spring基础" target="1.8" />

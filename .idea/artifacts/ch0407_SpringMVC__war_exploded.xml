@@ -13,7 +13,6 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.2" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.2" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-access:1.2.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.8" />
