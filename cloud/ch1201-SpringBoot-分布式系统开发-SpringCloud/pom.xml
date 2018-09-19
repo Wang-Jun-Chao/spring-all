@@ -7,6 +7,7 @@
     <groupId>com.example.spring.boot.microservice</groupId>
     <artifactId>ch1201-SpringBoot-分布式系统开发-SpringCloud</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>wjc.spring</groupId>
