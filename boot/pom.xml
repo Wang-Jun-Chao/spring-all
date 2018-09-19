@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>wjc.spring</groupId>
+    <artifactId>boot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+    </parent>
+
+    <modules>
+        <module>009-Jersey使用</module>
+        <module>010-SpringBoot-CXF使用</module>
+        <module>011-SpringBoot-ActiveMQ使用</module>
+        <module>012-SpringBoot-Actuator使用</module>
+        <module>013-SpringBoot-Actuator自定义安全</module>
+        <module>014-SpringBoot-Actuator-Log4j2</module>
+        <module>ch0501-SpringBoot基础-简单演示</module>
+        <module>ch0601-SpringBoot-核心-类型安全的配置</module>
+        <module>ch0602-SpringBoot-核心-Profile配置</module>
+        <module>ch0603-SpringBoot-核心-运行原理</module>
+        <module>ch0603-SpringBoot-核心-运行原理-Hello</module>
+        <module>ch0701-SpringBoot-Web-Thymeleaf模板引擎</module>
+        <module>ch0702-SpringBoot-Web-Tomcat配置</module>
+        <module>ch0703-SpringBoot-Web-Tomcat配置</module>
+        <module>ch0704-SpringBoot-Web-Jetty配置</module>
+        <module>ch0705-SpringBoot-Web-Undertow配置</module>
+        <module>ch0706-SpringBoot-Web-SSL配置</module>
+        <module>ch0707-SpringBoot-Web-Websocket</module>
+        <module>ch0708-SpringBoot-Web-Websocket-点对点通讯</module>
+        <module>ch0709-SpringBoot-Web-集成Bootstrap和AngularJS</module>
+        <module>ch0801-SpringBoot-数据访问-SpringDataJPA</module>
+        <module>ch0802-SpringBoot-数据访问-SpringDataRest</module>
+        <module>ch0803-SpringBoot-数据访问-声明式事务</module>
+        <module>ch0804-SpringBoot-数据访问-数据缓存Cache</module>
+        <module>ch0805-SpringBoot-数据访问-NoSQL</module>
+        <module>ch0806-SpringBoot-数据访问-Redis</module>
+        <module>ch0901-SpringBoot-企业级开发-SpringSecurity</module>
+        <module>ch0902-SpringBoot-企业级开发-SpringBatch</module>
+        <module>ch0903-SpringBoot-企业级开发-异步消息-JMS</module>
+        <module>ch0904-SpringBoot-企业级开发-异步消息-AMQP</module>
+        <module>ch0905-SpringBoot-企业级开发-系统集成</module>
+    </modules>
+</project>
