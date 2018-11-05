@@ -1,18 +1,18 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch0401-SpringMVC基础-项目快速搭建、:war exploded">
-    <output-path>$PROJECT_DIR$/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-spring-mvc-basic-project-creation-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/framework/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-SpringMVC基础-项目快速搭建-1.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="ch0401-SpringMVC基础-项目快速搭建" />
+          <element id="module-output" name="ch0401-SpringMVC基础-项目快速搭建、" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.9.RELEASE" />
-          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.9.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
@@ -20,7 +20,6 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.2" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.2" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-access:1.2.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.8" />
@@ -35,9 +34,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/framework/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-spring-mvc-basic-project-creation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/framework/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-SpringMVC基础-项目快速搭建-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="ch0401-SpringMVC基础-项目快速搭建/web/Web" />
+      <element id="javaee-facet-resources" facet="ch0401-SpringMVC基础-项目快速搭建、/web/Web" />
     </root>
   </artifact>
 </component>

@@ -24,6 +24,7 @@
         <module name="014-SpringBoot-Actuator-Log4j2" />
         <module name="015-sping-spring中的xml-schema扩展机制" />
         <module name="015-Spring-XML-schema扩展机制" />
+        <module name="015-springboot-jwt" />
         <module name="ch0101-Spring基础" />
         <module name="ch0101-Spring基础-Java配置" />
         <module name="ch0101-Spring基础-依赖注入" />
@@ -37,6 +38,7 @@
         <module name="ch0203-Spring常用配置-Bean的初始化和销毁" />
         <module name="ch0203-Spring常用配置-Profile" />
         <module name="ch0203-Spring常用配置-事件" />
+        <module name="ch0204-spring-common-config-bean-profile" />
         <module name="ch0204-Spring常用配置-Profile" />
         <module name="ch0205-Spring常用配置-事件" />
         <module name="ch0301-Spring高级话题-SpringAware" />
@@ -46,10 +48,17 @@
         <module name="ch0306-Spring高级话题-测试" />
         <module name="ch0401-spring-mvc-basic-project-creation" />
         <module name="ch0401-SpringMVC基础-项目快速搭建" />
+        <module name="ch0401-SpringMVC基础-项目快速搭建、" />
+        <module name="ch0402-spring-mvc-basic-common-annotation" />
         <module name="ch0402-SpringMVC基础-常用注解" />
+        <module name="ch0403-spring-mvc-basic-configuration" />
         <module name="ch0403-SpringMVC基础-基本配置" />
+        <module name="ch0404-spring-mvc-advance-configuration" />
         <module name="ch0404-SpringMVC基础-高级配置" />
+        <module name="ch0405-spring-mvc-custom-converter" />
         <module name="ch0405-SpringMVC基础-自定义HttpMessageConverter" />
+        <module name="ch0406-spring-mvc-serverpush" />
+        <module name="ch0406-spring-mvc-test" />
         <module name="ch0406-SpringMVC基础-服务端推送技术" />
         <module name="ch0407-SpringMVC基础-测试" />
         <module name="ch0501-SpringBoot基础-简单演示" />
@@ -86,6 +95,7 @@
         <module name="ch0905-SpringBoot-企业级开发-系统集成" />
         <module name="ch1301-Jersey使用" />
         <module name="ch1302-SpringBoot-CXF使用" />
+        <module name="ch1303-SpringBoot-ActiveMQ" />
         <module name="ch1303-SpringBoot-ActiveMQ使用" />
         <module name="config" />
         <module name="discovery" />
@@ -119,6 +129,7 @@
       <module name="014-SpringBoot-Actuator-Log4j2" target="1.8" />
       <module name="015-sping-spring中的xml-schema扩展机制" target="1.8" />
       <module name="015-Spring-XML-schema扩展机制" target="1.8" />
+      <module name="015-springboot-jwt" target="1.8" />
       <module name="boot" target="1.8" />
       <module name="ch0101-Spring基础" target="1.8" />
       <module name="ch0101-Spring基础-Java配置" target="1.8" />
@@ -129,6 +140,7 @@
       <module name="ch0201-Spring常用配置-Bean的Scope" target="1.8" />
       <module name="ch0202-Spring常用配置-SpringEL和资源调用" target="1.8" />
       <module name="ch0203-Spring常用配置-Bean的初始化和销毁" target="1.8" />
+      <module name="ch0204-spring-common-config-bean-profile" target="1.8" />
       <module name="ch0204-Spring常用配置-Profile" target="1.8" />
       <module name="ch0205-Spring常用配置-事件" target="1.8" />
       <module name="ch0301-Spring高级话题-SpringAware" target="1.8" />
@@ -138,10 +150,17 @@
       <module name="ch0305-Spring高级话题-组合注解与元注解" target="1.8" />
       <module name="ch0306-Spring高级话题-测试" target="1.8" />
       <module name="ch0401-SpringMVC基础-项目快速搭建" target="1.8" />
+      <module name="ch0401-SpringMVC基础-项目快速搭建、" target="1.8" />
+      <module name="ch0402-spring-mvc-basic-common-annotation" target="1.8" />
       <module name="ch0402-SpringMVC基础-常用注解" target="1.8" />
+      <module name="ch0403-spring-mvc-basic-configuration" target="1.8" />
       <module name="ch0403-SpringMVC基础-基本配置" target="1.8" />
+      <module name="ch0404-spring-mvc-advance-configuration" target="1.8" />
       <module name="ch0404-SpringMVC基础-高级配置" target="1.8" />
+      <module name="ch0405-spring-mvc-custom-converter" target="1.8" />
       <module name="ch0405-SpringMVC基础-自定义HttpMessageConverter" target="1.8" />
+      <module name="ch0406-spring-mvc-serverpush" target="1.8" />
+      <module name="ch0406-spring-mvc-test" target="1.8" />
       <module name="ch0406-SpringMVC基础-服务端推送技术" target="1.8" />
       <module name="ch0407-SpringMVC基础-测试" target="1.8" />
       <module name="ch0501-SpringBoot基础-简单演示" target="1.8" />
@@ -174,6 +193,7 @@
       <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" target="1.8" />
       <module name="ch1301-Jersey使用" target="1.8" />
       <module name="ch1302-SpringBoot-CXF使用" target="1.8" />
+      <module name="ch1303-SpringBoot-ActiveMQ" target="1.8" />
       <module name="ch1303-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="cloud" target="1.8" />
       <module name="config" target="1.8" />

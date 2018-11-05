@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="ch0406-spring-mvc-serverpush:war">
-    <output-path>$PROJECT_DIR$/ch0406-SpringMVC基础-服务端推送技术/target</output-path>
-    <root id="archive" name="ch0406-spring-mvc-serverpush-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/framework/ch0406-SpringMVC基础-服务端推送技术/target</output-path>
+    <root id="archive" name="ch0406-SpringMVC基础-服务端推送技术-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ch0406-spring-mvc-serverpush:war exploded" />
     </root>
   </artifact>
