@@ -21,5 +21,6 @@
         <module>boot</module>
         <module>cloud</module>
         <module>framework</module>
+        <module>security</module>
     </modules>
 </project>

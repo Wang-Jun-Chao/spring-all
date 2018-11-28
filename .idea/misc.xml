@@ -97,6 +97,9 @@
         <option value="$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/pom.xml" />
         <option value="$PROJECT_DIR$/framework/pom.xml" />
         <option value="$PROJECT_DIR$/boot/015-springboot-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/security/01-aouth/pom.xml" />
+        <option value="$PROJECT_DIR$/boot/016-SpringBoot-SocketIO/pom.xml" />
       </list>
     </option>
   </component>

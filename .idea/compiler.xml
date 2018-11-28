@@ -17,6 +17,7 @@
         <module name="008-SpringMVC访问外部文件" />
         <module name="009-JacksonJson使用" />
         <module name="009-Jersey使用" />
+        <module name="01-aouth" />
         <module name="010-SpringBoot-CXF使用" />
         <module name="011-SpringBoot-ActiveMQ使用" />
         <module name="012-SpringBoot-Actuator使用" />
@@ -25,6 +26,7 @@
         <module name="015-sping-spring中的xml-schema扩展机制" />
         <module name="015-Spring-XML-schema扩展机制" />
         <module name="015-springboot-jwt" />
+        <module name="016-SpringBoot-SocketIO" />
         <module name="ch0101-Spring基础" />
         <module name="ch0101-Spring基础-Java配置" />
         <module name="ch0101-Spring基础-依赖注入" />
@@ -102,6 +104,7 @@
         <module name="highlight_spring4" />
         <module name="monitor" />
         <module name="person" />
+        <module name="security" />
         <module name="some" />
         <module name="ui" />
       </profile>
@@ -122,6 +125,7 @@
       <module name="007-SpringBoot中集成Mock" target="1.8" />
       <module name="008-SpringMVC访问外部文件" target="1.5" />
       <module name="009-Jersey使用" target="1.8" />
+      <module name="01-aouth" target="1.8" />
       <module name="010-SpringBoot-CXF使用" target="1.8" />
       <module name="011-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="012-SpringBoot-Actuator使用" target="1.8" />
@@ -130,6 +134,7 @@
       <module name="015-sping-spring中的xml-schema扩展机制" target="1.8" />
       <module name="015-Spring-XML-schema扩展机制" target="1.8" />
       <module name="015-springboot-jwt" target="1.8" />
+      <module name="016-SpringBoot-SocketIO" target="1.8" />
       <module name="boot" target="1.8" />
       <module name="ch0101-Spring基础" target="1.8" />
       <module name="ch0101-Spring基础-Java配置" target="1.8" />
@@ -201,9 +206,55 @@
       <module name="framework" target="1.5" />
       <module name="monitor" target="1.8" />
       <module name="person" target="1.8" />
+      <module name="security" target="1.8" />
       <module name="some" target="1.8" />
       <module name="spring-all" target="1.5" />
       <module name="ui" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="009-Jersey使用" options="-parameters" />
+      <module name="01-aouth" options="-parameters" />
+      <module name="010-SpringBoot-CXF使用" options="-parameters" />
+      <module name="012-SpringBoot-Actuator使用" options="-parameters" />
+      <module name="013-SpringBoot-Actuator自定义安全" options="-parameters" />
+      <module name="014-SpringBoot-Actuator-Log4j2" options="-parameters" />
+      <module name="015-springboot-jwt" options="-parameters" />
+      <module name="016-SpringBoot-SocketIO" options="-parameters" />
+      <module name="ch0501-SpringBoot基础-简单演示" options="-parameters" />
+      <module name="ch0601-SpringBoot-核心-类型安全的配置" options="-parameters" />
+      <module name="ch0602-SpringBoot-核心-Profile配置" options="-parameters" />
+      <module name="ch0603-SpringBoot-核心-运行原理" options="-parameters" />
+      <module name="ch0603-SpringBoot-核心-运行原理-Hello" options="-parameters" />
+      <module name="ch0701-SpringBoot-Web-Thymeleaf模板引擎" options="-parameters" />
+      <module name="ch0702-SpringBoot-Web-Tomcat配置" options="-parameters" />
+      <module name="ch0703-SpringBoot-Web-Tomcat配置" options="-parameters" />
+      <module name="ch0704-SpringBoot-Web-Jetty配置" options="-parameters" />
+      <module name="ch0705-SpringBoot-Web-Undertow配置" options="-parameters" />
+      <module name="ch0706-SpringBoot-Web-SSL配置" options="-parameters" />
+      <module name="ch0707-SpringBoot-Web-Websocket" options="-parameters" />
+      <module name="ch0708-SpringBoot-Web-Websocket-点对点通讯" options="-parameters" />
+      <module name="ch0709-SpringBoot-Web-集成Bootstrap和AngularJS" options="-parameters" />
+      <module name="ch0801-SpringBoot-数据访问-SpringDataJPA" options="-parameters" />
+      <module name="ch0802-SpringBoot-数据访问-SpringDataRest" options="-parameters" />
+      <module name="ch0803-SpringBoot-数据访问-声明式事务" options="-parameters" />
+      <module name="ch0804-SpringBoot-数据访问-数据缓存Cache" options="-parameters" />
+      <module name="ch0805-SpringBoot-数据访问-NoSQL" options="-parameters" />
+      <module name="ch0806-SpringBoot-数据访问-Redis" options="-parameters" />
+      <module name="ch0901-SpringBoot-企业级开发-SpringSecurity" options="-parameters" />
+      <module name="ch0902-SpringBoot-企业级开发-SpringBatch" options="-parameters" />
+      <module name="ch0903-SpringBoot-企业级开发-异步消息-JMS" options="-parameters" />
+      <module name="ch0904-SpringBoot-企业级开发-异步消息-AMQP" options="-parameters" />
+      <module name="ch0905-SpringBoot-企业级开发-系统集成" options="-parameters" />
+      <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="monitor" options="-parameters" />
+      <module name="person" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="some" options="-parameters" />
+      <module name="ui" options="-parameters" />
+    </option>
   </component>
 </project>

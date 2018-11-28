@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/007-SpringBoot中集成Mock/007-SpringBoot中集成Mock.iml" filepath="$PROJECT_DIR$/007-SpringBoot中集成Mock/007-SpringBoot中集成Mock.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-SpringMVC访问外部文件/008-SpringMVC访问外部文件.iml" filepath="$PROJECT_DIR$/008-SpringMVC访问外部文件/008-SpringMVC访问外部文件.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/009-Jersey使用/009-Jersey使用.iml" filepath="$PROJECT_DIR$/boot/009-Jersey使用/009-Jersey使用.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/01-aouth/01-aouth.iml" filepath="$PROJECT_DIR$/security/01-aouth/01-aouth.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/010-SpringBoot-CXF使用/010-SpringBoot-CXF使用.iml" filepath="$PROJECT_DIR$/boot/010-SpringBoot-CXF使用/010-SpringBoot-CXF使用.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/012-SpringBoot-Actuator使用.iml" filepath="$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/012-SpringBoot-Actuator使用.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/013-SpringBoot-Actuator自定义安全/013-SpringBoot-Actuator自定义安全.iml" filepath="$PROJECT_DIR$/boot/013-SpringBoot-Actuator自定义安全/013-SpringBoot-Actuator自定义安全.iml" />
@@ -18,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/003-使用JVM参数激活配置文件/015-Spring-XML-schema扩展机制.iml" filepath="$PROJECT_DIR$/003-使用JVM参数激活配置文件/015-Spring-XML-schema扩展机制.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/015-sping-spring中的xml-schema扩展机制/015-sping-spring中的xml-schema扩展机制.iml" filepath="$PROJECT_DIR$/framework/015-sping-spring中的xml-schema扩展机制/015-sping-spring中的xml-schema扩展机制.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/015-springboot-jwt/015-springboot-jwt.iml" filepath="$PROJECT_DIR$/boot/015-springboot-jwt/015-springboot-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot/016-SpringBoot-SocketIO/016-SpringBoot-SocketIO.iml" filepath="$PROJECT_DIR$/boot/016-SpringBoot-SocketIO/016-SpringBoot-SocketIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/boot.iml" filepath="$PROJECT_DIR$/boot/boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/ch0101-Spring基础/ch0101-Spring基础.iml" filepath="$PROJECT_DIR$/framework/ch0101-Spring基础/ch0101-Spring基础.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/ch0101-Spring基础-Java配置/ch0101-Spring基础-Java配置.iml" filepath="$PROJECT_DIR$/framework/ch0101-Spring基础-Java配置/ch0101-Spring基础-Java配置.iml" />

@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch0401-SpringMVC基础-项目快速搭建、:war exploded">
     <output-path>$PROJECT_DIR$/framework/ch0401-SpringMVC基础-项目快速搭建/target/ch0401-SpringMVC基础-项目快速搭建-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ch0401-SpringMVC基础-项目快速搭建、</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

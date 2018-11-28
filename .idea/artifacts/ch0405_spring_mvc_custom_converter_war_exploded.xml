@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch0405-spring-mvc-custom-converter:war exploded">
     <output-path>$PROJECT_DIR$/framework/ch0405-SpringMVC基础-自定义HttpMessageConverter/target/ch0405-SpringMVC基础-自定义HttpMessageConverter-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ch0405-spring-mvc-custom-converter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Demo Chat</title>
+    <style type="text/css">
+        body {
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .text-area {
+            font-size: 16px;
+            font-family: 'DejaVu Sans Mono', monospace;
+            font-weight: bolder;
+        }
+
+        .form-inline {
+            margin-top: 10px;
+        }
+
+        .input-xlarge, .btn {
+            border: 1px solid #999999;
+            border-radius: 2px;
+            height: 30px;
+            font-size: 16px;
+            font-family: 'DejaVu Sans Mono', monospace;
+            font-weight: bolder;
+        }
+
+        .btn {
+            height: 34px;
+        }
+
+        /*.username-msg {*/
+        /*color: orange;*/
+        /*}*/
+
+        /*.connect-msg {*/
+        /*color: green;*/
+        /*}*/
+
+        /*.disconnect-msg {*/
+        /*color: red;*/
+        /*}*/
+
+        /*.send-msg {*/
+        /*color: #888*/
+        /*}*/
+    </style>
+
+
+    <script src="js/socket.io/socket.io.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+
+    <script>
+
+        var clients = ['client-1', 'client-2'];
+        var sockets = [];
+
+        for (var i = 0; i < clients.length; i++) {
+            sockets[i] = io.connect('http://localhost:9090?clientid=' + clients[i]);
+            sockets[i].on('connect', function (socket) {
+                output(i, '<span class="connect-msg">Client has connected to the server!</span>');
+            });
+            sockets[i].on('message', function (data) {
+                output(i, '<span class="username-msg">' + data.sourceClientId + ':</span> ' + data.msgContent);
+            });
+            sockets[i].on('disconnect', function () {
+                output(i, '<span class="disconnect-msg">The client has disconnected!</span>');
+            });
+        }
+
+
+        function sendConnect(id) {
+            sockets[id] = io.connect('http://localhost:9090?clientid=' + clients[id]);
+        }
+
+        function sendDisconnect(id) {
+            sockets[id].disconnect();
+        }
+
+        function sendMessage(id) {
+            var message = $('#msg-' + (id + 1)).val();
+            $('#msg-' + (id + 1)).val('');
+            var jsonObject = {
+                sourceClientId: clients[id],
+                targetClientId: clients[(id + 1) % 2],
+                msgType: 'chat',
+                msgContent: message
+            };
+            sockets[id].emit('message', jsonObject);
+        }
+
+        function output(id, message) {
+            var currentTime = "<span class='time'>" + moment().format('HH:mm:ss.SSS') + "</span>";
+            var element = $("<div>" + currentTime + " " + message + "</div>");
+            $('#output-area-' + (id + 1)).prepend(element);
+        }
+
+        $(".input-xlarge").keydown(function (e) {
+            if (e.keyCode == 13) {
+                var id = $(this).data("send-id");
+                $(id).click();
+            }
+        });
+    </script>
+</head>
+
+<body>
+
+<h1 style="font-family: 'Courier New';font-weight: bolder; text-align: center">Netty-socketio Demo Chat</h1>
+
+<div id="console-1" class="well" style="display: inline-block;">
+    <div id="output-area-1" class="text-area" style="border: 1px solid #000000; height: 400px">
+    </div>
+    <form class="well form-inline" onsubmit="return false;">
+        <input id="msg-1" data-send-id="#data-1" class="input-xlarge" type="text" placeholder="Type something..."/>
+        <button type="button" onClick="sendMessage(0)" class="btn send-msg" id="send-1">Send</button>
+        <button type="button" onClick="sendConnect(0)" class="btn">Connect</button>
+        <button type="button" onClick="sendDisconnect(0)" class="btn">Disconnect</button>
+    </form>
+</div>
+<div id="console-2" class="well" style="display: inline-block;">
+    <div id="output-area-2" class="text-area" style="border: 1px solid #000000; height: 400px">
+    </div>
+    <form class="well form-inline" onsubmit="return false;">
+        <input id="msg-2" data-send-id="#data-2" class="input-xlarge" type="text" placeholder="Type something..."/>
+        <button type="button" onClick="sendMessage(1)" class="btn send-msg" id="send-2">Send</button>
+        <button type="button" onClick="sendConnect(1)" class="btn">Connect</button>
+        <button type="button" onClick="sendDisconnect(1)" class="btn">Disconnect</button>
+    </form>
+</div>
+
+
+</body>
+
+</html>

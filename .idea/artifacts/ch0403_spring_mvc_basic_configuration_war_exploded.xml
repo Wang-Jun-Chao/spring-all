@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ch0403-spring-mvc-basic-configuration:war exploded">
     <output-path>$PROJECT_DIR$/framework/ch0403-SpringMVC基础-基本配置/target/ch0403-SpringMVC基础-基本配置-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ch0403-spring-mvc-basic-configuration</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
