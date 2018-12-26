@@ -1,6 +1,6 @@
 debug: true
 server:
-    port: 8888
+    port: 8010
 spring:
     jpa:
         generate-ddl: false
