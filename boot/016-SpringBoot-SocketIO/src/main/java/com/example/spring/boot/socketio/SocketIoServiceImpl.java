@@ -6,6 +6,7 @@ import com.corundumstudio.socketio.SocketIOServer;
 import com.corundumstudio.socketio.annotation.OnConnect;
 import com.corundumstudio.socketio.annotation.OnDisconnect;
 import com.corundumstudio.socketio.annotation.OnEvent;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.DisposableBean;
@@ -25,6 +26,7 @@ import java.util.concurrent.ConcurrentMap;
 @Service
 public class SocketIoServiceImpl implements SocketIoService, DisposableBean {
     private final static Logger logger = LoggerFactory.getLogger(SocketIoServiceImpl.class);
+
 
     private ConcurrentMap<String, ClientInfo> MAP = new ConcurrentHashMap<>();
     @Autowired

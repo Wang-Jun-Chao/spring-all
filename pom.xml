@@ -17,7 +17,6 @@
         <module>006-设置缓存Key的失效时间</module>
         <module>007-SpringBoot中集成Mock</module>
         <module>008-SpringMVC访问外部文件</module>
-        <module>015-sping-spring中的xml-schema扩展机制</module>
         <module>boot</module>
         <module>cloud</module>
         <module>framework</module>

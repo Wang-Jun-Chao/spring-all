@@ -102,6 +102,8 @@
         <module name="config" />
         <module name="discovery" />
         <module name="highlight_spring4" />
+        <module name="microservice-simple-consumer-movie" />
+        <module name="microservice-simple-provider-user" />
         <module name="monitor" />
         <module name="person" />
         <module name="security" />
@@ -204,6 +206,8 @@
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
       <module name="framework" target="1.5" />
+      <module name="microservice-simple-consumer-movie" target="1.8" />
+      <module name="microservice-simple-provider-user" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="person" target="1.8" />
       <module name="security" target="1.8" />
@@ -217,6 +221,7 @@
       <module name="009-Jersey使用" options="-parameters" />
       <module name="01-aouth" options="-parameters" />
       <module name="010-SpringBoot-CXF使用" options="-parameters" />
+      <module name="011-SpringBoot-ActiveMQ使用" options="-parameters" />
       <module name="012-SpringBoot-Actuator使用" options="-parameters" />
       <module name="013-SpringBoot-Actuator自定义安全" options="-parameters" />
       <module name="014-SpringBoot-Actuator-Log4j2" options="-parameters" />
@@ -250,6 +255,8 @@
       <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="microservice-simple-consumer-movie" options="-parameters" />
+      <module name="microservice-simple-provider-user" options="-parameters" />
       <module name="monitor" options="-parameters" />
       <module name="person" options="-parameters" />
       <module name="security" options="-parameters" />

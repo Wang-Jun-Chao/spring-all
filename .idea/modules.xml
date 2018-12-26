@@ -105,12 +105,13 @@
       <module fileurl="file://$PROJECT_DIR$/boot/010-SpringBoot-CXF使用/src/main/main7.iml" filepath="$PROJECT_DIR$/boot/010-SpringBoot-CXF使用/src/main/main7.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/ch0705-SpringBoot-Web-Undertow配置/src/main/main8.iml" filepath="$PROJECT_DIR$/boot/ch0705-SpringBoot-Web-Undertow配置/src/main/main8.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/src/main/main9.iml" filepath="$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/cloud/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/microservice-simple-provider-user/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/cloud/microservice-simple-provider-user/microservice-simple-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" filepath="$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/person/person.iml" filepath="$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/person/person.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/some/some.iml" filepath="$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/some/some.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-all.iml" filepath="$PROJECT_DIR$/spring-all.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot/011-SpringBoot-ActiveMQ使用/src/test/test.iml" filepath="$PROJECT_DIR$/boot/011-SpringBoot-ActiveMQ使用/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/009-Jersey使用/src/test/test1.iml" filepath="$PROJECT_DIR$/boot/009-Jersey使用/src/test/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/src/test/test2.iml" filepath="$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/src/test/test2.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/014-SpringBoot-Actuator-Log4j2/src/test/test3.iml" filepath="$PROJECT_DIR$/boot/014-SpringBoot-Actuator-Log4j2/src/test/test3.iml" />
