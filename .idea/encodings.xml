@@ -49,6 +49,7 @@
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/person" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/some" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/microservice-simple-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/microservice-simple-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/framework/ch0101-Spring基础/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" charset="UTF-8" />

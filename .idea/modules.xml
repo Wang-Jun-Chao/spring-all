@@ -105,6 +105,7 @@
       <module fileurl="file://$PROJECT_DIR$/boot/010-SpringBoot-CXF使用/src/main/main7.iml" filepath="$PROJECT_DIR$/boot/010-SpringBoot-CXF使用/src/main/main7.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/ch0705-SpringBoot-Web-Undertow配置/src/main/main8.iml" filepath="$PROJECT_DIR$/boot/ch0705-SpringBoot-Web-Undertow配置/src/main/main8.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/src/main/main9.iml" filepath="$PROJECT_DIR$/boot/012-SpringBoot-Actuator使用/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/cloud/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/microservice-simple-provider-user/microservice-simple-provider-user.iml" filepath="$PROJECT_DIR$/cloud/microservice-simple-provider-user/microservice-simple-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" filepath="$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/monitor/monitor.iml" />

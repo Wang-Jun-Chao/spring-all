@@ -102,6 +102,7 @@
         <module name="config" />
         <module name="discovery" />
         <module name="highlight_spring4" />
+        <module name="microservice-discovery-eureka" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
         <module name="monitor" />
@@ -206,6 +207,7 @@
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
       <module name="framework" target="1.5" />
+      <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="monitor" target="1.8" />
@@ -255,6 +257,7 @@
       <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="microservice-discovery-eureka" options="-parameters" />
       <module name="microservice-simple-consumer-movie" options="-parameters" />
       <module name="microservice-simple-provider-user" options="-parameters" />
       <module name="monitor" options="-parameters" />

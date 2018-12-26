@@ -1,0 +1,39 @@
+server:
+    port: 8000
+spring:
+    jpa:
+        generate-ddl: false
+        show-sql: true
+        hibernate:
+            ddl-auto: none
+    datasource:                             # 指定数据源
+        platform: h2                        # 指定数据源类型
+        schema: classpath:schema.sql        # 指定h2数据库的建表脚本
+        data: classpath:data.sql            # 指定h2数据库的数据脚本
+logging:                                    # 配置日志级别，让hibernate打印出执行的SQL
+    level:
+        root: INFO
+        org.hibernate: INFO
+        org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+        org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+
+# INFO
+info:
+    app:
+        name: @project.artifactId@
+        encoding: @project.build.sourceEncoding@
+        java:
+            source: @java.version@
+            target: @java.version@
+
+# http://localhost:8000/actuator/health
+management:
+    endpoint:
+        health:
+            show-details: always
+    endpoints:
+        enabled-by-default: true
+        web:
+            base-path: "/actuator"
+            exposure:
+                include: "*"
