@@ -102,7 +102,9 @@
         <module name="config" />
         <module name="discovery" />
         <module name="highlight_spring4" />
+        <module name="microservice-consumer-movie" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservice-provider-user" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
         <module name="monitor" />
@@ -120,7 +122,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="001-Redis从数据库中读取配置" target="1.8" />
+      <module name="001-springboot-microservice" target="1.8" />
       <module name="002-Maven插件-打包时多环境配置文件设置" target="1.5" />
+      <module name="002-simple-demo" target="1.8" />
       <module name="003-使用JVM参数激活配置文件" target="1.8" />
       <module name="004-Redis使用Kryo序列化工具" target="1.8" />
       <module name="005-Java程序运行Java源文件" target="1.8" />
@@ -207,7 +211,9 @@
       <module name="config" target="1.8" />
       <module name="discovery" target="1.8" />
       <module name="framework" target="1.5" />
+      <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="monitor" target="1.8" />
@@ -220,6 +226,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="001-springboot-microservice" options="-parameters" />
+      <module name="002-simple-demo" options="-parameters" />
       <module name="009-Jersey使用" options="-parameters" />
       <module name="01-aouth" options="-parameters" />
       <module name="010-SpringBoot-CXF使用" options="-parameters" />
@@ -257,7 +265,9 @@
       <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="microservice-consumer-movie" options="-parameters" />
       <module name="microservice-discovery-eureka" options="-parameters" />
+      <module name="microservice-provider-user" options="-parameters" />
       <module name="microservice-simple-consumer-movie" options="-parameters" />
       <module name="microservice-simple-provider-user" options="-parameters" />
       <module name="monitor" options="-parameters" />

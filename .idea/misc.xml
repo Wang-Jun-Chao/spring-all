@@ -103,6 +103,12 @@
         <option value="$PROJECT_DIR$/cloud/microservice-simple-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/microservice-simple-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/microservice-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/microservice-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/microservice-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/001-springboot-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/001-springboot-microservice/microservice-simple-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/001-springboot-microservice/microservice-simple-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/002-simple-demoe/pom.xml" />
       </list>
     </option>
   </component>
