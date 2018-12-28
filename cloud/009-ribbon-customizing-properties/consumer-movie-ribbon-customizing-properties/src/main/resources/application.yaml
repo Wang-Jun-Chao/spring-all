@@ -1,0 +1,21 @@
+debug: false
+server:
+    port: 8000
+spring:
+    application:
+        name: consumer-movie-ribbon-customizing-properties
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+        enabled: true
+    instance:
+        prefer-ip-address: true
+        appname: ${spring.application.name}
+provider-user-ribbon-customizing-properties:
+    ribbon:
+        NFLoadBalancerClassName: com.netflix.loadbalancer.DynamicServerListLoadBalancer
+        NFLoadBalancerRuleClassName: com.netflix.loadbalancer.AvailabilityFilteringRule
+        NFLoadBalancerPingClassName: com.netflix.niws.loadbalancer.NIWSDiscoveryPing
+        NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
+        NIWSServerListFilterClassName: org.springframework.cloud.netflix.ribbon.ZonePreferenceServerListFilter

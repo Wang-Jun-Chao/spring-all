@@ -118,6 +118,11 @@
         <option value="$PROJECT_DIR$/cloud/006-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/007-ribbon-customizing/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/008-ribbon-customizing-global/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/009-ribbon-customizing-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/010-ribbon-without-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/010-ribbon-without-eureka/provider-user-ribbon-without-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/011-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/012-feign-customizing/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

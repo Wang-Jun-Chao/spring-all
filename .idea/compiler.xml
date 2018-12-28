@@ -101,13 +101,20 @@
         <module name="ch1303-SpringBoot-ActiveMQ" />
         <module name="ch1303-SpringBoot-ActiveMQ使用" />
         <module name="config" />
+        <module name="consumer-movie-feign" />
+        <module name="consumer-movie-feign-customizing" />
         <module name="consumer-movie-ribbon" />
         <module name="consumer-movie-ribbon-customizing" />
         <module name="consumer-movie-ribbon-customizing-global" />
+        <module name="consumer-movie-ribbon-customizing-properties" />
+        <module name="consumer-movie-ribbon-without-eureka" />
         <module name="discovery" />
+        <module name="discovery-eureka-feign" />
+        <module name="discovery-eureka-feign-customizing" />
         <module name="discovery-eureka-ribbon" />
         <module name="discovery-eureka-ribbon-customizing" />
         <module name="discovery-eureka-ribbon-customizing-global" />
+        <module name="discovery-eureka-ribbon-customizing-properties" />
         <module name="highlight_spring4" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-auth" />
@@ -125,9 +132,13 @@
         <module name="microservice-simple-provider-user" />
         <module name="monitor" />
         <module name="person" />
+        <module name="provider-user-feign" />
+        <module name="provider-user-feign-customizing" />
         <module name="provider-user-ribbon" />
         <module name="provider-user-ribbon-customizing" />
         <module name="provider-user-ribbon-customizing-global" />
+        <module name="provider-user-ribbon-customizing-properties" />
+        <module name="provider-user-ribbon-without-eureka" />
         <module name="security" />
         <module name="some" />
         <module name="ui" />
@@ -157,9 +168,13 @@
       <module name="008-ribbon-customizing-global" target="1.8" />
       <module name="008-SpringMVC访问外部文件" target="1.5" />
       <module name="009-Jersey使用" target="1.8" />
+      <module name="009-ribbon-customizing-properties" target="1.8" />
       <module name="01-aouth" target="1.8" />
+      <module name="010-ribbon-without-eureka" target="1.8" />
       <module name="010-SpringBoot-CXF使用" target="1.8" />
+      <module name="011-feign" target="1.8" />
       <module name="011-SpringBoot-ActiveMQ使用" target="1.8" />
+      <module name="012-feign-customizing" target="1.8" />
       <module name="012-SpringBoot-Actuator使用" target="1.8" />
       <module name="013-SpringBoot-Actuator自定义安全" target="1.8" />
       <module name="014-SpringBoot-Actuator-Log4j2" target="1.8" />
@@ -234,13 +249,20 @@
       <module name="ch1303-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="cloud" target="1.8" />
       <module name="config" target="1.8" />
+      <module name="consumer-movie-feign" target="1.8" />
+      <module name="consumer-movie-feign-customizing" target="1.8" />
       <module name="consumer-movie-ribbon" target="1.8" />
       <module name="consumer-movie-ribbon-customizing" target="1.8" />
       <module name="consumer-movie-ribbon-customizing-global" target="1.8" />
+      <module name="consumer-movie-ribbon-customizing-properties" target="1.8" />
+      <module name="consumer-movie-ribbon-without-eureka" target="1.8" />
       <module name="discovery" target="1.8" />
+      <module name="discovery-eureka-feign" target="1.8" />
+      <module name="discovery-eureka-feign-customizing" target="1.8" />
       <module name="discovery-eureka-ribbon" target="1.8" />
       <module name="discovery-eureka-ribbon-customizing" target="1.8" />
       <module name="discovery-eureka-ribbon-customizing-global" target="1.8" />
+      <module name="discovery-eureka-ribbon-customizing-properties" target="1.8" />
       <module name="framework" target="1.5" />
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-auth" target="1.8" />
@@ -258,9 +280,13 @@
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="person" target="1.8" />
+      <module name="provider-user-feign" target="1.8" />
+      <module name="provider-user-feign-customizing" target="1.8" />
       <module name="provider-user-ribbon" target="1.8" />
       <module name="provider-user-ribbon-customizing" target="1.8" />
       <module name="provider-user-ribbon-customizing-global" target="1.8" />
+      <module name="provider-user-ribbon-customizing-properties" target="1.8" />
+      <module name="provider-user-ribbon-without-eureka" target="1.8" />
       <module name="security" target="1.8" />
       <module name="some" target="1.8" />
       <module name="spring-all" target="1.5" />
@@ -308,13 +334,20 @@
       <module name="ch0905-SpringBoot-企业级开发-系统集成" options="-parameters" />
       <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
       <module name="config" options="-parameters" />
+      <module name="consumer-movie-feign" options="-parameters" />
+      <module name="consumer-movie-feign-customizing" options="-parameters" />
       <module name="consumer-movie-ribbon" options="-parameters" />
       <module name="consumer-movie-ribbon-customizing" options="-parameters" />
       <module name="consumer-movie-ribbon-customizing-global" options="-parameters" />
+      <module name="consumer-movie-ribbon-customizing-properties" options="-parameters" />
+      <module name="consumer-movie-ribbon-without-eureka" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="discovery-eureka-feign" options="-parameters" />
+      <module name="discovery-eureka-feign-customizing" options="-parameters" />
       <module name="discovery-eureka-ribbon" options="-parameters" />
       <module name="discovery-eureka-ribbon-customizing" options="-parameters" />
       <module name="discovery-eureka-ribbon-customizing-global" options="-parameters" />
+      <module name="discovery-eureka-ribbon-customizing-properties" options="-parameters" />
       <module name="microservice-consumer-movie" options="-parameters" />
       <module name="microservice-consumer-movie-auth" options="-parameters" />
       <module name="microservice-consumer-movie-ha" options="-parameters" />
@@ -331,9 +364,13 @@
       <module name="microservice-simple-provider-user" options="-parameters" />
       <module name="monitor" options="-parameters" />
       <module name="person" options="-parameters" />
+      <module name="provider-user-feign" options="-parameters" />
+      <module name="provider-user-feign-customizing" options="-parameters" />
       <module name="provider-user-ribbon" options="-parameters" />
       <module name="provider-user-ribbon-customizing" options="-parameters" />
       <module name="provider-user-ribbon-customizing-global" options="-parameters" />
+      <module name="provider-user-ribbon-customizing-properties" options="-parameters" />
+      <module name="provider-user-ribbon-without-eureka" options="-parameters" />
       <module name="security" options="-parameters" />
       <module name="some" options="-parameters" />
       <module name="ui" options="-parameters" />

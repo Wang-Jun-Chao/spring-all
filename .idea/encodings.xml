@@ -73,6 +73,21 @@
     <file url="file://$PROJECT_DIR$/cloud/008-ribbon-customizing-global/consumer-movie-ribbon-customizing-global" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/008-ribbon-customizing-global/discovery-eureka-ribbon-customizing-global" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/008-ribbon-customizing-global/provider-user-ribbon-customizing-global" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-ribbon-customizing-properties/consumer-movie-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-ribbon-customizing-properties/discovery-eureka-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/009-ribbon-customizing-properties/provider-user-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/010-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/010-ribbon-without-eureka/consumer-movie-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/010-ribbon-without-eureka/provider-user-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/011-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/011-feign/consumer-movie-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/011-feign/discovery-eureka-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/011-feign/provider-user-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/012-feign-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/012-feign-customizing/consumer-movie-feign-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/012-feign-customizing/discovery-eureka-feign-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/012-feign-customizing/provider-user-feign-customizing" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/discovery" charset="UTF-8" />

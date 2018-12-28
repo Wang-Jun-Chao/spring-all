@@ -4,6 +4,7 @@ server:
 spring:
     application:
         name: consumer-movie-ribbon-customizing-global
+
 eureka:
     client:
         serviceUrl:
@@ -12,3 +13,12 @@ eureka:
     instance:
         prefer-ip-address: true
         appname: ${spring.application.name}
+ribbon:
+    eager-load:
+        enabled: true
+        clients: provider-user-ribbon-customizing-global
+# 配置服务端可用信息
+provider-user-ribbon-customizing-global:
+    ribbon:
+        listOfServers: localhost:8010,localhost:8020,
+        ServerListRefreshInterval: 15000

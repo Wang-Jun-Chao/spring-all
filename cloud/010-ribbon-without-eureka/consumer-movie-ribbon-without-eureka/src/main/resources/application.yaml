@@ -1,0 +1,10 @@
+debug: false
+server:
+    port: 8000
+spring:
+    application:
+        name: consumer-movie-ribbon-without-eureka
+
+provider-user-ribbon-without-eureka:
+    ribbon:
+        listOfServers: localhost:8010,localhost:8020

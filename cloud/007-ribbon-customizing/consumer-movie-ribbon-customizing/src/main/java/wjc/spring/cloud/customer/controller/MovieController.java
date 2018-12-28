@@ -32,9 +32,9 @@ public class MovieController {
     }
 
     @GetMapping("/log-user-instance")
-    public void logUserInstance() {
-        ServiceInstance serviceInstance = this.loadBalancerClient.choose("provider-user-ribbon-customizing-global");
-        LOGGER.info("{}:{}:{}", serviceInstance.getServiceId(),
+    public String logUserInstance() {
+        ServiceInstance serviceInstance = this.loadBalancerClient.choose("provider-user-ribbon-customizing-properties");
+        return String.format("%s:%s:%s", serviceInstance.getServiceId(),
                 serviceInstance.getHost(), serviceInstance.getPort());
     }
 }

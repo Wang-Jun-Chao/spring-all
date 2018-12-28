@@ -20,7 +20,6 @@ import wjc.spring.cloud.consumer.config.RibbonClientDefaultConfigurationTestsCon
  * @author: wangjunchao(王俊超)
  * @time: 2018-12-27 14:26
  **/
-@Configuration
 public class DefaultRibbonConfiguration {
     private final static Logger logger = LoggerFactory.getLogger(DefaultRibbonConfiguration.class);
 
