@@ -2,10 +2,7 @@ package wjc.spring.cloud.consumer.config;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.ConfigurationBasedServerList;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
-import org.springframework.context.annotation.Configuration;
 import wjc.spring.cloud.config.DefaultRibbonConfiguration;
 
 /**

@@ -103,6 +103,9 @@
         <module name="config" />
         <module name="consumer-movie-feign" />
         <module name="consumer-movie-feign-customizing" />
+        <module name="consumer-movie-feign-customizing-global" />
+        <module name="consumer-movie-feign-customizing-logging" />
+        <module name="consumer-movie-feign-customizing-manual" />
         <module name="consumer-movie-ribbon" />
         <module name="consumer-movie-ribbon-customizing" />
         <module name="consumer-movie-ribbon-customizing-global" />
@@ -111,6 +114,9 @@
         <module name="discovery" />
         <module name="discovery-eureka-feign" />
         <module name="discovery-eureka-feign-customizing" />
+        <module name="discovery-eureka-feign-customizing-global" />
+        <module name="discovery-eureka-feign-customizing-logging" />
+        <module name="discovery-eureka-feign-customizing-manual" />
         <module name="discovery-eureka-ribbon" />
         <module name="discovery-eureka-ribbon-customizing" />
         <module name="discovery-eureka-ribbon-customizing-global" />
@@ -134,7 +140,9 @@
         <module name="person" />
         <module name="provider-user-feign" />
         <module name="provider-user-feign-customizing" />
-        <module name="provider-user-ribbon" />
+        <module name="provider-user-feign-customizing-global" />
+        <module name="provider-user-feign-customizing-logging" />
+        <module name="provider-user-feign-customizing-manual" />
         <module name="provider-user-ribbon-customizing" />
         <module name="provider-user-ribbon-customizing-global" />
         <module name="provider-user-ribbon-customizing-properties" />
@@ -148,6 +156,12 @@
         <sourceTestOutputDir name="../../ch0304-Spring高级话题-条件注解Condition/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch0304-Spring高级话题-条件注解Condition" />
+      </profile>
+      <profile name="Annotation profile for spring-all" enabled="true">
+        <sourceOutputDir name="../../009-ribbon-customizing-properties/provider-user-ribbon-customizing-properties/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../009-ribbon-customizing-properties/provider-user-ribbon-customizing-properties/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="provider-user-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -176,8 +190,11 @@
       <module name="011-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="012-feign-customizing" target="1.8" />
       <module name="012-SpringBoot-Actuator使用" target="1.8" />
+      <module name="013-feign-customizing-global" target="1.8" />
       <module name="013-SpringBoot-Actuator自定义安全" target="1.8" />
+      <module name="014-feign-customizing-manual" target="1.8" />
       <module name="014-SpringBoot-Actuator-Log4j2" target="1.8" />
+      <module name="015-feign-customizing-logging" target="1.8" />
       <module name="015-sping-spring中的xml-schema扩展机制" target="1.8" />
       <module name="015-Spring-XML-schema扩展机制" target="1.8" />
       <module name="015-springboot-jwt" target="1.8" />
@@ -251,6 +268,9 @@
       <module name="config" target="1.8" />
       <module name="consumer-movie-feign" target="1.8" />
       <module name="consumer-movie-feign-customizing" target="1.8" />
+      <module name="consumer-movie-feign-customizing-global" target="1.8" />
+      <module name="consumer-movie-feign-customizing-logging" target="1.8" />
+      <module name="consumer-movie-feign-customizing-manual" target="1.8" />
       <module name="consumer-movie-ribbon" target="1.8" />
       <module name="consumer-movie-ribbon-customizing" target="1.8" />
       <module name="consumer-movie-ribbon-customizing-global" target="1.8" />
@@ -259,6 +279,9 @@
       <module name="discovery" target="1.8" />
       <module name="discovery-eureka-feign" target="1.8" />
       <module name="discovery-eureka-feign-customizing" target="1.8" />
+      <module name="discovery-eureka-feign-customizing-global" target="1.8" />
+      <module name="discovery-eureka-feign-customizing-logging" target="1.8" />
+      <module name="discovery-eureka-feign-customizing-manual" target="1.8" />
       <module name="discovery-eureka-ribbon" target="1.8" />
       <module name="discovery-eureka-ribbon-customizing" target="1.8" />
       <module name="discovery-eureka-ribbon-customizing-global" target="1.8" />
@@ -282,6 +305,9 @@
       <module name="person" target="1.8" />
       <module name="provider-user-feign" target="1.8" />
       <module name="provider-user-feign-customizing" target="1.8" />
+      <module name="provider-user-feign-customizing-global" target="1.8" />
+      <module name="provider-user-feign-customizing-logging" target="1.8" />
+      <module name="provider-user-feign-customizing-manual" target="1.8" />
       <module name="provider-user-ribbon" target="1.8" />
       <module name="provider-user-ribbon-customizing" target="1.8" />
       <module name="provider-user-ribbon-customizing-global" target="1.8" />
@@ -336,6 +362,9 @@
       <module name="config" options="-parameters" />
       <module name="consumer-movie-feign" options="-parameters" />
       <module name="consumer-movie-feign-customizing" options="-parameters" />
+      <module name="consumer-movie-feign-customizing-global" options="-parameters" />
+      <module name="consumer-movie-feign-customizing-logging" options="-parameters" />
+      <module name="consumer-movie-feign-customizing-manual" options="-parameters" />
       <module name="consumer-movie-ribbon" options="-parameters" />
       <module name="consumer-movie-ribbon-customizing" options="-parameters" />
       <module name="consumer-movie-ribbon-customizing-global" options="-parameters" />
@@ -344,6 +373,9 @@
       <module name="discovery" options="-parameters" />
       <module name="discovery-eureka-feign" options="-parameters" />
       <module name="discovery-eureka-feign-customizing" options="-parameters" />
+      <module name="discovery-eureka-feign-customizing-global" options="-parameters" />
+      <module name="discovery-eureka-feign-customizing-logging" options="-parameters" />
+      <module name="discovery-eureka-feign-customizing-manual" options="-parameters" />
       <module name="discovery-eureka-ribbon" options="-parameters" />
       <module name="discovery-eureka-ribbon-customizing" options="-parameters" />
       <module name="discovery-eureka-ribbon-customizing-global" options="-parameters" />
@@ -366,6 +398,9 @@
       <module name="person" options="-parameters" />
       <module name="provider-user-feign" options="-parameters" />
       <module name="provider-user-feign-customizing" options="-parameters" />
+      <module name="provider-user-feign-customizing-global" options="-parameters" />
+      <module name="provider-user-feign-customizing-logging" options="-parameters" />
+      <module name="provider-user-feign-customizing-manual" options="-parameters" />
       <module name="provider-user-ribbon" options="-parameters" />
       <module name="provider-user-ribbon-customizing" options="-parameters" />
       <module name="provider-user-ribbon-customizing-global" options="-parameters" />

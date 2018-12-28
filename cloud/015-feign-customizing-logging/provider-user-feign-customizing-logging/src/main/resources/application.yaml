@@ -1,0 +1,62 @@
+debug: true
+spring:
+    jpa:
+        generate-ddl: false
+        show-sql: true
+        hibernate:
+            ddl-auto: none
+    datasource:                             # 指定数据源
+        platform: h2                        # 指定数据源类型
+        schema: classpath:schema.sql        # 指定h2数据库的建表脚本
+        data: classpath:data.sql            # 指定h2数据库的数据脚本
+    application:
+        # 用于指定注册到 Eureka Server 上的应用名称；
+        name: provider-user-feign-customizing-logging
+
+logging:                                    # 配置日志级别，让hibernate打印出执行的SQL
+    level:
+        root: INFO
+        org.hibernate: INFO
+        org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+        org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+
+# INFO
+info:
+    app:
+        name: ${spring.application.name}
+        encoding: @project.build.sourceEncoding@
+        java:
+            source: @java.version@
+            target: @java.version@
+
+# http://localhost:8000/actuator/health
+management:
+    endpoint:
+        health:
+            show-details: always
+    endpoints:
+        enabled-by-default: true
+        web:
+            base-path: "/actuator"
+            exposure:
+                include: "*"
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+    instance:
+        appname: ${spring.application.name}
+        # 表示将自己的IP 注册到 Eureka Server
+        prefer-ip-address: true
+
+---
+spring:
+    profiles: node1
+server:
+    port: 8010
+
+---
+spring:
+    profiles: node2
+server:
+    port: 8020

@@ -123,6 +123,9 @@
         <option value="$PROJECT_DIR$/cloud/010-ribbon-without-eureka/provider-user-ribbon-without-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/011-feign/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/012-feign-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/013-feign-customizing-global/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/014-feign-customizing-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/015-feign-customizing-logging/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
