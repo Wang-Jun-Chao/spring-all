@@ -109,7 +109,21 @@
         <option value="$PROJECT_DIR$/cloud/001-springboot-microservice/microservice-simple-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/001-springboot-microservice/microservice-simple-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/002-simple-demoe/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/003-eureka-high-availability/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/003-eureka-high-availability/microservice-discovery-eureka-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/003-eureka-high-availability/microservice-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/003-eureka-high-availability/microservice-consumer-movie-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/004-eureka-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/005-eureka-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/006-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/007-ribbon-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/008-ribbon-customizing-global/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cloud/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">

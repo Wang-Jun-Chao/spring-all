@@ -1,0 +1,14 @@
+debug: false
+server:
+    port: 8000
+spring:
+    application:
+        name: microservice-consumer-movie
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+        enabled: true
+    instance:
+        prefer-ip-address: true
+        appname: ${spring.application.name}

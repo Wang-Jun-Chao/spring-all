@@ -1,0 +1,33 @@
+spring:
+    application:
+        name: microservice-discovery-eureka-ha
+---
+spring:
+    # 指定 profile = peer1
+    profiles: peer1
+server:
+    port: 8761
+eureka:
+    instance:
+        # 指定当 profile = peer1 时，主机名是 peer1
+        hostname: peer1
+    client:
+        service-url:
+            # 将自己注册到 peer2 这个 Eureka 上面去
+            defaultZone: http://peer2:8762/eureka/
+
+---
+spring:
+    # 指定 profile = peer1
+    profiles: peer2
+server:
+    port: 8762
+eureka:
+    instance:
+        # 指定当 profile = peer1 时，主机名是 peer1
+        hostname: peer2
+    client:
+        service-url:
+            # 将自己注册到 peer2 这个 Eureka 上面去
+            defaultZone: http://peer1:8761/eureka/
+

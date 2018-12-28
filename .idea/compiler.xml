@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="001-Redis从数据库中读取配置" />
         <module name="002-Maven插件-打包时多环境配置文件设置" />
+        <module name="003-eureka-high-availability" />
         <module name="003-Redis使用Kryo序列化工具" />
         <module name="003-使用JVM参数激活配置文件" />
         <module name="004-Redis使用Kryo序列化工具" />
@@ -100,15 +101,33 @@
         <module name="ch1303-SpringBoot-ActiveMQ" />
         <module name="ch1303-SpringBoot-ActiveMQ使用" />
         <module name="config" />
+        <module name="consumer-movie-ribbon" />
+        <module name="consumer-movie-ribbon-customizing" />
+        <module name="consumer-movie-ribbon-customizing-global" />
         <module name="discovery" />
+        <module name="discovery-eureka-ribbon" />
+        <module name="discovery-eureka-ribbon-customizing" />
+        <module name="discovery-eureka-ribbon-customizing-global" />
         <module name="highlight_spring4" />
         <module name="microservice-consumer-movie" />
+        <module name="microservice-consumer-movie-auth" />
+        <module name="microservice-consumer-movie-ha" />
+        <module name="microservice-consumer-movie-metadata" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-auth" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-discovery-eureka-metadata" />
         <module name="microservice-provider-user" />
+        <module name="microservice-provider-user-auth" />
+        <module name="microservice-provider-user-ha" />
+        <module name="microservice-provider-user-metadata" />
         <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
         <module name="monitor" />
         <module name="person" />
+        <module name="provider-user-ribbon" />
+        <module name="provider-user-ribbon-customizing" />
+        <module name="provider-user-ribbon-customizing-global" />
         <module name="security" />
         <module name="some" />
         <module name="ui" />
@@ -123,13 +142,19 @@
     <bytecodeTargetLevel target="1.8">
       <module name="001-Redis从数据库中读取配置" target="1.8" />
       <module name="001-springboot-microservice" target="1.8" />
+      <module name="002-eureka" target="1.8" />
       <module name="002-Maven插件-打包时多环境配置文件设置" target="1.5" />
-      <module name="002-simple-demo" target="1.8" />
+      <module name="003-eureka-high-availability" target="1.8" />
       <module name="003-使用JVM参数激活配置文件" target="1.8" />
+      <module name="004-eureka-authenticating" target="1.8" />
       <module name="004-Redis使用Kryo序列化工具" target="1.8" />
+      <module name="005-eureka-metadata" target="1.8" />
       <module name="005-Java程序运行Java源文件" target="1.8" />
+      <module name="006-ribbon" target="1.8" />
       <module name="006-设置缓存Key的失效时间" target="1.8" />
+      <module name="007-ribbon-customizing" target="1.8" />
       <module name="007-SpringBoot中集成Mock" target="1.8" />
+      <module name="008-ribbon-customizing-global" target="1.8" />
       <module name="008-SpringMVC访问外部文件" target="1.5" />
       <module name="009-Jersey使用" target="1.8" />
       <module name="01-aouth" target="1.8" />
@@ -209,15 +234,33 @@
       <module name="ch1303-SpringBoot-ActiveMQ使用" target="1.8" />
       <module name="cloud" target="1.8" />
       <module name="config" target="1.8" />
+      <module name="consumer-movie-ribbon" target="1.8" />
+      <module name="consumer-movie-ribbon-customizing" target="1.8" />
+      <module name="consumer-movie-ribbon-customizing-global" target="1.8" />
       <module name="discovery" target="1.8" />
+      <module name="discovery-eureka-ribbon" target="1.8" />
+      <module name="discovery-eureka-ribbon-customizing" target="1.8" />
+      <module name="discovery-eureka-ribbon-customizing-global" target="1.8" />
       <module name="framework" target="1.5" />
       <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-auth" target="1.8" />
+      <module name="microservice-consumer-movie-ha" target="1.8" />
+      <module name="microservice-consumer-movie-metadata" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka-auth" target="1.8" />
+      <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-discovery-eureka-metadata" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user-auth" target="1.8" />
+      <module name="microservice-provider-user-ha" target="1.8" />
+      <module name="microservice-provider-user-metadata" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="person" target="1.8" />
+      <module name="provider-user-ribbon" target="1.8" />
+      <module name="provider-user-ribbon-customizing" target="1.8" />
+      <module name="provider-user-ribbon-customizing-global" target="1.8" />
       <module name="security" target="1.8" />
       <module name="some" target="1.8" />
       <module name="spring-all" target="1.5" />
@@ -227,7 +270,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="001-springboot-microservice" options="-parameters" />
-      <module name="002-simple-demo" options="-parameters" />
+      <module name="002-eureka" options="-parameters" />
+      <module name="003-eureka-high-availability" options="-parameters" />
       <module name="009-Jersey使用" options="-parameters" />
       <module name="01-aouth" options="-parameters" />
       <module name="010-SpringBoot-CXF使用" options="-parameters" />
@@ -264,14 +308,32 @@
       <module name="ch0905-SpringBoot-企业级开发-系统集成" options="-parameters" />
       <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
       <module name="config" options="-parameters" />
+      <module name="consumer-movie-ribbon" options="-parameters" />
+      <module name="consumer-movie-ribbon-customizing" options="-parameters" />
+      <module name="consumer-movie-ribbon-customizing-global" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="discovery-eureka-ribbon" options="-parameters" />
+      <module name="discovery-eureka-ribbon-customizing" options="-parameters" />
+      <module name="discovery-eureka-ribbon-customizing-global" options="-parameters" />
       <module name="microservice-consumer-movie" options="-parameters" />
+      <module name="microservice-consumer-movie-auth" options="-parameters" />
+      <module name="microservice-consumer-movie-ha" options="-parameters" />
+      <module name="microservice-consumer-movie-metadata" options="-parameters" />
       <module name="microservice-discovery-eureka" options="-parameters" />
+      <module name="microservice-discovery-eureka-auth" options="-parameters" />
+      <module name="microservice-discovery-eureka-ha" options="-parameters" />
+      <module name="microservice-discovery-eureka-metadata" options="-parameters" />
       <module name="microservice-provider-user" options="-parameters" />
+      <module name="microservice-provider-user-auth" options="-parameters" />
+      <module name="microservice-provider-user-ha" options="-parameters" />
+      <module name="microservice-provider-user-metadata" options="-parameters" />
       <module name="microservice-simple-consumer-movie" options="-parameters" />
       <module name="microservice-simple-provider-user" options="-parameters" />
       <module name="monitor" options="-parameters" />
       <module name="person" options="-parameters" />
+      <module name="provider-user-ribbon" options="-parameters" />
+      <module name="provider-user-ribbon-customizing" options="-parameters" />
+      <module name="provider-user-ribbon-customizing-global" options="-parameters" />
       <module name="security" options="-parameters" />
       <module name="some" options="-parameters" />
       <module name="ui" options="-parameters" />
