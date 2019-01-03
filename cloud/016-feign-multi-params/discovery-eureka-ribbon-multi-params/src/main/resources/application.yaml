@@ -2,7 +2,7 @@ server:
     port: 8761
 spring:
     application:
-        name: discovery-eureka-feign-multi-params
+        name: discovery-eureka-ribbon-multi-params
 eureka:
     client:
         # 表示是否将自己注册到 Eureka Server ，默认为 true。
