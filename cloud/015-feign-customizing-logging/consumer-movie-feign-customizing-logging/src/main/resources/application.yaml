@@ -12,3 +12,7 @@ eureka:
     instance:
         prefer-ip-address: true
         appname: ${spring.application.name}
+logging:
+    level:
+        # 将Feign接口的日志级别设直成DEBUG ，因为Feign的Logger.Level只对DEBUG做出响应。
+        wjc.spring.cloud.customer.fegin.UserFeignClient: DEBUG

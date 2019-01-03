@@ -126,6 +126,11 @@
         <option value="$PROJECT_DIR$/cloud/013-feign-customizing-global/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/014-feign-customizing-manual/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/015-feign-customizing-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/016-ribbon-multi-params/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/consumer-movie-ribbon-multi-params/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/discovery-eureka-ribbon-multi-params/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/provider-user-ribbon-multi-params/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

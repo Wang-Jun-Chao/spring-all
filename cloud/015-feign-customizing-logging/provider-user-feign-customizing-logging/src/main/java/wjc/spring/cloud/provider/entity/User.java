@@ -1,16 +1,35 @@
-package wjc.spring.cloud.customer.entity;
+package wjc.spring.cloud.provider.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 
 /**
+ * hibernate会给被管理的 pojo 加入一个 hibernateLazyInitializer 属性, jsonplugin 通过
+ * java 的反射机制将 pojo 转换成 json，会把 hibernateLazyInitializer 也拿出来操作,但是
+ * hibernateLazyInitializer 无法由反射得到，所以就抛异常了。
+ *
  * @author: wangjunchao(王俊超)
  * @time: 2018-12-26 14:04
  **/
+@Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler", "fieldHandler"})
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long       id;
+    @Column
     private String     username;
+    @Column
     private String     name;
+    @Column
     private Integer    age;
+    @Column
     private BigDecimal balance;
 
     public Long getId() {
