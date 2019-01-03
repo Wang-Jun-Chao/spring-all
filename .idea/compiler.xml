@@ -106,11 +106,12 @@
         <module name="consumer-movie-feign-customizing-global" />
         <module name="consumer-movie-feign-customizing-logging" />
         <module name="consumer-movie-feign-customizing-manual" />
+        <module name="consumer-movie-feign-file-upload" />
+        <module name="consumer-movie-feign-multi-params" />
         <module name="consumer-movie-ribbon" />
         <module name="consumer-movie-ribbon-customizing" />
         <module name="consumer-movie-ribbon-customizing-global" />
         <module name="consumer-movie-ribbon-customizing-properties" />
-        <module name="consumer-movie-ribbon-multi-params" />
         <module name="consumer-movie-ribbon-without-eureka" />
         <module name="discovery" />
         <module name="discovery-eureka-feign" />
@@ -118,11 +119,12 @@
         <module name="discovery-eureka-feign-customizing-global" />
         <module name="discovery-eureka-feign-customizing-logging" />
         <module name="discovery-eureka-feign-customizing-manual" />
+        <module name="discovery-eureka-feign-file-upload" />
+        <module name="discovery-eureka-feign-multi-params" />
         <module name="discovery-eureka-ribbon" />
         <module name="discovery-eureka-ribbon-customizing" />
         <module name="discovery-eureka-ribbon-customizing-global" />
         <module name="discovery-eureka-ribbon-customizing-properties" />
-        <module name="discovery-eureka-ribbon-multi-params" />
         <module name="highlight_spring4" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-auth" />
@@ -145,10 +147,11 @@
         <module name="provider-user-feign-customizing-global" />
         <module name="provider-user-feign-customizing-logging" />
         <module name="provider-user-feign-customizing-manual" />
+        <module name="provider-user-feign-file-upload" />
+        <module name="provider-user-feign-multi-params" />
         <module name="provider-user-ribbon-customizing" />
         <module name="provider-user-ribbon-customizing-global" />
         <module name="provider-user-ribbon-customizing-properties" />
-        <module name="provider-user-ribbon-multi-params" />
         <module name="provider-user-ribbon-without-eureka" />
         <module name="security" />
         <module name="some" />
@@ -203,6 +206,7 @@
       <module name="015-springboot-jwt" target="1.8" />
       <module name="016-feign-multi-params" target="1.8" />
       <module name="016-SpringBoot-SocketIO" target="1.8" />
+      <module name="017-feign-file-upload" target="1.8" />
       <module name="boot" target="1.8" />
       <module name="ch0101-Spring基础" target="1.8" />
       <module name="ch0101-Spring基础-Java配置" target="1.8" />
@@ -275,6 +279,8 @@
       <module name="consumer-movie-feign-customizing-global" target="1.8" />
       <module name="consumer-movie-feign-customizing-logging" target="1.8" />
       <module name="consumer-movie-feign-customizing-manual" target="1.8" />
+      <module name="consumer-movie-feign-file-upload" target="1.8" />
+      <module name="consumer-movie-feign-multi-params" target="1.8" />
       <module name="consumer-movie-ribbon" target="1.8" />
       <module name="consumer-movie-ribbon-customizing" target="1.8" />
       <module name="consumer-movie-ribbon-customizing-global" target="1.8" />
@@ -287,6 +293,8 @@
       <module name="discovery-eureka-feign-customizing-global" target="1.8" />
       <module name="discovery-eureka-feign-customizing-logging" target="1.8" />
       <module name="discovery-eureka-feign-customizing-manual" target="1.8" />
+      <module name="discovery-eureka-feign-file-upload" target="1.8" />
+      <module name="discovery-eureka-feign-multi-params" target="1.8" />
       <module name="discovery-eureka-ribbon" target="1.8" />
       <module name="discovery-eureka-ribbon-customizing" target="1.8" />
       <module name="discovery-eureka-ribbon-customizing-global" target="1.8" />
@@ -314,6 +322,8 @@
       <module name="provider-user-feign-customizing-global" target="1.8" />
       <module name="provider-user-feign-customizing-logging" target="1.8" />
       <module name="provider-user-feign-customizing-manual" target="1.8" />
+      <module name="provider-user-feign-file-upload" target="1.8" />
+      <module name="provider-user-feign-multi-params" target="1.8" />
       <module name="provider-user-ribbon" target="1.8" />
       <module name="provider-user-ribbon-customizing" target="1.8" />
       <module name="provider-user-ribbon-customizing-global" target="1.8" />
@@ -372,6 +382,8 @@
       <module name="consumer-movie-feign-customizing-global" options="-parameters" />
       <module name="consumer-movie-feign-customizing-logging" options="-parameters" />
       <module name="consumer-movie-feign-customizing-manual" options="-parameters" />
+      <module name="consumer-movie-feign-file-upload" options="-parameters" />
+      <module name="consumer-movie-feign-multi-params" options="-parameters" />
       <module name="consumer-movie-ribbon" options="-parameters" />
       <module name="consumer-movie-ribbon-customizing" options="-parameters" />
       <module name="consumer-movie-ribbon-customizing-global" options="-parameters" />
@@ -384,6 +396,8 @@
       <module name="discovery-eureka-feign-customizing-global" options="-parameters" />
       <module name="discovery-eureka-feign-customizing-logging" options="-parameters" />
       <module name="discovery-eureka-feign-customizing-manual" options="-parameters" />
+      <module name="discovery-eureka-feign-file-upload" options="-parameters" />
+      <module name="discovery-eureka-feign-multi-params" options="-parameters" />
       <module name="discovery-eureka-ribbon" options="-parameters" />
       <module name="discovery-eureka-ribbon-customizing" options="-parameters" />
       <module name="discovery-eureka-ribbon-customizing-global" options="-parameters" />
@@ -410,6 +424,8 @@
       <module name="provider-user-feign-customizing-global" options="-parameters" />
       <module name="provider-user-feign-customizing-logging" options="-parameters" />
       <module name="provider-user-feign-customizing-manual" options="-parameters" />
+      <module name="provider-user-feign-file-upload" options="-parameters" />
+      <module name="provider-user-feign-multi-params" options="-parameters" />
       <module name="provider-user-ribbon" options="-parameters" />
       <module name="provider-user-ribbon-customizing" options="-parameters" />
       <module name="provider-user-ribbon-customizing-global" options="-parameters" />

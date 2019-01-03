@@ -131,6 +131,9 @@
         <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/discovery-eureka-ribbon-multi-params/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/provider-user-ribbon-multi-params/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/017-feign-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/017-feign-file-upload/consumer-movie-feign-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/016-feign-multi-params/consumer-movie-feign-multi-params/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
