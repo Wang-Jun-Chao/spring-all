@@ -102,14 +102,13 @@
     <file url="file://$PROJECT_DIR$/cloud/015-feign-customizing-logging/provider-user-feign-customizing-logging" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params/consumer-movie-feign-multi-params" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params/consumer-movie-ribbon-multi-params" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params/discovery-eureka-feign-multi-params" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params/discovery-eureka-ribbon-multi-params" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params/provider-user-feign-multi-params" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/016-feign-multi-params/provider-user-ribbon-multi-params" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/017-feign-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/017-feign-file-upload/consumer-movie-feign-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/017-feign-file-upload/discovery-eureka-feign-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/017-feign-file-upload/feign-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/017-feign-file-upload/provider-user-feign-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/ch1201-SpringBoot-分布式系统开发-SpringCloud/config" charset="UTF-8" />

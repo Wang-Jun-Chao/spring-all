@@ -125,6 +125,7 @@
         <module name="discovery-eureka-ribbon-customizing" />
         <module name="discovery-eureka-ribbon-customizing-global" />
         <module name="discovery-eureka-ribbon-customizing-properties" />
+        <module name="feign-file-upload" />
         <module name="highlight_spring4" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-auth" />
@@ -172,41 +173,41 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="001-Redis从数据库中读取配置" target="1.8" />
-      <module name="001-springboot-microservice" target="1.8" />
-      <module name="002-eureka" target="1.8" />
+      <module name="001-springboot-microservice" target="1.5" />
+      <module name="002-eureka" target="1.5" />
       <module name="002-Maven插件-打包时多环境配置文件设置" target="1.5" />
-      <module name="003-eureka-high-availability" target="1.8" />
+      <module name="003-eureka-high-availability" target="1.5" />
       <module name="003-使用JVM参数激活配置文件" target="1.8" />
-      <module name="004-eureka-authenticating" target="1.8" />
+      <module name="004-eureka-authenticating" target="1.5" />
       <module name="004-Redis使用Kryo序列化工具" target="1.8" />
-      <module name="005-eureka-metadata" target="1.8" />
+      <module name="005-eureka-metadata" target="1.5" />
       <module name="005-Java程序运行Java源文件" target="1.8" />
-      <module name="006-ribbon" target="1.8" />
+      <module name="006-ribbon" target="1.5" />
       <module name="006-设置缓存Key的失效时间" target="1.8" />
-      <module name="007-ribbon-customizing" target="1.8" />
+      <module name="007-ribbon-customizing" target="1.5" />
       <module name="007-SpringBoot中集成Mock" target="1.8" />
-      <module name="008-ribbon-customizing-global" target="1.8" />
+      <module name="008-ribbon-customizing-global" target="1.5" />
       <module name="008-SpringMVC访问外部文件" target="1.5" />
       <module name="009-Jersey使用" target="1.8" />
-      <module name="009-ribbon-customizing-properties" target="1.8" />
+      <module name="009-ribbon-customizing-properties" target="1.5" />
       <module name="01-aouth" target="1.8" />
-      <module name="010-ribbon-without-eureka" target="1.8" />
+      <module name="010-ribbon-without-eureka" target="1.5" />
       <module name="010-SpringBoot-CXF使用" target="1.8" />
-      <module name="011-feign" target="1.8" />
+      <module name="011-feign" target="1.5" />
       <module name="011-SpringBoot-ActiveMQ使用" target="1.8" />
-      <module name="012-feign-customizing" target="1.8" />
+      <module name="012-feign-customizing" target="1.5" />
       <module name="012-SpringBoot-Actuator使用" target="1.8" />
-      <module name="013-feign-customizing-global" target="1.8" />
+      <module name="013-feign-customizing-global" target="1.5" />
       <module name="013-SpringBoot-Actuator自定义安全" target="1.8" />
-      <module name="014-feign-customizing-manual" target="1.8" />
+      <module name="014-feign-customizing-manual" target="1.5" />
       <module name="014-SpringBoot-Actuator-Log4j2" target="1.8" />
-      <module name="015-feign-customizing-logging" target="1.8" />
+      <module name="015-feign-customizing-logging" target="1.5" />
       <module name="015-sping-spring中的xml-schema扩展机制" target="1.8" />
       <module name="015-Spring-XML-schema扩展机制" target="1.8" />
       <module name="015-springboot-jwt" target="1.8" />
-      <module name="016-feign-multi-params" target="1.8" />
+      <module name="016-feign-multi-params" target="1.5" />
       <module name="016-SpringBoot-SocketIO" target="1.8" />
-      <module name="017-feign-file-upload" target="1.8" />
+      <module name="017-feign-file-upload" target="1.5" />
       <module name="boot" target="1.8" />
       <module name="ch0101-Spring基础" target="1.8" />
       <module name="ch0101-Spring基础-Java配置" target="1.8" />
@@ -267,80 +268,81 @@
       <module name="ch0903-SpringBoot-企业级开发-异步消息-JMS" target="1.8" />
       <module name="ch0904-SpringBoot-企业级开发-异步消息-AMQP" target="1.8" />
       <module name="ch0905-SpringBoot-企业级开发-系统集成" target="1.8" />
-      <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" target="1.8" />
+      <module name="ch1201-SpringBoot-分布式系统开发-SpringCloud" target="1.5" />
       <module name="ch1301-Jersey使用" target="1.8" />
       <module name="ch1302-SpringBoot-CXF使用" target="1.8" />
       <module name="ch1303-SpringBoot-ActiveMQ" target="1.8" />
       <module name="ch1303-SpringBoot-ActiveMQ使用" target="1.8" />
-      <module name="cloud" target="1.8" />
-      <module name="config" target="1.8" />
-      <module name="consumer-movie-feign" target="1.8" />
-      <module name="consumer-movie-feign-customizing" target="1.8" />
-      <module name="consumer-movie-feign-customizing-global" target="1.8" />
-      <module name="consumer-movie-feign-customizing-logging" target="1.8" />
-      <module name="consumer-movie-feign-customizing-manual" target="1.8" />
-      <module name="consumer-movie-feign-file-upload" target="1.8" />
-      <module name="consumer-movie-feign-multi-params" target="1.8" />
-      <module name="consumer-movie-ribbon" target="1.8" />
-      <module name="consumer-movie-ribbon-customizing" target="1.8" />
-      <module name="consumer-movie-ribbon-customizing-global" target="1.8" />
-      <module name="consumer-movie-ribbon-customizing-properties" target="1.8" />
+      <module name="cloud" target="1.5" />
+      <module name="config" target="1.5" />
+      <module name="consumer-movie-feign" target="1.5" />
+      <module name="consumer-movie-feign-customizing" target="1.5" />
+      <module name="consumer-movie-feign-customizing-global" target="1.5" />
+      <module name="consumer-movie-feign-customizing-logging" target="1.5" />
+      <module name="consumer-movie-feign-customizing-manual" target="1.5" />
+      <module name="consumer-movie-feign-file-upload" target="1.5" />
+      <module name="consumer-movie-feign-multi-params" target="1.5" />
+      <module name="consumer-movie-ribbon" target="1.5" />
+      <module name="consumer-movie-ribbon-customizing" target="1.5" />
+      <module name="consumer-movie-ribbon-customizing-global" target="1.5" />
+      <module name="consumer-movie-ribbon-customizing-properties" target="1.5" />
       <module name="consumer-movie-ribbon-multi-params" target="1.8" />
-      <module name="consumer-movie-ribbon-without-eureka" target="1.8" />
-      <module name="discovery" target="1.8" />
-      <module name="discovery-eureka-feign" target="1.8" />
-      <module name="discovery-eureka-feign-customizing" target="1.8" />
-      <module name="discovery-eureka-feign-customizing-global" target="1.8" />
-      <module name="discovery-eureka-feign-customizing-logging" target="1.8" />
-      <module name="discovery-eureka-feign-customizing-manual" target="1.8" />
-      <module name="discovery-eureka-feign-file-upload" target="1.8" />
-      <module name="discovery-eureka-feign-multi-params" target="1.8" />
-      <module name="discovery-eureka-ribbon" target="1.8" />
-      <module name="discovery-eureka-ribbon-customizing" target="1.8" />
-      <module name="discovery-eureka-ribbon-customizing-global" target="1.8" />
-      <module name="discovery-eureka-ribbon-customizing-properties" target="1.8" />
+      <module name="consumer-movie-ribbon-without-eureka" target="1.5" />
+      <module name="discovery" target="1.5" />
+      <module name="discovery-eureka-feign" target="1.5" />
+      <module name="discovery-eureka-feign-customizing" target="1.5" />
+      <module name="discovery-eureka-feign-customizing-global" target="1.5" />
+      <module name="discovery-eureka-feign-customizing-logging" target="1.5" />
+      <module name="discovery-eureka-feign-customizing-manual" target="1.5" />
+      <module name="discovery-eureka-feign-file-upload" target="1.5" />
+      <module name="discovery-eureka-feign-multi-params" target="1.5" />
+      <module name="discovery-eureka-ribbon" target="1.5" />
+      <module name="discovery-eureka-ribbon-customizing" target="1.5" />
+      <module name="discovery-eureka-ribbon-customizing-global" target="1.5" />
+      <module name="discovery-eureka-ribbon-customizing-properties" target="1.5" />
       <module name="discovery-eureka-ribbon-multi-params" target="1.8" />
+      <module name="feign-file-upload" target="1.5" />
       <module name="framework" target="1.5" />
-      <module name="microservice-consumer-movie" target="1.8" />
-      <module name="microservice-consumer-movie-auth" target="1.8" />
-      <module name="microservice-consumer-movie-ha" target="1.8" />
-      <module name="microservice-consumer-movie-metadata" target="1.8" />
-      <module name="microservice-discovery-eureka" target="1.8" />
-      <module name="microservice-discovery-eureka-auth" target="1.8" />
-      <module name="microservice-discovery-eureka-ha" target="1.8" />
-      <module name="microservice-discovery-eureka-metadata" target="1.8" />
-      <module name="microservice-provider-user" target="1.8" />
-      <module name="microservice-provider-user-auth" target="1.8" />
-      <module name="microservice-provider-user-ha" target="1.8" />
-      <module name="microservice-provider-user-metadata" target="1.8" />
-      <module name="microservice-simple-consumer-movie" target="1.8" />
-      <module name="microservice-simple-provider-user" target="1.8" />
-      <module name="monitor" target="1.8" />
-      <module name="person" target="1.8" />
-      <module name="provider-user-feign" target="1.8" />
-      <module name="provider-user-feign-customizing" target="1.8" />
-      <module name="provider-user-feign-customizing-global" target="1.8" />
-      <module name="provider-user-feign-customizing-logging" target="1.8" />
-      <module name="provider-user-feign-customizing-manual" target="1.8" />
-      <module name="provider-user-feign-file-upload" target="1.8" />
-      <module name="provider-user-feign-multi-params" target="1.8" />
-      <module name="provider-user-ribbon" target="1.8" />
-      <module name="provider-user-ribbon-customizing" target="1.8" />
-      <module name="provider-user-ribbon-customizing-global" target="1.8" />
-      <module name="provider-user-ribbon-customizing-properties" target="1.8" />
+      <module name="microservice-consumer-movie" target="1.5" />
+      <module name="microservice-consumer-movie-auth" target="1.5" />
+      <module name="microservice-consumer-movie-ha" target="1.5" />
+      <module name="microservice-consumer-movie-metadata" target="1.5" />
+      <module name="microservice-discovery-eureka" target="1.5" />
+      <module name="microservice-discovery-eureka-auth" target="1.5" />
+      <module name="microservice-discovery-eureka-ha" target="1.5" />
+      <module name="microservice-discovery-eureka-metadata" target="1.5" />
+      <module name="microservice-provider-user" target="1.5" />
+      <module name="microservice-provider-user-auth" target="1.5" />
+      <module name="microservice-provider-user-ha" target="1.5" />
+      <module name="microservice-provider-user-metadata" target="1.5" />
+      <module name="microservice-simple-consumer-movie" target="1.5" />
+      <module name="microservice-simple-provider-user" target="1.5" />
+      <module name="monitor" target="1.5" />
+      <module name="person" target="1.5" />
+      <module name="provider-user-feign" target="1.5" />
+      <module name="provider-user-feign-customizing" target="1.5" />
+      <module name="provider-user-feign-customizing-global" target="1.5" />
+      <module name="provider-user-feign-customizing-logging" target="1.5" />
+      <module name="provider-user-feign-customizing-manual" target="1.5" />
+      <module name="provider-user-feign-file-upload" target="1.5" />
+      <module name="provider-user-feign-multi-params" target="1.5" />
+      <module name="provider-user-ribbon" target="1.5" />
+      <module name="provider-user-ribbon-customizing" target="1.5" />
+      <module name="provider-user-ribbon-customizing-global" target="1.5" />
+      <module name="provider-user-ribbon-customizing-properties" target="1.5" />
       <module name="provider-user-ribbon-multi-params" target="1.8" />
-      <module name="provider-user-ribbon-without-eureka" target="1.8" />
+      <module name="provider-user-ribbon-without-eureka" target="1.5" />
       <module name="security" target="1.8" />
-      <module name="some" target="1.8" />
+      <module name="some" target="1.5" />
       <module name="spring-all" target="1.5" />
-      <module name="ui" target="1.8" />
+      <module name="ui" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="001-springboot-microservice" options="-parameters" />
       <module name="002-eureka" options="-parameters" />
-      <module name="003-eureka-high-availability" options="-parameters" />
+      <module name="003-eureka-high-availability" options="" />
       <module name="009-Jersey使用" options="-parameters" />
       <module name="01-aouth" options="-parameters" />
       <module name="010-SpringBoot-CXF使用" options="-parameters" />
@@ -376,65 +378,65 @@
       <module name="ch0904-SpringBoot-企业级开发-异步消息-AMQP" options="-parameters" />
       <module name="ch0905-SpringBoot-企业级开发-系统集成" options="-parameters" />
       <module name="ch1303-SpringBoot-ActiveMQ" options="-parameters" />
-      <module name="config" options="-parameters" />
-      <module name="consumer-movie-feign" options="-parameters" />
-      <module name="consumer-movie-feign-customizing" options="-parameters" />
-      <module name="consumer-movie-feign-customizing-global" options="-parameters" />
-      <module name="consumer-movie-feign-customizing-logging" options="-parameters" />
-      <module name="consumer-movie-feign-customizing-manual" options="-parameters" />
-      <module name="consumer-movie-feign-file-upload" options="-parameters" />
-      <module name="consumer-movie-feign-multi-params" options="-parameters" />
-      <module name="consumer-movie-ribbon" options="-parameters" />
-      <module name="consumer-movie-ribbon-customizing" options="-parameters" />
-      <module name="consumer-movie-ribbon-customizing-global" options="-parameters" />
-      <module name="consumer-movie-ribbon-customizing-properties" options="-parameters" />
+      <module name="config" options="" />
+      <module name="consumer-movie-feign" options="" />
+      <module name="consumer-movie-feign-customizing" options="" />
+      <module name="consumer-movie-feign-customizing-global" options="" />
+      <module name="consumer-movie-feign-customizing-logging" options="" />
+      <module name="consumer-movie-feign-customizing-manual" options="" />
+      <module name="consumer-movie-feign-file-upload" options="" />
+      <module name="consumer-movie-feign-multi-params" options="" />
+      <module name="consumer-movie-ribbon" options="" />
+      <module name="consumer-movie-ribbon-customizing" options="" />
+      <module name="consumer-movie-ribbon-customizing-global" options="" />
+      <module name="consumer-movie-ribbon-customizing-properties" options="" />
       <module name="consumer-movie-ribbon-multi-params" options="-parameters" />
-      <module name="consumer-movie-ribbon-without-eureka" options="-parameters" />
-      <module name="discovery" options="-parameters" />
-      <module name="discovery-eureka-feign" options="-parameters" />
-      <module name="discovery-eureka-feign-customizing" options="-parameters" />
-      <module name="discovery-eureka-feign-customizing-global" options="-parameters" />
-      <module name="discovery-eureka-feign-customizing-logging" options="-parameters" />
-      <module name="discovery-eureka-feign-customizing-manual" options="-parameters" />
-      <module name="discovery-eureka-feign-file-upload" options="-parameters" />
-      <module name="discovery-eureka-feign-multi-params" options="-parameters" />
-      <module name="discovery-eureka-ribbon" options="-parameters" />
-      <module name="discovery-eureka-ribbon-customizing" options="-parameters" />
-      <module name="discovery-eureka-ribbon-customizing-global" options="-parameters" />
-      <module name="discovery-eureka-ribbon-customizing-properties" options="-parameters" />
+      <module name="consumer-movie-ribbon-without-eureka" options="" />
+      <module name="discovery" options="" />
+      <module name="discovery-eureka-feign" options="" />
+      <module name="discovery-eureka-feign-customizing" options="" />
+      <module name="discovery-eureka-feign-customizing-global" options="" />
+      <module name="discovery-eureka-feign-customizing-logging" options="" />
+      <module name="discovery-eureka-feign-customizing-manual" options="" />
+      <module name="discovery-eureka-feign-file-upload" options="" />
+      <module name="discovery-eureka-feign-multi-params" options="" />
+      <module name="discovery-eureka-ribbon" options="" />
+      <module name="discovery-eureka-ribbon-customizing" options="" />
+      <module name="discovery-eureka-ribbon-customizing-global" options="" />
+      <module name="discovery-eureka-ribbon-customizing-properties" options="" />
       <module name="discovery-eureka-ribbon-multi-params" options="-parameters" />
-      <module name="microservice-consumer-movie" options="-parameters" />
-      <module name="microservice-consumer-movie-auth" options="-parameters" />
-      <module name="microservice-consumer-movie-ha" options="-parameters" />
-      <module name="microservice-consumer-movie-metadata" options="-parameters" />
-      <module name="microservice-discovery-eureka" options="-parameters" />
-      <module name="microservice-discovery-eureka-auth" options="-parameters" />
-      <module name="microservice-discovery-eureka-ha" options="-parameters" />
-      <module name="microservice-discovery-eureka-metadata" options="-parameters" />
-      <module name="microservice-provider-user" options="-parameters" />
-      <module name="microservice-provider-user-auth" options="-parameters" />
-      <module name="microservice-provider-user-ha" options="-parameters" />
-      <module name="microservice-provider-user-metadata" options="-parameters" />
-      <module name="microservice-simple-consumer-movie" options="-parameters" />
-      <module name="microservice-simple-provider-user" options="-parameters" />
-      <module name="monitor" options="-parameters" />
-      <module name="person" options="-parameters" />
-      <module name="provider-user-feign" options="-parameters" />
-      <module name="provider-user-feign-customizing" options="-parameters" />
-      <module name="provider-user-feign-customizing-global" options="-parameters" />
-      <module name="provider-user-feign-customizing-logging" options="-parameters" />
-      <module name="provider-user-feign-customizing-manual" options="-parameters" />
-      <module name="provider-user-feign-file-upload" options="-parameters" />
-      <module name="provider-user-feign-multi-params" options="-parameters" />
-      <module name="provider-user-ribbon" options="-parameters" />
-      <module name="provider-user-ribbon-customizing" options="-parameters" />
-      <module name="provider-user-ribbon-customizing-global" options="-parameters" />
-      <module name="provider-user-ribbon-customizing-properties" options="-parameters" />
+      <module name="microservice-consumer-movie" options="" />
+      <module name="microservice-consumer-movie-auth" options="" />
+      <module name="microservice-consumer-movie-ha" options="" />
+      <module name="microservice-consumer-movie-metadata" options="" />
+      <module name="microservice-discovery-eureka" options="" />
+      <module name="microservice-discovery-eureka-auth" options="" />
+      <module name="microservice-discovery-eureka-ha" options="" />
+      <module name="microservice-discovery-eureka-metadata" options="" />
+      <module name="microservice-provider-user" options="" />
+      <module name="microservice-provider-user-auth" options="" />
+      <module name="microservice-provider-user-ha" options="" />
+      <module name="microservice-provider-user-metadata" options="" />
+      <module name="microservice-simple-consumer-movie" options="" />
+      <module name="microservice-simple-provider-user" options="" />
+      <module name="monitor" options="" />
+      <module name="person" options="" />
+      <module name="provider-user-feign" options="" />
+      <module name="provider-user-feign-customizing" options="" />
+      <module name="provider-user-feign-customizing-global" options="" />
+      <module name="provider-user-feign-customizing-logging" options="" />
+      <module name="provider-user-feign-customizing-manual" options="" />
+      <module name="provider-user-feign-file-upload" options="" />
+      <module name="provider-user-feign-multi-params" options="" />
+      <module name="provider-user-ribbon" options="" />
+      <module name="provider-user-ribbon-customizing" options="" />
+      <module name="provider-user-ribbon-customizing-global" options="" />
+      <module name="provider-user-ribbon-customizing-properties" options="" />
       <module name="provider-user-ribbon-multi-params" options="-parameters" />
-      <module name="provider-user-ribbon-without-eureka" options="-parameters" />
+      <module name="provider-user-ribbon-without-eureka" options="" />
       <module name="security" options="-parameters" />
-      <module name="some" options="-parameters" />
-      <module name="ui" options="-parameters" />
+      <module name="some" options="" />
+      <module name="ui" options="" />
     </option>
   </component>
 </project>

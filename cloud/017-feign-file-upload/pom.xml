@@ -19,5 +19,6 @@
         <module>discovery-eureka-feign-file-upload</module>
         <module>provider-user-feign-file-upload</module>
         <module>consumer-movie-feign-file-upload</module>
+        <module>feign-file-upload</module>
     </modules>
 </project>

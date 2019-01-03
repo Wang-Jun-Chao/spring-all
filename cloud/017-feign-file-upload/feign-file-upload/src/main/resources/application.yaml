@@ -1,0 +1,16 @@
+debug: true
+server:
+    port: 8050
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+    instance:
+        prefer-ip-address: true
+spring:
+    application:
+        name: feign-file-upload
+    servlet:
+        multipart:
+            max-file-size: 2000MB
+            max-request-size: 2500MB
