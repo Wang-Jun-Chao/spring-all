@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="ch0402-SpringMVC基础-常用注解:war">
-    <output-path>$PROJECT_DIR$/framework/ch0402-SpringMVC基础-常用注解/target</output-path>
-    <root id="archive" name="ch0402-SpringMVC基础-常用注解-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="ch0402-SpringMVC基础-常用注解:war exploded" />
-    </root>
-  </artifact>
-</component>
