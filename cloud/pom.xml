@@ -46,7 +46,7 @@
         <module>016-feign-multi-params</module>
         <module>017-feign-file-upload</module>
         <module>018-hystrix-ribbon</module>
-        <module></module>
+        <module>019-hystrix-feign</module>
 
     </modules>
 
