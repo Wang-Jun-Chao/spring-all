@@ -108,6 +108,7 @@
         <module name="consumer-movie-feign-customizing-manual" />
         <module name="consumer-movie-feign-file-upload" />
         <module name="consumer-movie-feign-multi-params" />
+        <module name="consumer-movie-hystrix" />
         <module name="consumer-movie-ribbon" />
         <module name="consumer-movie-ribbon-customizing" />
         <module name="consumer-movie-ribbon-customizing-global" />
@@ -121,6 +122,7 @@
         <module name="discovery-eureka-feign-customizing-manual" />
         <module name="discovery-eureka-feign-file-upload" />
         <module name="discovery-eureka-feign-multi-params" />
+        <module name="discovery-eureka-hystrix" />
         <module name="discovery-eureka-ribbon" />
         <module name="discovery-eureka-ribbon-customizing" />
         <module name="discovery-eureka-ribbon-customizing-global" />
@@ -150,6 +152,7 @@
         <module name="provider-user-feign-customizing-manual" />
         <module name="provider-user-feign-file-upload" />
         <module name="provider-user-feign-multi-params" />
+        <module name="provider-user-hystrix" />
         <module name="provider-user-ribbon-customizing" />
         <module name="provider-user-ribbon-customizing-global" />
         <module name="provider-user-ribbon-customizing-properties" />
@@ -208,6 +211,7 @@
       <module name="016-feign-multi-params" target="1.5" />
       <module name="016-SpringBoot-SocketIO" target="1.8" />
       <module name="017-feign-file-upload" target="1.5" />
+      <module name="018-hystrix" target="1.5" />
       <module name="boot" target="1.8" />
       <module name="ch0101-Spring基础" target="1.8" />
       <module name="ch0101-Spring基础-Java配置" target="1.8" />
@@ -282,6 +286,7 @@
       <module name="consumer-movie-feign-customizing-manual" target="1.5" />
       <module name="consumer-movie-feign-file-upload" target="1.5" />
       <module name="consumer-movie-feign-multi-params" target="1.5" />
+      <module name="consumer-movie-hystrix" target="1.5" />
       <module name="consumer-movie-ribbon" target="1.5" />
       <module name="consumer-movie-ribbon-customizing" target="1.5" />
       <module name="consumer-movie-ribbon-customizing-global" target="1.5" />
@@ -296,6 +301,7 @@
       <module name="discovery-eureka-feign-customizing-manual" target="1.5" />
       <module name="discovery-eureka-feign-file-upload" target="1.5" />
       <module name="discovery-eureka-feign-multi-params" target="1.5" />
+      <module name="discovery-eureka-hystrix" target="1.5" />
       <module name="discovery-eureka-ribbon" target="1.5" />
       <module name="discovery-eureka-ribbon-customizing" target="1.5" />
       <module name="discovery-eureka-ribbon-customizing-global" target="1.5" />
@@ -326,6 +332,7 @@
       <module name="provider-user-feign-customizing-manual" target="1.5" />
       <module name="provider-user-feign-file-upload" target="1.5" />
       <module name="provider-user-feign-multi-params" target="1.5" />
+      <module name="provider-user-hystrix" target="1.5" />
       <module name="provider-user-ribbon" target="1.5" />
       <module name="provider-user-ribbon-customizing" target="1.5" />
       <module name="provider-user-ribbon-customizing-global" target="1.5" />
