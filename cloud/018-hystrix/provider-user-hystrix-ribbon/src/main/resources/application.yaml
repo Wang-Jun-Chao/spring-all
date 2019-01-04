@@ -11,7 +11,7 @@ spring:
         data: classpath:data.sql            # 指定h2数据库的数据脚本
     application:
         # 用于指定注册到 Eureka Server 上的应用名称；
-        name: provider-user-hystrix
+        name: provider-user-hystrix-ribbon
 
 logging:                                    # 配置日志级别，让hibernate打印出执行的SQL
     level:
@@ -24,10 +24,10 @@ logging:                                    # 配置日志级别，让hibernate�
 info:
     app:
         name: ${spring.application.name}
-#        encoding: @project.build.sourceEncoding@
-#        java:
-#            source: @java.version@
-#            target: @java.version@
+        encoding: @project.build.sourceEncoding@
+        java:
+            source: @java.version@
+            target: @java.version@
 
 # http://localhost:8000/actuator/health
 management:

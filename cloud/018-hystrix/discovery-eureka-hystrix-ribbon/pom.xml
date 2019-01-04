@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wjc.spring.cloud</groupId>
-    <artifactId>discovery-eureka-hystrix</artifactId>
+    <artifactId>discovery-eureka-hystrix-ribbon</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>wjc.spring.cloud</groupId>
-        <artifactId>018-hystrix</artifactId>
+        <artifactId>018-hystrix-ribbon</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

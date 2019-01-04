@@ -30,12 +30,12 @@ public class MovieController {
     @GetMapping("/user/{id}")
     @HystrixCommand(fallbackMethod = "findByIdFallback")
     public User findById(@PathVariable Long id) {
-        return this.restTemplate.getForObject("http://provider-user-hystrix/user/" + id, User.class);
+        return this.restTemplate.getForObject("http://pprovider-user-hystrix-ribbon/user/" + id, User.class);
     }
 
     @GetMapping("/log-user-instance")
     public String logUserInstance() {
-        ServiceInstance serviceInstance = this.loadBalancerClient.choose("provider-user-hystrix-customizing-properties");
+        ServiceInstance serviceInstance = this.loadBalancerClient.choose("provider-user-hystrix-ribbon");
         return String.format("%s:%s:%s", serviceInstance.getServiceId(),
                 serviceInstance.getHost(), serviceInstance.getPort());
     }

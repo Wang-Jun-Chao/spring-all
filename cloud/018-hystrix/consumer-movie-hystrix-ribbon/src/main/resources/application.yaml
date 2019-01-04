@@ -3,7 +3,7 @@ server:
     port: 8000
 spring:
     application:
-        name: consumer-movie-hystrix
+        name: consumer-movie-hystrix-ribbon
 eureka:
     client:
         serviceUrl:

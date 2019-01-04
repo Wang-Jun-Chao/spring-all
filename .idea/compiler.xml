@@ -108,7 +108,7 @@
         <module name="consumer-movie-feign-customizing-manual" />
         <module name="consumer-movie-feign-file-upload" />
         <module name="consumer-movie-feign-multi-params" />
-        <module name="consumer-movie-hystrix" />
+        <module name="consumer-movie-hystrix-ribbon" />
         <module name="consumer-movie-ribbon" />
         <module name="consumer-movie-ribbon-customizing" />
         <module name="consumer-movie-ribbon-customizing-global" />
@@ -122,7 +122,6 @@
         <module name="discovery-eureka-feign-customizing-manual" />
         <module name="discovery-eureka-feign-file-upload" />
         <module name="discovery-eureka-feign-multi-params" />
-        <module name="discovery-eureka-hystrix" />
         <module name="discovery-eureka-ribbon" />
         <module name="discovery-eureka-ribbon-customizing" />
         <module name="discovery-eureka-ribbon-customizing-global" />
@@ -152,7 +151,6 @@
         <module name="provider-user-feign-customizing-manual" />
         <module name="provider-user-feign-file-upload" />
         <module name="provider-user-feign-multi-params" />
-        <module name="provider-user-hystrix" />
         <module name="provider-user-ribbon-customizing" />
         <module name="provider-user-ribbon-customizing-global" />
         <module name="provider-user-ribbon-customizing-properties" />
@@ -172,6 +170,18 @@
         <sourceTestOutputDir name="../../009-ribbon-customizing-properties/provider-user-ribbon-customizing-properties/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="provider-user-ribbon" />
+      </profile>
+      <profile name="Annotation profile for provider-user-hystrix-ribbon" enabled="true">
+        <sourceOutputDir name="../provider-user-hystrix/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../provider-user-hystrix/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="provider-user-hystrix-ribbon" />
+      </profile>
+      <profile name="Annotation profile for discovery-eureka-hystrix-ribbon" enabled="true">
+        <sourceOutputDir name="../discovery-eureka-hystrix/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../discovery-eureka-hystrix/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery-eureka-hystrix-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -286,7 +296,7 @@
       <module name="consumer-movie-feign-customizing-manual" target="1.5" />
       <module name="consumer-movie-feign-file-upload" target="1.5" />
       <module name="consumer-movie-feign-multi-params" target="1.5" />
-      <module name="consumer-movie-hystrix" target="1.5" />
+      <module name="consumer-movie-hystrix-ribbon" target="1.5" />
       <module name="consumer-movie-ribbon" target="1.5" />
       <module name="consumer-movie-ribbon-customizing" target="1.5" />
       <module name="consumer-movie-ribbon-customizing-global" target="1.5" />
@@ -301,7 +311,7 @@
       <module name="discovery-eureka-feign-customizing-manual" target="1.5" />
       <module name="discovery-eureka-feign-file-upload" target="1.5" />
       <module name="discovery-eureka-feign-multi-params" target="1.5" />
-      <module name="discovery-eureka-hystrix" target="1.5" />
+      <module name="discovery-eureka-hystrix-ribbon" target="1.5" />
       <module name="discovery-eureka-ribbon" target="1.5" />
       <module name="discovery-eureka-ribbon-customizing" target="1.5" />
       <module name="discovery-eureka-ribbon-customizing-global" target="1.5" />
@@ -332,7 +342,7 @@
       <module name="provider-user-feign-customizing-manual" target="1.5" />
       <module name="provider-user-feign-file-upload" target="1.5" />
       <module name="provider-user-feign-multi-params" target="1.5" />
-      <module name="provider-user-hystrix" target="1.5" />
+      <module name="provider-user-hystrix-ribbon" target="1.5" />
       <module name="provider-user-ribbon" target="1.5" />
       <module name="provider-user-ribbon-customizing" target="1.5" />
       <module name="provider-user-ribbon-customizing-global" target="1.5" />

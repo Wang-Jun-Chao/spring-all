@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wjc.spring.cloud</groupId>
-    <artifactId>018-hystrix</artifactId>
+    <artifactId>018-hystrix-ribbon</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -16,8 +16,8 @@
     </parent>
 
     <modules>
-        <module>discovery-eureka-hystrix</module>
-        <module>provider-user-hystrix</module>
-        <module>consumer-movie-hystrix</module>
+        <module>discovery-eureka-hystrix-ribbon</module>
+        <module>provider-user-hystrix-ribbon</module>
+        <module>consumer-movie-hystrix-ribbon</module>
     </modules>
 </project>

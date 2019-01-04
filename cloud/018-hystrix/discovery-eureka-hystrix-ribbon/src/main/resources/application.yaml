@@ -2,7 +2,7 @@ server:
     port: 8761
 spring:
     application:
-        name: discovery-eureka-hystrix
+        name: discovery-eureka-hystrix-ribbon
 eureka:
     client:
         # 表示是否将自己注册到 Eureka Server ，默认为 true。
