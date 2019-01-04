@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wjc.springcloud</groupId>
-    <artifactId>provider-user-feign</artifactId>
+    <artifactId>provider-user-feign-multi-params</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>

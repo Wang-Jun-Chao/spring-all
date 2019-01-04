@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>wjc.spring.cloud</groupId>
+        <groupId>wjc.spring</groupId>
         <artifactId>004-eureka-authenticating</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

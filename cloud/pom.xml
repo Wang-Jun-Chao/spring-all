@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>wjc.spring.cloud</groupId>
-    <artifactId>parent</artifactId>
+    <groupId>wjc.spring</groupId>
+    <artifactId>cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -42,6 +42,11 @@
         <module>012-feign-customizing</module>
         <module>013-feign-customizing-global</module>
         <module>014-feign-customizing-manual</module>
+        <module>015-feign-customizing-logging</module>
+        <module>016-feign-multi-params</module>
+        <module>017-feign-file-upload</module>
+        <module>018-hystrix-ribbon</module>
+        <module></module>
 
     </modules>
 

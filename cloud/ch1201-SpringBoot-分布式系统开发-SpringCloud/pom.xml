@@ -10,10 +10,11 @@
     <packaging>pom</packaging>
 
     <parent>
-        <groupId>wjc.spring.cloud</groupId>
-        <artifactId>parent</artifactId>
+        <groupId>wjc.spring</groupId>
+        <artifactId>cloud</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modules>
         <module>config</module>
         <module>discovery</module>
