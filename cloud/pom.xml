@@ -47,7 +47,8 @@
         <module>017-feign-file-upload</module>
         <module>018-hystrix-ribbon</module>
         <module>019-hystrix-feign</module>
-        <module>020-hystrix-feign-rolback-factory</module>
+        <module>020-hystrix-feign-fallback-factory</module>
+        <module>021-hystrix-dashboard-ribbon</module>
     </modules>
 
     <dependencyManagement>
