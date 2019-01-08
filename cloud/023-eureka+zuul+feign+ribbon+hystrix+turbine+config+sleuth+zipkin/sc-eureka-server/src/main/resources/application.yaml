@@ -1,0 +1,20 @@
+server:
+    port: 8761
+eureka:
+    server:
+        # 关闭自我保护
+        enable-self-preservation: false
+        # 清理服务器
+        eviction-interval-timer-in-ms: 5000
+    client:
+        healthcheck:
+            enabled: true
+        service-url:
+            defaultZone: http://root:booszy@localhost:8761/eureka/
+        register-with-eureka: false
+        fetch-registry: false
+spring:
+    security:
+        user:
+            name: root
+            password: booszy
