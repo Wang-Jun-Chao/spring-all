@@ -10,11 +10,11 @@ eureka:
         healthcheck:
             enabled: true
         service-url:
-            defaultZone: http://root:booszy@localhost:8761/eureka/
+            defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@localhost:${server.port}/eureka/
         register-with-eureka: false
         fetch-registry: false
 spring:
     security:
         user:
-            name: root
-            password: booszy
+            name: admin
+            password: 123456
