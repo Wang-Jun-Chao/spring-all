@@ -15,7 +15,6 @@ eureka:
 feign:
     hystrix:
         enabled: true
-
 management:
     endpoint:
         health:
