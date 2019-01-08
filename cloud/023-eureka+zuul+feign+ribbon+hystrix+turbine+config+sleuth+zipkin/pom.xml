@@ -18,5 +18,10 @@
         <module>sc-config-server</module>
         <module>sc-eureka-server</module>
         <module>sc-provider</module>
+        <module>sc-consumer-feign</module>
+        <module>sc-consumer-ribbon</module>
+        <module>sc-zuul</module>
+        <module>sc-hystrix-turbine-dashboard</module>
+        <module>sc-sleuth-zipkin</module>
     </modules>
 </project>
