@@ -49,6 +49,7 @@
         <module>019-hystrix-feign</module>
         <module>020-hystrix-feign-fallback-factory</module>
         <module>021-hystrix-dashboard-ribbon</module>
+        <module>022-hystrix-dashboard-turbine</module>
     </modules>
 
     <dependencyManagement>

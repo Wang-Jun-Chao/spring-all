@@ -1,0 +1,9 @@
+server:
+    port: 8031
+spring:
+    application:
+        name: hystrix-dashboard-turbine
+turbine:
+    app-config: consumer-movie-hystrix-feign-dashboard-turbine,consumer-movie-hystrix-ribbon-dashboard-turbine
+    cluster-name-expression: new String("default")
+    combine-host-port: true

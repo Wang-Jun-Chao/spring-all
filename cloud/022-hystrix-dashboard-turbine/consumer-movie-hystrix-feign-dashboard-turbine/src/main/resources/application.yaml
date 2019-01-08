@@ -1,0 +1,31 @@
+debug: false
+server:
+    port: 8020
+spring:
+    application:
+        name: consumer-movie-hystrix-feign-dashboard-turbine
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+        enabled: true
+    instance:
+        prefer-ip-address: true
+        appname: ${spring.application.name}
+feign:
+    hystrix:
+        enabled: true
+
+management:
+    endpoint:
+        health:
+            enabled: true
+            show-details: always
+    endpoints:
+        enabled-by-default: true
+        web:
+            cors:
+                allowed-origins: true
+            base-path: "/actuator"
+            exposure:
+                include: "*"
