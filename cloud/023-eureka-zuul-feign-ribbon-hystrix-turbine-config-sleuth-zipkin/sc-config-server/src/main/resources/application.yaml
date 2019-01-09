@@ -1,0 +1,28 @@
+
+server:
+    port: 8800
+spring:
+    security:
+        user:
+            name: user
+            password: 123456
+    application:
+        name: sc-config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/Wang-Jun-Chao/spring-cloud-config
+                    search-paths: '{application}'
+            label: master
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://user:123456@localhost:8761/eureka/
+        fetch-registry: false
+        register-with-eureka: false
+    instance:
+        prefer-ip-address: true
+        instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+        appname: ${spring.application.name}

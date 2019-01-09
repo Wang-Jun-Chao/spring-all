@@ -1,0 +1,20 @@
+server:
+    port: 9411
+spring:
+    application:
+        name: sc-sleuth-zipkin
+    profiles:
+        active: csdn
+eureka:
+    client:
+        service-url:
+            defaultZone: http://user:123456@localhost:8761/eureka/
+    instance:
+        prefer-ip-address: true
+        instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+        appname: ${spring.application.name}
+management:
+    metrics:
+        web:
+            server:
+                auto-time-requests: false

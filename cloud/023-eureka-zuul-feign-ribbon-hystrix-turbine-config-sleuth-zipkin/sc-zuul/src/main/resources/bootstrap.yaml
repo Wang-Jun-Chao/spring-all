@@ -1,0 +1,21 @@
+eureka:
+    client:
+        service-url:
+            defaultZone: http://root:booszy@localhost:8761/eureka/
+    instance:
+        prefer-ip-address: true
+        instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+        appname: sc-zuul
+
+spring:
+    application:
+        name: sc-zuul
+    cloud:
+        config:
+            discovery:
+                enabled: true
+                service-id: sc-config-server
+            fail-fast: true
+            username: user
+            password: 123456
+            profile: test
