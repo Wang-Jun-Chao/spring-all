@@ -1,12 +1,5 @@
-eureka:
-    client:
-        service-url:
-            defaultZone: http://root:booszy@localhost:8761/eureka/
-    instance:
-        prefer-ip-address: true
-        instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
-        appname: sc-zuul
-
+server:
+    port: 8400
 spring:
     application:
         name: sc-zuul
@@ -19,3 +12,19 @@ spring:
             username: user
             password: 123456
             profile: test
+    zipkin:
+        base-url: http://localhost:9411
+    sleuth:
+        sampler:
+            probability: 1.0
+eureka:
+    client:
+        service-url:
+            defaultZone: http://user:123456@localhost:8761/eureka/
+    instance:
+        prefer-ip-address: true
+        appname: sc-zuul
+zuul:
+    routes:
+        sc-consumer-feign: /consumer/**
+        sc-provider: /provider/**

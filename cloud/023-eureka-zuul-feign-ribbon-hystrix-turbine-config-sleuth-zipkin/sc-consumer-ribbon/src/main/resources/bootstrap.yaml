@@ -1,3 +1,5 @@
+server:
+    port: 8300
 spring:
     application:
         name: sc-consumer-ribbon
@@ -10,7 +12,11 @@ spring:
             username: user
             password: 123456
             profile: test
-
+    zipkin:
+        base-url: http://localhost:9411
+    sleuth:
+        sampler:
+            probability: 1.0
 # 新版配置，否则后面dashboard无法找到hystrix.stream
 management:
     endpoints:

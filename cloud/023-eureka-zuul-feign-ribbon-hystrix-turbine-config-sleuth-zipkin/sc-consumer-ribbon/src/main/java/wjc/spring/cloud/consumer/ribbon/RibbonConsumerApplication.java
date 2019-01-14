@@ -23,8 +23,8 @@ import org.springframework.web.client.RestTemplate;
 @EnableCircuitBreaker
 @EnableHystrix
 @SpringBootApplication
-public class ConsumerApplication {
-    private final static Logger logger = LoggerFactory.getLogger(ConsumerApplication.class);
+public class RibbonConsumerApplication {
+    private final static Logger logger = LoggerFactory.getLogger(RibbonConsumerApplication.class);
 
     /**
      * ribbon需要配置，负载均衡
@@ -42,6 +42,6 @@ public class ConsumerApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(RibbonConsumerApplication.class, args);
     }
 }

@@ -10,7 +10,7 @@ eureka:
 turbine:
     aggregator:
         clusterConfig: default
-    appConfig: sc-consumer
+    appConfig: sc-consumer-feign,sc-consumer-ribbon
     clusterNameExpression: "'default'"
 spring:
     application:

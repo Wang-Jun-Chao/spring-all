@@ -11,10 +11,22 @@
 
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
+        <groupId>wjc.spring</groupId>
+        <artifactId>spring-all</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.1.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <modules>
         <module>009-Jersey使用</module>
@@ -49,4 +61,6 @@
         <module>ch0904-SpringBoot-企业级开发-异步消息-AMQP</module>
         <module>ch0905-SpringBoot-企业级开发-系统集成</module>
     </modules>
+
+
 </project>

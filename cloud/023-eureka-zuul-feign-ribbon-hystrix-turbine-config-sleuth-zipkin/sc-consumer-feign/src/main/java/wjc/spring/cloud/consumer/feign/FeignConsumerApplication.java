@@ -16,10 +16,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableCircuitBreaker
 @EnableHystrix
 @SpringBootApplication
-public class FeignApplication {
-    private final static Logger logger = LoggerFactory.getLogger(FeignApplication.class);
+public class FeignConsumerApplication {
+    private final static Logger logger = LoggerFactory.getLogger(FeignConsumerApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(FeignApplication.class, args);
+        SpringApplication.run(FeignConsumerApplication.class, args);
     }
 }
