@@ -83,45 +83,45 @@
                 <version>${spring.boot.verison}</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-actuator</artifactId>
-                <version>${spring.boot.verison}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-security</artifactId>
-                <version>${spring.boot.verison}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2</artifactId>
-                <version>${h2.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
+                <!--<version>${spring.boot.verison}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-starter-security</artifactId>-->
+                <!--<version>${spring.boot.verison}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.h2database</groupId>-->
+                <!--<artifactId>h2</artifactId>-->
+                <!--<version>${h2.version}</version>-->
+            <!--</dependency>-->
 
-            <dependency>
-                <groupId>org.webjars</groupId>
-                <artifactId>bootstrap</artifactId>
-                <version>${bootstrap.verison}</version>
+            <!--<dependency>-->
+                <!--<groupId>org.webjars</groupId>-->
+                <!--<artifactId>bootstrap</artifactId>-->
+                <!--<version>${bootstrap.verison}</version>-->
 
-            </dependency>
-            <dependency>
-                <groupId>org.webjars</groupId>
-                <artifactId>angularjs</artifactId>
-                <version>${angularjs.version}</version>
-            </dependency>
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.webjars</groupId>-->
+                <!--<artifactId>angularjs</artifactId>-->
+                <!--<version>${angularjs.version}</version>-->
+            <!--</dependency>-->
 
-            <dependency>
-                <groupId>org.webjars</groupId>
-                <artifactId>angular-ui-router</artifactId>
-                <version>${angular-ui-router.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.webjars</groupId>-->
+                <!--<artifactId>angular-ui-router</artifactId>-->
+                <!--<version>${angular-ui-router.version}</version>-->
+            <!--</dependency>-->
 
-            <dependency>
-                <groupId>org.webjars</groupId>
-                <artifactId>jquery</artifactId>
-                <version>${jquery.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.webjars</groupId>-->
+                <!--<artifactId>jquery</artifactId>-->
+                <!--<version>${jquery.version}</version>-->
+            <!--</dependency>-->
 
         </dependencies>
 

@@ -3,14 +3,15 @@ server:
 spring:
     application:
         name: sc-eureka-server
-    security:
-        user:
-            name: user
-            password: 123456
+#    security:
+#        user:
+#            name: user
+#            password: 123456
 
 eureka:
     client:
         service-url:
-            defaultZone: http://user:123456@localhost:8761/eureka/
+#            defaultZone: http://user:123456@localhost:8761/eureka/
+            defaultZone: http://localhost:8761/eureka/
         register-with-eureka: false
         fetch-registry: false
