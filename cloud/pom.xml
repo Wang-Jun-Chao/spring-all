@@ -50,6 +50,7 @@
         <module>020-hystrix-feign-fallback-factory</module>
         <module>021-hystrix-dashboard-ribbon</module>
         <module>022-hystrix-dashboard-turbine</module>
+        <module>023-eureka-zuul-feign-ribbon-hystrix-turbine-config-sleuth-zipkin</module>
     </modules>
 
     <dependencyManagement>
