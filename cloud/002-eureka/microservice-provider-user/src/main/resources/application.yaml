@@ -1,4 +1,4 @@
-debug: true
+#debug: true
 server:
     port: 8010
 spring:

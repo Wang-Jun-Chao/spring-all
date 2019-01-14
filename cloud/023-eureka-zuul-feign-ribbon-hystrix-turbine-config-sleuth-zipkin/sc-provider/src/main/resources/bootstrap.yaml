@@ -1,3 +1,5 @@
+server:
+    port: 8080
 spring:
     application:
         name: sc-provider
@@ -14,10 +16,7 @@ eureka:
     client:
         service-url:
             defaultZone: http://user:123456@localhost:8761/eureka/
-        fetch-registry: false
-        register-with-eureka: false
     instance:
         prefer-ip-address: true
-        instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
         appname: ${spring.application.name}
 

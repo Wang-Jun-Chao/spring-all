@@ -1,4 +1,4 @@
-package wjc.spring.cloud.consumer.feign;
+package wjc.spring.cloud.consumer.feign.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
