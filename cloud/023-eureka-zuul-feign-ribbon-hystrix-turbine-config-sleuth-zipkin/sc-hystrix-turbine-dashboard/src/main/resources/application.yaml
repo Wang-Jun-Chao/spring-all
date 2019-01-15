@@ -1,5 +1,8 @@
 server:
     port: 8900
+spring:
+    application:
+        name: sc-hystrix-turbine-dashboard
 eureka:
     client:
         service-url:
@@ -12,6 +15,4 @@ turbine:
         clusterConfig: default
     appConfig: sc-consumer-feign,sc-consumer-ribbon
     clusterNameExpression: "'default'"
-spring:
-    application:
-        name: sc-hystrix-turbine-dashboard
+

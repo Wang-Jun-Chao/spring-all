@@ -15,8 +15,9 @@ import org.springframework.web.client.RestTemplate;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
+@EnableCircuitBreaker
 @EnableHystrix
-public class ConsumerMovieApplication {
+public class RibbonConsumerMovieApplication {
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate() {
@@ -24,6 +25,6 @@ public class ConsumerMovieApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerMovieApplication.class, args);
+        SpringApplication.run(RibbonConsumerMovieApplication.class, args);
     }
 }
