@@ -1,0 +1,11 @@
+server:
+    port: 8761                    # 指定该Eureka实例的端口
+spring:
+    application:
+        name: zuul-eureka
+eureka:
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
